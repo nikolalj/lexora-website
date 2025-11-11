@@ -192,194 +192,145 @@
   "pages": {
     "home": {
       "hero": {
-        "title": "Focus on your business. Konty takes care of the rest.",
-        "subtitle": "A stable, reliable Point of Sale system you can count on — day after day.",
-        "tagline": "Trusted by 9,000+ businesses and growing"
+        "title": "AI Legal Assistant for Administrative Law",
+        "subtitle": "Search court decisions and regulations across Montenegro, Serbia, and Croatia in seconds. Make informed legal decisions with AI-powered insights.",
+        "tagline": "Trusted by judges, lawyers, and legal researchers"
       },
       "statistics": {
         "stat1": {
-          "description": "Active business locations",
+          "description": "Administrative court decisions",
           "suffix": "+",
-          "value": "9000"
+          "value": "1000000"
         },
         "stat2": {
-          "description": "Years of POS experience",
-          "suffix": "+",
-          "value": "26"
+          "description": "Jurisdictions covered",
+          "suffix": "",
+          "value": "3"
         },
         "stat3": {
-          "description": "Average support response",
+          "description": "Average response time",
           "suffix": " seconds",
-          "value": "30"
+          "value": "6"
         }
       },
       "testimonials": {
-        "title": "What Our Customers Say",
-        "description": "Stability, simplicity, and support that help them run their business with peace of mind",
+        "title": "What Legal Professionals Say",
+        "description": "Accuracy, speed, and comprehensive coverage that help them make better legal decisions",
         "items": {
           "t1": {
-            "name": "Marko Petrović",
-            "quote": "We switched to Konty six months ago and it's made a real difference. Orders flow smoothly from front to kitchen, and my staff picked it up quickly. Much less stressful during busy periods.",
-            "role": "Owner of Taste Valley Restaurant"
+            "name": "Dr. Marko Petrović",
+            "quote": "Lexora has transformed how I prepare my rulings. What used to take days of research now takes minutes. The cross-jurisdictional comparison feature is invaluable for ensuring consistency.",
+            "role": "Administrative Court Judge, Podgorica"
           },
           "t2": {
             "name": "Ana Nikolić",
-            "quote": "Inventory management used to take me hours each week. Now I can see stock levels instantly and get alerts when items are running low. Saves me a lot of time.",
-            "role": "Owner of Fashion Forward Boutique"
+            "quote": "Being able to check success rates for similar cases before taking them on has changed how I advise my clients. The statistical analysis feature is simply not available anywhere else.",
+            "role": "Attorney at Law, Belgrade"
           },
           "t3": {
-            "name": "Stefan Jovanović",
-            "quote": "The interface is intuitive - new employees learn it quickly. Customer checkout is faster and we can track our daily sales easily. Good investment for our coffee shop.",
-            "role": "Manager of Urban Grounds Coffee"
+            "name": "Prof. Stefan Jovanović",
+            "quote": "For comparative legal research, Lexora is a game-changer. I can pull examples from all three jurisdictions in seconds and create comprehensive case studies for my students.",
+            "role": "Professor of Administrative Law, University of Montenegro"
           },
           "t4": {
             "name": "Milica Stojanović",
-            "quote": "Clean, simple system that does what we need. Processing payments is straightforward and the daily reports help me understand our sales patterns better.",
-            "role": "Owner of Fresh Start Bakery"
+            "quote": "Finally, a tool that speaks plain language. I could understand my legal situation without hiring a lawyer first. The case summaries are clear and the precedents gave me confidence.",
+            "role": "Small Business Owner"
           }
         }
       },
       "clients": {
-        "title": "Partners Who Chose Konty",
-        "description": "More than 9,000 businesses count on Konty every day"
+        "title": "Trusted by Leading Institutions",
+        "description": "Courts, law firms, and universities across the Western Balkans"
       },
       "getStarted": {
-        "title": "Get started in 48 hours",
-        "description": "Switching to Konty is quick and easy",
+        "title": "Get started in minutes",
+        "description": "Start researching with Lexora quickly and easily",
         "step1": {
-          "tagline": "Day 1, Morning",
-          "title": "15-Minute Call",
-          "description": "You tell us about your business and your needs. Based on that, we create a system tailored to you."
+          "tagline": "Step 1",
+          "title": "Sign Up for Free Trial",
+          "description": "Create your account and get immediate access to limited searches. No credit card required."
         },
         "step2": {
-          "tagline": "Day 1, Afternoon",
-          "title": "Account Setup",
-          "description": "We create and configure your account. We transfer products, customers, and everything you need. You don’t do a thing."
+          "tagline": "Step 2",
+          "title": "Ask Your First Question",
+          "description": "Enter your legal query in natural language. Lexora will search across 1M+ court decisions instantly."
         },
         "step3": {
-          "tagline": "Day 2, Morning",
-          "title": "Installation and Staff Training",
-          "description": "Our team carries out the system installation and staff training at the agreed time."
+          "tagline": "Step 3",
+          "title": "Explore Results",
+          "description": "Review relevant cases, compare across jurisdictions, and get statistical insights on similar decisions."
         },
         "step4": {
-          "tagline": "Day 2, Afternoon",
-          "title": "You’re Ready to Start",
-          "description": "You’re ready to go. Our team is available to you 24/7."
+          "tagline": "Step 4",
+          "title": "Choose Your Plan",
+          "description": "Upgrade to Professional or Enterprise for unlimited searches, advanced features, and API access."
         }
       }
     },
     "pricing": {
-      "title": "Simple, Fair Pricing. No hidden costs.",
-      "description": "Choose the plan that fits your needs. Cancel whenever you want.",
-      "freeTrial": "30-day free trial",
-      "hospitality": {
-        "start": {
-          "title": "Starter",
-          "description": "For small venues needing simple checkout.",
-          "price": "$29",
-          "priceValue": "29",
-          "billingCycle": "/ month",
-          "button": "Sign Up",
+      "title": "Transparent Pricing for Every User",
+      "description": "From individual lawyers to institutional partners. Start with a free trial.",
+      "freeTrial": "14-day free trial - No credit card required",
+      "plans": {
+        "free": {
+          "title": "Free Trial",
+          "description": "Try Lexora with limited searches",
+          "price": "$0",
+          "priceValue": "0",
+          "billingCycle": "/ 14 days",
+          "button": "Start Free Trial",
           "features": [
-            "Single register",
-            "Table management",
-            "Product catalog",
-            "Receipt printing",
-            "Sales reports",
-            "Inventory management",
-            "Complete sales and inventory analytics",
-            "Cloud-based back office"
+            "10 searches per day",
+            "Access to all 3 jurisdictions",
+            "Multilingual search (4 languages)",
+            "Basic case summaries",
+            "Cross-jurisdictional comparison",
+            "Email support"
           ]
         },
-        "standard": {
-          "title": "Standard",
-          "description": "For restaurants needing more control and tracking.",
-          "price": "$35",
-          "priceValue": "35",
+        "professional": {
+          "title": "Professional",
+          "description": "For individual lawyers and researchers",
+          "price": "$99",
+          "priceValue": "99",
           "billingCycle": "/ month",
-          "button": "Sign Up",
+          "button": "Get Started",
           "badge": "Most Popular",
           "features": [
-            "Everything in Starter plus",
-            "Multiple price lists",
-            "Recipe management",
-            "Ingredient usage reports",
-            "Purchase invoices",
-            "Vendor management"
+            "Unlimited searches",
+            "Everything in Free plus",
+            "Statistical querying and analytics",
+            "Multi-level case summarization",
+            "Precedent chain mapping",
+            "Priority email support",
+            "Export results (PDF, Word)"
           ]
         },
-        "premium": {
-          "title": "Premium",
-          "description": "For larger operations needing advanced features.",
-          "price": "$59",
-          "priceValue": "59",
-          "billingCycle": "/ month",
-          "button": "Sign Up",
+        "enterprise": {
+          "title": "Enterprise",
+          "description": "For law firms, courts, and institutions",
+          "price": "Custom",
+          "priceValue": "custom",
+          "billingCycle": "",
+          "button": "Contact Sales",
           "features": [
-            "Multiple registers",
-            "Everything in Standard plus",
-            "Network capabilities",
-            "Mobile ordering",
-            "Kitchen display system",
-            "Advanced accounting (optional)",
-            "Third-party integrations (accounting, hotels, etc.)"
-          ]
-        }
-      },
-      "retail": {
-        "start": {
-          "title": "Starter",
-          "description": "For small shops needing simple checkout.",
-          "price": "$15",
-          "priceValue": "15",
-          "billingCycle": "/ month",
-          "button": "Sign Up",
-          "features": [
-            "Single register",
-            "Quick product entry (barcodes, shortcuts)",
-            "Receipt printing",
-            "Sales reports",
-            "Inventory management",
-            "Complete sales and inventory analytics",
-            "Cloud-based back office"
-          ]
-        },
-        "standard": {
-          "title": "Standard",
-          "description": "For stores needing more control and tracking.",
-          "price": "$19",
-          "priceValue": "19",
-          "billingCycle": "/ month",
-          "button": "Sign Up",
-          "badge": "Most Popular",
-          "features": [
-            "Everything in Starter plus",
-            "Quick keys",
-            "Weight-based barcodes (scale integration)",
-            "Purchase invoices",
-            "Vendor management"
-          ]
-        },
-        "premium": {
-          "title": "Premium",
-          "description": "For larger operations needing advanced features.",
-          "price": "$25",
-          "priceValue": "25",
-          "billingCycle": "/ month",
-          "button": "Sign Up",
-          "features": [
-            "Everything in Standard plus",
-            "Multiple registers",
-            "Advanced accounting (optional)",
-            "Third-party integrations (accounting, etc.)"
+            "Everything in Professional plus",
+            "Multiple user seats",
+            "API access",
+            "Custom integrations",
+            "Dedicated account manager",
+            "On-premise deployment option",
+            "Custom SLA and support",
+            "Training and onboarding"
           ]
         }
       },
       "faq": {
         "pricing": {
-          "a1": "We offer three tiers: Starter, Standard, and Premium with monthly billing. Each plan includes core POS features with additional capabilities at higher tiers.",
-          "a2": "All plan prices include software updates, customer support, and cloud hosting. No setup fees or long-term contracts required.",
-          "q1": "How much does Konty cost?",
+          "a1": "We offer three tiers: Free Trial (14 days, 10 searches/day), Professional ($99/month for unlimited searches), and Enterprise (custom pricing for institutions). All plans include access to all three jurisdictions and multilingual search.",
+          "a2": "All plan prices include regular updates, technical support, and cloud hosting. Professional and Enterprise plans include statistical analytics, case summarization, and export features. No setup fees required.",
+          "q1": "How much does Lexora cost?",
           "q2": "What's included in the price?"
         }
       }
@@ -1615,107 +1566,71 @@
   },
   "seo": {
     "contact": {
-      "title": "Contact Us - Konty POS",
-      "description": "Get in touch with our team. We're here to help you choose the perfect POS solution."
+      "title": "Contact Us - Lexora AI Legal Assistant",
+      "description": "Get in touch with our team. We're here to help you with legal research solutions."
     },
     "clientStories": {
-      "title": "Client Success Stories - Konty POS",
-      "description": "Real stories from businesses that transformed their operations with Konty POS."
+      "title": "Success Stories - Lexora Legal AI",
+      "description": "Real stories from judges, lawyers, and researchers who transformed their legal research with Lexora."
     },
     "partners": {
-      "title": "Partners Network - Konty POS",
-      "description": "Join our growing network of partners delivering Konty solutions."
+      "title": "Partners Network - Lexora Legal AI",
+      "description": "Join our growing network of courts, law firms, and academic institutions using Lexora."
     },
     "demo": {
-      "description": "See Konty in action. Free 15-minute demo tailored to your business. No obligations.",
-      "title": "Book a Demo - Konty POS"
+      "description": "See Lexora in action. Free demo tailored to your legal research needs. No obligations.",
+      "title": "Book a Demo - Lexora AI Legal Assistant"
     },
     "home": {
-      "description": "Reliable cloud POS system trusted by 25,000+ businesses. 30-second support response. Switch in 48 hours. Keep your hardware.",
-      "title": "Konty - Professional POS System for Restaurants & Retail"
+      "description": "AI-powered legal research across 1M+ administrative court decisions in Montenegro, Serbia, and Croatia. Multilingual search with <6 second response time. Start free trial today.",
+      "title": "Lexora - AI Legal Assistant for Administrative Law | Western Balkans"
     },
     "pricing": {
-      "description": "Transparent pricing with no hidden fees. Monthly subscriptions tailored to your business size. Start free for 30 days.",
-      "title": "Pricing - Konty POS System"
+      "description": "Transparent pricing for legal professionals. From free trial to enterprise solutions. Professional plan $99/month for unlimited searches.",
+      "title": "Pricing - Lexora AI Legal Assistant"
     },
     "privacy": {
-      "description": "How Konty protects your data and your customers' privacy.",
-      "title": "Privacy Policy - Konty"
+      "description": "How Lexora protects your legal research queries and maintains confidentiality.",
+      "title": "Privacy Policy - Lexora"
     },
-    "products": {
-      "description": "Choose the perfect POS solution for your business. Specialized systems for restaurants, cafes, retail stores, and chains.",
-      "title": "Products - Konty POS Solutions",
-      "hospitality": {
-        "description": "Specialized POS for restaurants, cafes, and bars. Reservations, orders, tables, delivery - all in one place.",
-        "title": "Restaurant POS System - Konty Hospitality",
-        "features": {
-          "title": "All Hospitality Features - Konty POS",
-          "description": "Complete feature list for restaurant POS: table management, kitchen display, staff scheduling, and more."
-        }
-      },
-      "retail": {
-        "description": "Fast checkout, automatic inventory management, sales analytics. Perfect for stores, supermarkets, and chains.",
-        "title": "Retail POS System - Konty Retail",
-        "features": {
-          "title": "All Retail Features - Konty POS",
-          "description": "Complete feature list for retail POS: inventory management, barcode scanning, loyalty programs, and more."
-        }
-      },
-      "download": {
-        "title": "Download Konty",
-        "description": "Download Konty for any device or platform"
-      },
-      "faqdocs": {
-        "title": "FAQ and Documentation",
-        "description": "FAQ and Documentation for Konty"
-      }
+    "features": {
+      "description": "Explore Lexora's powerful features: multilingual search, cross-jurisdictional analysis, statistical querying, and AI-powered case summarization.",
+      "title": "Features - Lexora AI Legal Assistant"
     },
     "terms": {
-      "description": "Terms of service for Konty POS system and related services.",
-      "title": "Terms of Service - Konty"
+      "description": "Terms of service for Lexora AI legal research platform and related services.",
+      "title": "Terms of Service - Lexora"
     },
-    "solutions": {
-      "title": "Industry-Specific POS Solutions | Konty POS Tailored to Your Business",
-      "description": "Discover how Konty POS can transform your business. Specialized solutions for restaurants, cafes, retail stores, and B2B.",
-      "restaurants": {
-        "title": "Restaurant POS System | Konty for Full-Service Dining",
-        "description": "Complete POS solution for restaurants. Table management, kitchen display, reservations, and analytics."
-      },
-      "barsCafes": {
-        "title": "Bar & Cafe POS | Fast Service Point of Sale System",
-        "description": "Speed-optimized POS system. Perfect for bars and cafes with high-volume traffic."
-      },
-      "fastFood": {
-        "title": "Fast Food POS System | Quick Service Restaurant Solutions",
-        "description": "Efficient POS for quick service restaurants. Drive-thru, delivery, and dine-in from one system."
-      },
-      "grocerySupermarkets": {
-        "title": "Grocery Store POS | Supermarket Point of Sale System",
-        "description": "Manage thousands of products with ease. Barcode scanning, promotions, and real-time inventory."
-      },
-      "clothingBoutiques": {
-        "title": "Clothing Store POS | Fashion Retail Management System",
-        "description": "Specialized POS for fashion retail. Sizes, colors, seasons, and loyalty programs."
-      },
-      "convenienceStores": {
-        "title": "Convenience Store POS | 24/7 Retail Management System",
-        "description": "Reliable POS for round-the-clock operations. Simplified inventory and fast checkout."
-      },
-      "b2b": {
-        "title": "B2B POS & E-Invoicing | Wholesale Management System",
-        "description": "Professional B2B solution with e-invoicing. Different pricing per partner and advanced reports."
-      }
+    "about": {
+      "title": "About Lexora - AI Legal Research Platform",
+      "description": "Learn about Lexora's mission to democratize legal research across the Western Balkans with AI-powered technology."
+    },
+    "forJudges": {
+      "title": "Lexora for Judges | Administrative Court Research Tool",
+      "description": "Research similar cases across jurisdictions instantly. Reduce decision-making time from days to minutes."
+    },
+    "forLawyers": {
+      "title": "Lexora for Lawyers | Legal Precedent Analysis",
+      "description": "Build stronger cases with comprehensive precedent analysis and success rate statistics across three jurisdictions."
+    },
+    "forResearchers": {
+      "title": "Lexora for Researchers | Comparative Legal Studies",
+      "description": "Access the most complete administrative law database in the Western Balkans for comparative legal research."
+    },
+    "forCitizens": {
+      "title": "Lexora for Citizens | Understand Your Legal Situation",
+      "description": "Get clear explanations of relevant laws and precedents in plain language. Make informed legal decisions."
     },
     "blog": {
-      "title": "Blog - Konty POS Insights & Resources",
-      "description": "Expert insights, tips, and best practices for modern POS management. Learn how to optimize your business operations."
+      "title": "Blog - Lexora Legal AI Insights & Resources",
+      "description": "Expert insights on legal AI, administrative law trends, and best practices for legal research in the Western Balkans."
     }
   },
   "data": {
     "company": {
-      "tradeName": "Codeus",
+      "tradeName": "Lexora",
       "legalName": "Codeus",
-      "description": "Software development agency with 8+ years of experience. Building web and mobile applications for US and European clients.",
+      "description": "AI-powered legal research assistant providing multilingual, cross-jurisdictional search across administrative law in Montenegro, Serbia, and Croatia. Developed by Codeus.",
       "vatID": "03091627",
       "registrationNumber": "50762726",
       "foundingDate": "2016-01-01",
@@ -1750,16 +1665,16 @@
       "areaServed": ["US", "EU", "ME", "RS", "BA", "HR"],
       "availableLanguage": ["en", "sr"],
       "knowsAbout": [
-        "Web Application Development",
-        "Mobile Application Development",
-        "Backend Development",
-        "System Architecture",
-        "Technology Consulting",
-        "Project Management",
-        "PHP Development",
-        "Laravel Framework",
-        "Vue.js Development",
-        "Custom Software Development"
+        "Legal AI",
+        "RAG Technology",
+        "Multilingual Legal Search",
+        "Administrative Law",
+        "Cross-Jurisdictional Analysis",
+        "Legal Research",
+        "Court Decision Analysis",
+        "Legal Technology",
+        "Natural Language Processing",
+        "Legal Document Summarization"
       ],
       "social": {
         "facebook": "https://www.facebook.com/lexora.me",

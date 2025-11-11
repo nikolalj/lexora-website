@@ -1,17 +1,15 @@
 <template>
   <SharedSection
-    v-model="productInternal"
     :variant="props.variant"
     :title="config.title"
     :description="config.description"
-    :product-switch="!props.product"
     :heading-level="props.headingLevel"
   >
-    <UIAppear direction="none" :animate-on="productInternal">
+    <UIAppear direction="none">
       <div class="flex justify-center">
         <UPricingPlans class="max-w-5xl">
           <UPricingPlan
-            v-for="(plan, index) in config.plans[productInternal]"
+            v-for="(plan, index) in config.plans"
             :key="index"
             :title="plan.title"
             :description="plan.description"
@@ -42,99 +40,53 @@ const props = defineProps({
     type: String as PropType<SectionVariantType>,
     default: undefined,
   },
-  product: {
-    type: String as PropType<'retail' | 'hospitality' | undefined>,
-    default: undefined
-  },
   headingLevel: {
     type: String as PropType<SectionHeadingLevel>,
     default: 'h2'
   }
 })
 
-const productInternal = ref(props.product || 'hospitality')
-
 const config = computed(() => ({
   title: t('pages.pricing.title'),
   description: t('pages.pricing.description'),
-  plans: {
-    hospitality: [
-      {
-        title: t('pages.pricing.hospitality.start.title'),
-        description: t('pages.pricing.hospitality.start.description'),
-        price: t('pages.pricing.hospitality.start.price'),
-        billingCycle: t('pages.pricing.hospitality.start.billingCycle'),
-        features: tArray('pages.pricing.hospitality.start.features'),
-        button: {
-          label: t('pages.pricing.hospitality.start.button'),
-          onClick: () => handlePricingPlanChoice('Hospitality', 'Start')
-        }
-      },
-      {
-        title: t('pages.pricing.hospitality.standard.title'),
-        description: t('pages.pricing.hospitality.standard.description'),
-        price: t('pages.pricing.hospitality.standard.price'),
-        billingCycle: t('pages.pricing.hospitality.standard.billingCycle'),
-        features: tArray('pages.pricing.hospitality.standard.features'),
-        highlight: true,
-        scale: true,
-        badge: t('pages.pricing.hospitality.standard.badge'),
-        button: {
-          label: t('pages.pricing.hospitality.standard.button'),
-          onClick: () => handlePricingPlanChoice('Hospitality', 'Standard')
-        }
-      },
-      {
-        title: t('pages.pricing.hospitality.premium.title'),
-        description: t('pages.pricing.hospitality.premium.description'),
-        price: t('pages.pricing.hospitality.premium.price'),
-        billingCycle: t('pages.pricing.hospitality.premium.billingCycle'),
-        features: tArray('pages.pricing.hospitality.premium.features'),
-        button: {
-          label: t('pages.pricing.hospitality.premium.button'),
-          onClick: () => handlePricingPlanChoice('Hospitality', 'Premium')
-        }
+  plans: [
+    {
+      title: t('pages.pricing.plans.free.title'),
+      description: t('pages.pricing.plans.free.description'),
+      price: t('pages.pricing.plans.free.price'),
+      billingCycle: t('pages.pricing.plans.free.billingCycle'),
+      features: tArray('pages.pricing.plans.free.features'),
+      button: {
+        label: t('pages.pricing.plans.free.button'),
+        onClick: () => handlePricingPlanChoice('Legal AI', 'Free Trial')
       }
-    ],
-    retail: [
-      {
-        title: t('pages.pricing.retail.start.title'),
-        description: t('pages.pricing.retail.start.description'),
-        price: t('pages.pricing.retail.start.price'),
-        billingCycle: t('pages.pricing.retail.start.billingCycle'),
-        features: tArray('pages.pricing.retail.start.features'),
-        button: {
-          label: t('pages.pricing.retail.start.button'),
-          onClick: () => handlePricingPlanChoice('Retail', 'Start')
-        }
-      },
-      {
-        title: t('pages.pricing.retail.standard.title'),
-        description: t('pages.pricing.retail.standard.description'),
-        price: t('pages.pricing.retail.standard.price'),
-        billingCycle: t('pages.pricing.retail.standard.billingCycle'),
-        features: tArray('pages.pricing.retail.standard.features'),
-        highlight: true,
-        scale: true,
-        badge: t('pages.pricing.retail.standard.badge'),
-        button: {
-          label: t('pages.pricing.retail.standard.button'),
-          onClick: () => handlePricingPlanChoice('Retail', 'Standard')
-        }
-      },
-      {
-        title: t('pages.pricing.retail.premium.title'),
-        description: t('pages.pricing.retail.premium.description'),
-        price: t('pages.pricing.retail.premium.price'),
-        billingCycle: t('pages.pricing.retail.premium.billingCycle'),
-        features: tArray('pages.pricing.retail.premium.features'),
-        button: {
-          label: t('pages.pricing.retail.premium.button'),
-          onClick: () => handlePricingPlanChoice('Retail', 'Premium')
-        }
+    },
+    {
+      title: t('pages.pricing.plans.professional.title'),
+      description: t('pages.pricing.plans.professional.description'),
+      price: t('pages.pricing.plans.professional.price'),
+      billingCycle: t('pages.pricing.plans.professional.billingCycle'),
+      features: tArray('pages.pricing.plans.professional.features'),
+      highlight: true,
+      scale: true,
+      badge: t('pages.pricing.plans.professional.badge'),
+      button: {
+        label: t('pages.pricing.plans.professional.button'),
+        onClick: () => handlePricingPlanChoice('Legal AI', 'Professional')
       }
-    ]
-  }
+    },
+    {
+      title: t('pages.pricing.plans.enterprise.title'),
+      description: t('pages.pricing.plans.enterprise.description'),
+      price: t('pages.pricing.plans.enterprise.price'),
+      billingCycle: t('pages.pricing.plans.enterprise.billingCycle'),
+      features: tArray('pages.pricing.plans.enterprise.features'),
+      button: {
+        label: t('pages.pricing.plans.enterprise.button'),
+        onClick: () => handlePricingPlanChoice('Legal AI', 'Enterprise')
+      }
+    }
+  ]
 }))
 
 const handlePricingPlanChoice = (category: string, label: string) => {

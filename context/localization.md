@@ -1,8 +1,8 @@
-# Codeus Website Localization Guide
+# Lexora Website Localization Guide
 
 ## Overview
 
-The Codeus website automatically detects visitors' location and shows them region-specific content with local prices, currency, and language. This is achieved through a Cloudflare Workers edge wrapper that handles locale detection and redirects before requests reach the Nuxt application, ensuring optimal performance and minimal latency.
+The Lexora website automatically detects visitors' location and shows them region-specific content with local prices, currency, and language. This is achieved through a Cloudflare Workers edge wrapper that handles locale detection and redirects before requests reach the Nuxt application, ensuring optimal performance and minimal latency.
 
 The system supports two locales:
 - **International (English)**: English language, USD currency - Default for worldwide visitors
@@ -484,7 +484,7 @@ All translation files are synchronized with identical structure containing:
 - `ui`: UI strings (buttons, labels, navigation)
 - `seo`: SEO meta tags and descriptions
 - `pages`: Page-specific content
-- `data.company`: Company information for Schema.org (Codeus details)
+- `data.company`: Company information for Schema.org (Codeus details - the company behind Lexora)
 - `forms`: Form fields and validation messages
 - `errors`: Error messages
 
@@ -600,7 +600,7 @@ The localization system provides:
 
 Result: Users see content for their location automatically with ~1ms latency, have full control to switch if desired, and experience optimal performance through edge-first architecture. System is production-ready but tightly coupled to Cloudflare infrastructure.
 
-## Codeus-Specific Implementation
+## Lexora-Specific Implementation
 
 ### Locale Strategy Summary
 
@@ -610,9 +610,11 @@ Result: Users see content for their location automatically with ~1ms latency, ha
    - URL: `lexora.me`
    - No redirect needed for most countries
    - Serves as the international version
+   - Primary for global legal tech market and international researchers
 
 2. **me (MNE and Region)**: Serbian, EUR, Balkan region
    - Locale code: `me`
    - URL: `lexora.me/me`
    - Automatically shown to visitors from: Montenegro, Serbia, Bosnia, Croatia
    - Optimized for regional market with local currency and language
+   - Primary for local legal professionals, judges, and citizens in the Western Balkans

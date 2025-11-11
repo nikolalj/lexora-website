@@ -192,86 +192,140 @@
   "pages": {
     "home": {
       "hero": {
-        "title": "Posvetite se svom poslu. Konty brine o svemu ostalom.",
-        "subtitle": "Stabilan i pouzdan POS sistem na koji možete da se oslonite svakog dana.",
-        "tagline": "Konty pokreće 9.000+ biznisa širom regiona"
+        "title": "AI pravni asistent za administrativno pravo",
+        "subtitle": "Pretražite sudske odluke i propise u Crnoj Gori, Srbiji i Hrvatskoj za nekoliko sekundi. Donosite informisane pravne odluke uz AI analizu.",
+        "tagline": "Pouzdano rješenje za sudije, advokate i pravne istraživače"
       },
       "statistics": {
         "stat1": {
-          "description": "Aktivnih poslovnih lokacija",
+          "description": "Odluka upravnih sudova",
           "suffix": "+",
-          "value": "9000"
+          "value": "1000000"
         },
         "stat2": {
-          "description": "Godina iskustva u POS sistemima",
-          "suffix": "+",
-          "value": "26"
+          "description": "Pokrivene jurisdikcije",
+          "suffix": "",
+          "value": "3"
         },
         "stat3": {
-          "description": "Prosječno vrijeme odgovora podrške",
+          "description": "Prosječno vrijeme odgovora",
           "suffix": " sekundi",
-          "value": "30"
+          "value": "6"
         }
       },
       "testimonials": {
-        "title": "Šta naši korisnici kažu",
-        "description": "Stabilnost, jednostavnost i podrška koji im pomažu da bez brige vode posao",
+        "title": "Šta pravni stručnjaci kažu",
+        "description": "Preciznost, brzina i sveobuhvatna pokrivenost koja im pomaže da donose bolje pravne odluke",
         "items": {
           "t1": {
-            "name": "Miloš Petrović",
-            "quote": "Prije Konty sistema imali smo problem sa praćenjem stolova i porudžbina. Sada konobari rade brže, kuhinja je uvijek sinhronizovana, a gosti primjete koliko je usluga efikasnija.",
-            "role": "Vlasnik restorana \"Dolina Ukusa\""
+            "name": "Dr. Marko Petrović",
+            "quote": "Lexora je transformisala način na koji pripremam odluke. Ono što je prije trajalo danima sada traje minute. Funkcija međujurisdikcijske komparacije je neprocjenjiva za osiguranje dosljednosti.",
+            "role": "Sudija Upravnog suda, Podgorica"
           },
           "t2": {
-            "name": "Jelena Marković",
-            "quote": "Konty POS mi je olakšao vođenje zaliha i izdavanje računa. Konačno imam jasnu sliku o proizvodima koji se najbolje prodaju, a izvještaji mi pomažu da donosim brže odluke.",
-            "role": "Vlasnica butika \"Moda J\""
+            "name": "Ana Nikolić",
+            "quote": "Mogućnost provjere stope uspješnosti sličnih predmeta prije nego što ih prihvatim je promijenila način na koji savjetujem klijente. Funkcija statističke analize jednostavno nije dostupna nigdje drugdje.",
+            "role": "Advokat, Beograd"
           },
           "t3": {
-            "name": "Nikola Jovanović",
-            "quote": "Uštedjeli smo sate administracije zahvaljujući Konty sistemu. Sve je pregledno – od smjena konobara do izvještaja o prometu na kraju dana.",
-            "role": "Menadžer kafića \"Urban Bar\""
+            "name": "Prof. Stefan Jovanović",
+            "quote": "Za komparativna pravna istraživanja, Lexora je revolucija. Mogu izvući primjere iz sve tri jurisdikcije za sekunde i kreirati sveobuhvatne studije slučajeva za svoje studente.",
+            "role": "Profesor upravnog prava, Univerzitet Crne Gore"
           },
           "t4": {
-            "name": "Ana Lazić",
-            "quote": "Prelazak na Konty je bio pravo olakšanje. Nema više gubljenja računa ni nesporazuma sa mušterijama – blagajna radi savršeno i brza je kao što smo željeli.",
-            "role": "Vlasnica pekare \"Miris Hljeba\""
+            "name": "Milica Stojanović",
+            "quote": "Konačno, alat koji govori jednostavnim jezikom. Mogla sam razumjeti svoju pravnu situaciju bez angažovanja advokata. Sažeci predmeta su jasni, a presedani su mi dali sigurnost.",
+            "role": "Vlasnica malog preduzeća"
           }
         }
       },
       "clients": {
-        "title": "Partneri koji su izabrali Konty",
-        "description": "Više od 9.000 preduzeća širom regiona svakodnevno koristi Konty"
+        "title": "Pouzdano od vodećih institucija",
+        "description": "Sudovi, advokatske kancelarije i univerziteti širom Zapadnog Balkana"
       },
       "getStarted": {
-        "title": "Počni sa radom za 48h",
-        "description": "Prelazak na Konty je brz i jednostavan",
+        "title": "Počnite za nekoliko minuta",
+        "description": "Započnite istraživanje sa Lexorom brzo i jednostavno",
         "step1": {
-          "tagline": "Prvi dan, ujutru",
-          "title": "15-minutni poziv",
-          "description": "Opišete nam svoj biznis i svoje potrebe. Na osnovu toga mi kreiramo sistem po vašoj mjeri."
+          "tagline": "Korak 1",
+          "title": "Prijavite se za besplatnu probu",
+          "description": "Kreirajte nalog i dobijte trenutni pristup ograničenim pretragama. Nije potrebna kreditna kartica."
         },
         "step2": {
-          "tagline": "Prvi dan, popodne",
-          "title": "Podešavanje naloga",
-          "description": "Kreiramo i konfigurišemo nalog. Prebacimo artikle, kupce i sve što je potrebno. Vi ne radite ništa."
+          "tagline": "Korak 2",
+          "title": "Postavite svoje prvo pitanje",
+          "description": "Unesite pravni upit na prirodnom jeziku. Lexora će pretražiti preko 1M+ sudskih odluka trenutno."
         },
         "step3": {
-          "tagline": "Drugi dan, ujutru",
-          "title": "Instalacija i obuka zaposlenih",
-          "description": "Instalaciju sistema i obuku vaših zaposlenih realizuje naš tim u dogovorenom terminu."
+          "tagline": "Korak 3",
+          "title": "Istražite rezultate",
+          "description": "Pregledajte relevantne predmete, uporedite između jurisdikcija i dobijte statističke uvide o sličnim odlukama."
         },
         "step4": {
-          "tagline": "Drugi dan, popodne",
-          "title": "Možete da počnete sa radom",
-          "description": "Spremni ste za rad. Naš tim vam stoji na raspolaganju 24/7."
+          "tagline": "Korak 4",
+          "title": "Izaberite svoj plan",
+          "description": "Nadogradite na Profesionalni ili Korporativni za neograničene pretrage, napredne funkcije i API pristup."
         }
       }
     },
     "pricing": {
-      "title": "Poštene cijene. Bez skrivenih troškova.",
-      "description": "Odaberi paket koji odgovara tvojim potrebama. Otkaži kad hoćeš.",
-      "freeTrial": "30 dana besplatno",
+      "title": "Transparentne cijene za svakog korisnika",
+      "description": "Od pojedinačnih advokata do institucionalnih partnera. Počnite sa besplatnom probom.",
+      "freeTrial": "14 dana besplatne probe - Nije potrebna kreditna kartica",
+      "plans": {
+        "free": {
+          "title": "Besplatna proba",
+          "description": "Isprobajte Lexoru sa ograničenim pretragama",
+          "price": "0 €",
+          "priceValue": "0",
+          "billingCycle": "/ 14 dana",
+          "button": "Započni besplatnu probu",
+          "features": [
+            "10 pretraga dnevno",
+            "Pristup svim 3 jurisdikcijama",
+            "Višejezična pretraga (4 jezika)",
+            "Osnovni sažeci predmeta",
+            "Međujurisdikcijska komparacija",
+            "Email podrška"
+          ]
+        },
+        "professional": {
+          "title": "Profesionalni",
+          "description": "Za pojedinačne advokate i istraživače",
+          "price": "99 €",
+          "priceValue": "99",
+          "billingCycle": "/ mjesečno",
+          "button": "Započni",
+          "badge": "Najpopularniji",
+          "features": [
+            "Neograničene pretrage",
+            "Sve iz Besplatne probe plus",
+            "Statističke upite i analitiku",
+            "Višenivo sažimanje predmeta",
+            "Mapiranje lanca presedana",
+            "Prioritetna email podrška",
+            "Eksport rezultata (PDF, Word)"
+          ]
+        },
+        "enterprise": {
+          "title": "Korporativni",
+          "description": "Za advokatske kancelarije, sudove i institucije",
+          "price": "Po dogovoru",
+          "priceValue": "custom",
+          "billingCycle": "",
+          "button": "Kontaktirajte prodaju",
+          "features": [
+            "Sve iz Profesionalnog plus",
+            "Višekorisnički pristup",
+            "API pristup",
+            "Prilagođene integracije",
+            "Posvećeni account manager",
+            "Opcija lokalnog postavljanja",
+            "Prilagođeni SLA i podrška",
+            "Obuka i onboarding"
+          ]
+        }
+      },
       "hospitality": {
         "start": {
           "title": "Start",
@@ -377,10 +431,10 @@
       },
       "faq": {
         "pricing": {
-          "a1": "Imamo tri paketa: Start (29€), Standard (49€) i Premium (99€) mjesečno. Svaki paket uključuje različite funkcionalnosti.",
-          "a2": "Ne, nema skrivenih troškova. Cijena paketa uključuje sve - ažuriranja, podršku i hosting. Plaćate samo mjesečnu pretplatu.",
-          "q1": "Koliko košta Konty?",
-          "q2": "Ima li skrivenih troškova?"
+          "a1": "Nudimo tri nivoa: Besplatna proba (14 dana, 10 pretraga/dan), Profesionalni (99€/mjesec za neograničene pretrage), i Korporativni (prilagođene cijene za institucije). Svi planovi uključuju pristup svim trima jurisdikcijama i višejezičnu pretragu.",
+          "a2": "Sve cijene planova uključuju redovna ažuriranja, tehničku podršku i cloud hosting. Profesionalni i Korporativni planovi uključuju statističku analitiku, sažimanje predmeta i funkcije eksporta. Nema troškova postavljanja.",
+          "q1": "Koliko košta Lexora?",
+          "q2": "Šta je uključeno u cijenu?"
         }
       }
     },
@@ -1615,75 +1669,75 @@
   },
   "seo": {
     "contact": {
-      "title": "Kontaktirajte nas - Konty POS",
-      "description": "Stupite u kontakt sa našim timom. Tu smo da vam pomognemo da izaberete savršeno POS rješenje."
+      "title": "Kontaktirajte nas - Lexora AI pravni asistent",
+      "description": "Stupite u kontakt sa našim timom. Tu smo da vam pomognemo sa rješenjima za pravna istraživanja."
     },
     "clientStories": {
-      "title": "Priče o uspjehu klijenata - Konty POS",
-      "description": "Stvarne priče biznisa koji su transformisali svoje poslovanje sa Konty POS-om."
+      "title": "Priče o uspjehu - Lexora pravna AI",
+      "description": "Stvarne priče sudija, advokata i istraživača koji su transformisali svoja pravna istraživanja sa Lexorom."
     },
     "partners": {
-      "title": "Partnerska mreža - Konty POS",
-      "description": "Pridružite se našoj rastućoj mreži partnera koji nude Konty rješenja."
+      "title": "Partnerska mreža - Lexora pravna AI",
+      "description": "Pridružite se našoj rastućoj mreži sudova, advokatskih kancelarija i akademskih institucija koje koriste Lexoru."
     },
     "demo": {
-      "description": "Vidite Konty u akciji. Besplatna 15-minutna prezentacija prilagođena vašem biznisu. Bez obaveza.",
-      "title": "Zakazivanje demo prezentacije - Konty POS"
+      "description": "Vidite Lexoru u akciji. Besplatna prezentacija prilagođena vašim potrebama za pravnim istraživanjem. Bez obaveza.",
+      "title": "Zakazivanje demo prezentacije - Lexora AI pravni asistent"
     },
     "home": {
-      "description": "Pouzdane fiskalne kase sa e-fakturama. 9.000+ restorana i prodavnica koristi Konty. Podrška za 30 sekundi. Prelazak za 48 sati.",
-      "title": "Konty - POS za ugostiteljstvo i trgovinu"
+      "description": "AI pravna istraživanja preko 1M+ odluka upravnih sudova u Crnoj Gori, Srbiji i Hrvatskoj. Višejezična pretraga sa <6 sekundi vremena odgovora. Započnite besplatnu probu danas.",
+      "title": "Lexora - AI pravni asistent za administrativno pravo | Zapadni Balkan"
     },
     "pricing": {
-      "description": "Transparentne cijene bez skrivenih troškova. Mjesečne pretplate prilagođene veličini vašeg biznisa. Počnite besplatno 30 dana.",
-      "title": "Cijene - Konty POS sistema"
+      "description": "Transparentne cijene za pravne profesionalce. Od besplatne probe do korporativnih rješenja. Profesionalni plan 99€/mjesec za neograničene pretrage.",
+      "title": "Cijene - Lexora AI pravni asistent"
     },
     "privacy": {
-      "description": "Kako Konty štiti vaše podatke i privatnost vaših kupaca.",
-      "title": "Politika privatnosti - Konty"
+      "description": "Kako Lexora štiti vaše pravne upite i održava povjerljivost.",
+      "title": "Politika privatnosti - Lexora"
     },
-    "products": {
-      "description": "Izaberite savršeno POS rješenje za vaš biznis. Specijalizovani sistemi za restorane, kafiće, prodavnice i lance.",
-      "title": "Konty proizvodi - POS rješenja za sve tipove biznisa",
-      "hospitality": {
-        "description": "Specijalizovan POS za restorane, kafiće i barove. Rezervacije, porudžbine, stolovi, dostava - sve na jednom mjestu.",
-        "title": "Konty za ugostiteljstvo - POS sistem za restorane i kafiće",
-        "features": {
-          "title": "Sve funkcionalnosti za ugostiteljstvo - Konty POS",
-          "description": "Kompletan spisak funkcionalnosti za restoranski POS: upravljanje stolovima, kuhinjski displej, raspored osoblja i još mnogo toga."
-        }
-      },
-      "retail": {
-        "description": "Brza naplata, automatsko upravljanje zalihama, analitika prodaje. Savršeno za prodavnice, supermarkete i lance.",
-        "title": "Konty za trgovinu - POS terminal sa bar kod čitačem",
-        "features": {
-          "title": "Sve funkcionalnosti za maloprodaju - Konty POS",
-          "description": "Kompletan spisak funkcionalnosti za maloprodajni POS: upravljanje zalihama, skeniranje barkodova, programi lojalnosti i još mnogo toga."
-        }
-      },
-      "download": {
-        "title": "Preuzmi Konty",
-        "description": "Preuzmi Konty za bilo koji uređaj ili platformu."
-      },
-      "faqdocs": {
-        "title": "FAQ i dokumentacija",
-        "description": "FAQ i dokumentacija za Konty"
-      }
+    "features": {
+      "description": "Istražite moćne funkcije Lexore: višejezična pretraga, međujurisdikcijska analiza, statističke upite i AI sažimanje predmeta.",
+      "title": "Funkcije - Lexora AI pravni asistent"
     },
     "terms": {
-      "description": "Uslovi korišćenja Konty POS sistema i povezanih usluga.",
-      "title": "Uslovi korišćenja - Konty"
+      "description": "Uslovi korišćenja Lexora AI platforme za pravna istraživanja i povezanih usluga.",
+      "title": "Uslovi korišćenja - Lexora"
+    },
+    "about": {
+      "title": "O Lexori - AI platforma za pravna istraživanja",
+      "description": "Saznajte o misiji Lexore da demokratizuje pravna istraživanja širom Zapadnog Balkana uz AI tehnologiju."
+    },
+    "forJudges": {
+      "title": "Lexora za sudije | Alat za istraživanje upravnih sudova",
+      "description": "Istražite slične predmete između jurisdikcija trenutno. Smanjite vrijeme donošenja odluka sa dana na minute."
+    },
+    "forLawyers": {
+      "title": "Lexora za advokate | Analiza pravnih presedana",
+      "description": "Izgradite jače predmete sa sveobuhvatnom analizom presedana i statistikom stope uspješnosti u tri jurisdikcije."
+    },
+    "forResearchers": {
+      "title": "Lexora za istraživače | Komparativne pravne studije",
+      "description": "Pristupite najkompletnijem database-u administrativnog prava na Zapadnom Balkanu za komparativna pravna istraživanja."
+    },
+    "forCitizens": {
+      "title": "Lexora za građane | Razumijte svoju pravnu situaciju",
+      "description": "Dobijte jasna objašnjenja relevantnih zakona i presedana jednostavnim jezikom. Donosite informisane pravne odluke."
+    },
+    "blog": {
+      "title": "Blog - Lexora pravna AI uvidi i resursi",
+      "description": "Stručni uvidi o pravnoj AI, trendovima u administrativnom pravu i najboljim praksama za pravna istraživanja na Zapadnom Balkanu."
     },
     "solutions": {
-      "title": "Konty rješenja po djelatnostima | POS sistem prilagođen vašem poslovanju",
-      "description": "Otkrijte kako Konty POS može da unapredi vaše poslovanje. Specijalizovana rješenja za restorane, kafiće, prodavnice i B2B.",
+      "title": "DEPRECATED",
+      "description": "DEPRECATED",
       "restaurants": {
-        "title": "Konty za restorane | POS sistem za ugostiteljstvo",
-        "description": "Kompletno POS rješenje za restorane. Upravljanje stolovima, kuhinjski ekran, rezervacije i analitika."
+        "title": "DEPRECATED",
+        "description": "DEPRECATED"
       },
       "barsCafes": {
-        "title": "Konty za barove i kafiće | Brz POS za visok promet",
-        "description": "POS sistem optimizovan za brzinu. Idealan za barove i kafiće sa velikim prometom."
+        "title": "DEPRECATED",
+        "description": "DEPRECATED"
       },
       "fastFood": {
         "title": "Konty za brzu hranu | Fast food POS sistem",
@@ -1713,9 +1767,9 @@
   },
   "data": {
     "company": {
-      "tradeName": "Codeus",
+      "tradeName": "Lexora",
       "legalName": "Codeus",
-      "description": "Agencija za razvoj softvera sa 8+ godina iskustva. Razvijamo web i mobilne aplikacije za klijente iz SAD-a i Evrope.",
+      "description": "AI asistent za pravna istraživanja koji pruža višejezičnu, međujurisdikcijsku pretragu administrativnog prava u Crnoj Gori, Srbiji i Hrvatskoj. Razvio Codeus.",
       "vatID": "03091627",
       "registrationNumber": "50762726",
       "foundingDate": "2016-01-01",
@@ -1750,16 +1804,16 @@
       "areaServed": ["US", "EU", "ME", "RS", "BA", "HR"],
       "availableLanguage": ["en", "sr"],
       "knowsAbout": [
-        "Razvoj web aplikacija",
-        "Razvoj mobilnih aplikacija",
-        "Backend razvoj",
-        "Sistemska arhitektura",
-        "Tehnološko savjetovanje",
-        "Upravljanje projektima",
-        "PHP razvoj",
-        "Laravel framework",
-        "Vue.js razvoj",
-        "Razvoj custom softvera"
+        "Pravna AI",
+        "RAG tehnologija",
+        "Višejezična pravna pretraga",
+        "Administrativno pravo",
+        "Međujurisdikcijska analiza",
+        "Pravna istraživanja",
+        "Analiza sudskih odluka",
+        "Pravne tehnologije",
+        "Obrada prirodnog jezika",
+        "Sažimanje pravnih dokumenata"
       ],
       "social": {
         "facebook": "https://www.facebook.com/lexora.me",
