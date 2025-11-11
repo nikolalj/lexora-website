@@ -1,0 +1,1771 @@
+{
+  "ui": {
+    "breadcrumb": {
+      "index": "Home",
+      "products": "Products",
+      "pricing": "Pricing",
+      "hospitality": "Hospitality",
+      "retail": "Retail",
+      "download": "Download",
+      "faqdocs": "FAQ & Documentation",
+      "features": "Features",
+      "contact": "Contact",
+      "client-stories": "Client stories",
+      "partners": "Partners",
+      "solutions": "Solutions",
+      "restaurants": "Restaurants",
+      "bars-cafes": "Bars & Cafes",
+      "fast-food": "Quick Service / Fast Food",
+      "grocery-supermarkets": "Grocery & Supermarkets",
+      "clothing-boutiques": "Clothing & Boutiques",
+      "convenience-stores": "Convenience Stores",
+      "b2b": "B2B Sales & E-Invoicing",
+      "blog": "Blog",
+      "demo": "Demo"
+    },
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "cta": {
+      "primary": "Get a demo",
+      "secondary": "Contact us",
+      "tertiary": "More details"
+    },
+    "common": {
+      "buttons": {
+        "bookDemo": "Get Personal Demo (15 min)",
+        "dismiss": "Dismiss",
+        "stayHere": "Stay here",
+        "learnMore": "Explore Features"
+      },
+      "labels": {
+        "currency": "USD",
+        "hospitality": "Hospitality",
+        "retail": "Retail",
+        "recommended": "Recommended"
+      },
+      "loading": {}
+    },
+    "contactForm": {
+      "title": "Got Questions? Contact us.",
+      "description": "Fill out the form and our team will get back to you within 24 hours.",
+      "subtitle": "We respond within 24 hours"
+    },
+    "navigation": {
+      "main": {
+        "products": "Products",
+        "pricing": "Pricing",
+        "about": "About",
+        "hospitality": "Hospitality",
+        "hospitalityDesc": "Complete restaurant management system with table service, kitchen coordination, and payment processing.",
+        "retail": "Retail",
+        "retailDesc": "Point of sale system with inventory tracking, barcode scanning, and sales reporting for retail stores."
+      },
+      "categories": {
+        "restaurants": "Restaurants",
+        "restaurantsDesc": "Complete restaurant management solution - from reservations to payment.",
+        "barsCafes": "Bars & Cafes",
+        "barsCafesDesc": "Fast checkout and inventory management for high-traffic venues.",
+        "fastFood": "Quick Service / Fast Food",
+        "fastFoodDesc": "Optimized for speed and efficiency - perfect for quick service restaurants and delivery.",
+        "grocerySupermarkets": "Grocery & Supermarkets",
+        "grocerySupermarketsDesc": "Manage thousands of products and high-volume transactions.",
+        "clothingBoutiques": "Clothing & Boutiques",
+        "clothingBoutiquesDesc": "Track sizes, colors, and seasonal collections.",
+        "convenienceStores": "Convenience Stores",
+        "convenienceStoresDesc": "Simple management of diverse product mix.",
+        "b2b": "B2B Sales & E-Invoicing",
+        "b2bDesc": "Professional solutions for wholesale and B2B partnerships."
+      },
+      "products": {
+        "forHospitality": "Konty for Hospitality",
+        "forRetail": "Konty for Retail",
+        "bookDemo": "Book a Demo",
+        "download": "Download Konty",
+        "faqdocs": "FAQ & Documentation"
+      },
+      "about": {
+        "contact": "Contact",
+        "clientStories": "Client stories",
+        "partners": "Partners"
+      }
+    },
+    "footer": {
+      "newsletter": {
+        "title": "Subscribe to our newsletter",
+        "emailPlaceholder": "Your email",
+        "subscribe": "Subscribe"
+      },
+      "links": {
+        "careers": "Careers",
+        "company": "Company",
+        "contact": "Contact",
+        "dpa": "Data Processing Agreement",
+        "legal": "Legal",
+        "partners": "Partners",
+        "privacy": "Privacy",
+        "products": "Products",
+        "terms": "Terms of Service"
+      },
+      "hospitalitySolutions": {
+        "title": "Hospitality Solutions",
+        "restaurants": "Restaurants",
+        "cafes": "Cafes",
+        "bars": "Bars",
+        "pizzerias": "Pizzerias"
+      },
+      "retailSolutions": {
+        "title": "Retail Solutions",
+        "grocery": "Grocery Stores",
+        "supermarkets": "Supermarkets",
+        "clothing": "Clothing Stores",
+        "convenience": "Convenience Stores"
+      },
+      "about": {
+        "title": "About",
+        "contact": "Contact",
+        "clients": "Clients",
+        "partners": "Partners",
+        "careers": "Careers",
+        "blog": "Blog"
+      }
+    },
+    "banner": {
+      "suggestion": "It looks like you're in {country}. Would you like to switch?",
+      "switchTo": "View local version"
+    },
+    "forms": {
+      "fields": {
+        "name": "Full name",
+        "email": "Email",
+        "message": "Message",
+        "phone": "Phone",
+        "preferredDateTime": "Preferred date & time for demo",
+        "time": "Select time",
+        "industry": "Business type",
+        "category": "Business type"
+      },
+      "placeholders": {
+        "name": "Your full name",
+        "email": "Email address",
+        "message": "Message (optional)",
+        "phone": "+1 555 123 4567",
+        "preferredDateTime": "Select date and time"
+      },
+      "buttons": {
+        "submit": "Submit",
+        "bookDemo": "Book demo"
+      },
+      "optional": "optional",
+      "responseTime": "We respond within 24 hours",
+      "industryOptions": {
+        "hospitality": "Hospitality (restaurant, café, bar...)",
+        "retail": "Retail (store, boutique...)",
+        "other": "Other"
+      },
+      "categoryOptions": {
+        "hospitality": "Hospitality (restaurant, café, bar...)",
+        "retail": "Retail (store, boutique...)",
+        "other": "Other"
+      }
+    },
+    "errors": {
+      "400": {
+        "title": "Page not found",
+        "actions": {
+          "bookDemo": "Book a demo",
+          "goHome": "Go to homepage",
+          "viewPricing": "View Pricing"
+        }
+      },
+      "403": {
+        "title": "Access forbidden"
+      },
+      "500": {
+        "title": "Server error - we're working on it"
+      },
+      "generic": {
+        "title": "Something went wrong",
+        "helpText": "If you need help, contact us at"
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Focus on your business. Konty takes care of the rest.",
+        "subtitle": "A stable, reliable Point of Sale system you can count on — day after day.",
+        "tagline": "Trusted by 9,000+ businesses and growing"
+      },
+      "statistics": {
+        "stat1": {
+          "description": "Active business locations",
+          "suffix": "+",
+          "value": "9000"
+        },
+        "stat2": {
+          "description": "Years of POS experience",
+          "suffix": "+",
+          "value": "26"
+        },
+        "stat3": {
+          "description": "Average support response",
+          "suffix": " seconds",
+          "value": "30"
+        }
+      },
+      "testimonials": {
+        "title": "What Our Customers Say",
+        "description": "Stability, simplicity, and support that help them run their business with peace of mind",
+        "items": {
+          "t1": {
+            "name": "Marko Petrović",
+            "quote": "We switched to Konty six months ago and it's made a real difference. Orders flow smoothly from front to kitchen, and my staff picked it up quickly. Much less stressful during busy periods.",
+            "role": "Owner of Taste Valley Restaurant"
+          },
+          "t2": {
+            "name": "Ana Nikolić",
+            "quote": "Inventory management used to take me hours each week. Now I can see stock levels instantly and get alerts when items are running low. Saves me a lot of time.",
+            "role": "Owner of Fashion Forward Boutique"
+          },
+          "t3": {
+            "name": "Stefan Jovanović",
+            "quote": "The interface is intuitive - new employees learn it quickly. Customer checkout is faster and we can track our daily sales easily. Good investment for our coffee shop.",
+            "role": "Manager of Urban Grounds Coffee"
+          },
+          "t4": {
+            "name": "Milica Stojanović",
+            "quote": "Clean, simple system that does what we need. Processing payments is straightforward and the daily reports help me understand our sales patterns better.",
+            "role": "Owner of Fresh Start Bakery"
+          }
+        }
+      },
+      "clients": {
+        "title": "Partners Who Chose Konty",
+        "description": "More than 9,000 businesses count on Konty every day"
+      },
+      "getStarted": {
+        "title": "Get started in 48 hours",
+        "description": "Switching to Konty is quick and easy",
+        "step1": {
+          "tagline": "Day 1, Morning",
+          "title": "15-Minute Call",
+          "description": "You tell us about your business and your needs. Based on that, we create a system tailored to you."
+        },
+        "step2": {
+          "tagline": "Day 1, Afternoon",
+          "title": "Account Setup",
+          "description": "We create and configure your account. We transfer products, customers, and everything you need. You don’t do a thing."
+        },
+        "step3": {
+          "tagline": "Day 2, Morning",
+          "title": "Installation and Staff Training",
+          "description": "Our team carries out the system installation and staff training at the agreed time."
+        },
+        "step4": {
+          "tagline": "Day 2, Afternoon",
+          "title": "You’re Ready to Start",
+          "description": "You’re ready to go. Our team is available to you 24/7."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Simple, Fair Pricing. No hidden costs.",
+      "description": "Choose the plan that fits your needs. Cancel whenever you want.",
+      "freeTrial": "30-day free trial",
+      "hospitality": {
+        "start": {
+          "title": "Starter",
+          "description": "For small venues needing simple checkout.",
+          "price": "$29",
+          "priceValue": "29",
+          "billingCycle": "/ month",
+          "button": "Sign Up",
+          "features": [
+            "Single register",
+            "Table management",
+            "Product catalog",
+            "Receipt printing",
+            "Sales reports",
+            "Inventory management",
+            "Complete sales and inventory analytics",
+            "Cloud-based back office"
+          ]
+        },
+        "standard": {
+          "title": "Standard",
+          "description": "For restaurants needing more control and tracking.",
+          "price": "$35",
+          "priceValue": "35",
+          "billingCycle": "/ month",
+          "button": "Sign Up",
+          "badge": "Most Popular",
+          "features": [
+            "Everything in Starter plus",
+            "Multiple price lists",
+            "Recipe management",
+            "Ingredient usage reports",
+            "Purchase invoices",
+            "Vendor management"
+          ]
+        },
+        "premium": {
+          "title": "Premium",
+          "description": "For larger operations needing advanced features.",
+          "price": "$59",
+          "priceValue": "59",
+          "billingCycle": "/ month",
+          "button": "Sign Up",
+          "features": [
+            "Multiple registers",
+            "Everything in Standard plus",
+            "Network capabilities",
+            "Mobile ordering",
+            "Kitchen display system",
+            "Advanced accounting (optional)",
+            "Third-party integrations (accounting, hotels, etc.)"
+          ]
+        }
+      },
+      "retail": {
+        "start": {
+          "title": "Starter",
+          "description": "For small shops needing simple checkout.",
+          "price": "$15",
+          "priceValue": "15",
+          "billingCycle": "/ month",
+          "button": "Sign Up",
+          "features": [
+            "Single register",
+            "Quick product entry (barcodes, shortcuts)",
+            "Receipt printing",
+            "Sales reports",
+            "Inventory management",
+            "Complete sales and inventory analytics",
+            "Cloud-based back office"
+          ]
+        },
+        "standard": {
+          "title": "Standard",
+          "description": "For stores needing more control and tracking.",
+          "price": "$19",
+          "priceValue": "19",
+          "billingCycle": "/ month",
+          "button": "Sign Up",
+          "badge": "Most Popular",
+          "features": [
+            "Everything in Starter plus",
+            "Quick keys",
+            "Weight-based barcodes (scale integration)",
+            "Purchase invoices",
+            "Vendor management"
+          ]
+        },
+        "premium": {
+          "title": "Premium",
+          "description": "For larger operations needing advanced features.",
+          "price": "$25",
+          "priceValue": "25",
+          "billingCycle": "/ month",
+          "button": "Sign Up",
+          "features": [
+            "Everything in Standard plus",
+            "Multiple registers",
+            "Advanced accounting (optional)",
+            "Third-party integrations (accounting, etc.)"
+          ]
+        }
+      },
+      "faq": {
+        "pricing": {
+          "a1": "We offer three tiers: Starter, Standard, and Premium with monthly billing. Each plan includes core POS features with additional capabilities at higher tiers.",
+          "a2": "All plan prices include software updates, customer support, and cloud hosting. No setup fees or long-term contracts required.",
+          "q1": "How much does Konty cost?",
+          "q2": "What's included in the price?"
+        }
+      }
+    },
+    "products": {
+      "features": {
+        "title": "Simple. Reliable. Ready to work.",
+        "description": "Everything you need for stable sales and secure checkout, with an intuitive system anyone can start using quickly.",
+        "hospitality": {
+          "feat1": {
+            "title": "Sections and Tables",
+            "description": "Manage tables across multiple sections. Get detailed overview of bills, server activities, POS terminal status, reports, and more."
+          },
+          "feat2": {
+            "title": "Fast and Efficient Sales",
+            "description": "Quick item selection through intuitive interface. Efficient billing and ordering with various cash and cashless payment methods, order printing to kitchen or bar printers, and more."
+          },
+          "feat3": {
+            "title": "Administration",
+            "description": "Advanced management of employees, items and inventory, suppliers, customers, receiving and shipping goods, etc. Precise reports and detailed insights into all segments of your business."
+          },
+          "feat4": {
+            "title": "Advanced Reports",
+            "description": "Comprehensive and precise reports you need to run your business. Enables accurate tracking of inventory, sales, revenue, and expenses."
+          },
+          "feat5": {
+            "title": "Available Everywhere",
+            "description": "Konty works on Web, Windows, and Android. 24/7, anywhere in the world, you have free remote access to your application."
+          },
+          "feat6": {
+            "title": "Superior Customer Support",
+            "description": "Our team is available 24/7. Fast and efficient customer support is the foundation of our business."
+          }
+        },
+        "retail": {
+          "feat1": {
+            "title": "Fast and Efficient Sales",
+            "description": "Quick search and selection of items by name, code, barcode (regular and weight-based). Detailed overview of receipts, employee activities, POS terminal status, reports, and more."
+          },
+          "feat2": {
+            "title": "Administration",
+            "description": "Advanced management of employees, items and inventory, suppliers, customers, receiving and shipping goods and other business processes."
+          },
+          "feat3": {
+            "title": "Reports and Statistics",
+            "description": "Precise and comprehensive reports that give you detailed insights into all segments of your business."
+          },
+          "feat4": {
+            "title": "Inventory Management",
+            "description": "Real-time stock tracking with automatic alerts when items are running low. Manage thousands of products with ease and optimize your inventory levels."
+          },
+          "feat5": {
+            "title": "Available Everywhere",
+            "description": "Konty works on Web, Windows, and Android. 24/7, anywhere in the world, you have free remote access to your application."
+          },
+          "feat6": {
+            "title": "Superior Customer Support",
+            "description": "Our team is available 24/7. Fast and efficient customer support is the foundation of our business."
+          }
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Find answers to common questions about Konty POS system",
+        "a1": "Konty is a modern point-of-sale system that helps businesses digitize their operations. It enables sales tracking, inventory management, reporting, and compliance.",
+        "a2": "Yes, Konty works offline too. All data is stored locally and syncs automatically when you reconnect to the internet.",
+        "a3": "You can start in just 5 minutes! Sign up, add products, and start selling. No installation or special hardware required.",
+        "a4": "Yes, Konty is fully compliant with US tax regulations. Automatically generates compliant receipts and reports.",
+        "a5": "You get 30 days of free access to all features. No credit card required. After expiry, choose the plan that suits you.",
+        "q1": "What is Konty POS system?",
+        "q2": "Can I use Konty without internet?",
+        "q3": "How quickly can I start using it?",
+        "q4": "Does Konty support tax compliance?",
+        "q5": "How does the free trial work?"
+      },
+      "download": {
+        "hero": {
+          "title": "Everywhere you need it!",
+          "subtitle": "Get Konty for any device or platform.",
+          "description": "Whether you prefer the convenience of web-based access, the familiarity of Windows applications, the mobility of Android devices, or the reliability of MacOS, our software is adaptable to your preferred operating system.",
+          "docsLink": "For detailed instructions and documentation",
+          "docsLinkText": "click here"
+        },
+        "sections": {
+          "production": {
+            "title": "Download Konty",
+            "web": "Web App",
+            "windows": "Windows",
+            "android": "Android",
+            "macos": "macOS"
+          },
+          "demo": {
+            "title": "Download Konty Demo",
+            "web": "Web",
+            "windows": "Windows",
+            "android": "Android",
+            "macos": "macOS"
+          }
+        }
+      },
+      "partners": {},
+      "hospitality": {
+        "hero": {
+          "tagline": "Trusted by 9,000+ businesses and growing",
+          "title": "POS system you can count on during peak hours",
+          "subtitle": "Complete restaurant management system with table service, order processing, and kitchen coordination. Designed for businesses of all sizes."
+        },
+        "benefits": {
+          "title": "Why Choose Konty for Your Restaurant",
+          "description": "Built specifically for hospitality businesses, from small cafes to high-volume restaurants.",
+          "benefit1": {
+            "title": "Built for Hospitality",
+            "description": "Complete solution designed specifically for restaurants and cafes. Covers all your business processes efficiently, whether you run a small cafe or a high-traffic restaurant."
+          },
+          "benefit2": {
+            "title": "Incredibly Easy to Use",
+            "description": "Tired of software that takes forever to do simple tasks? Konty is built to be intuitive, efficient, and gets the job done fast."
+          },
+          "benefit3": {
+            "title": "Reliable & Secure",
+            "description": "No more fear of losing data from power outages. Konty is a full cloud software that ensures you never lose your data. All data is centralized and always accessible."
+          },
+          "benefit4": {
+            "title": "Available Everywhere, Always",
+            "description": "Konty works on Web, Windows, and Android. 24/7, anywhere in the world, you have free remote access to your application."
+          },
+          "benefit5": {
+            "title": "Advanced Reports",
+            "description": "Comprehensive and precise reports you need to run your business. Enables accurate tracking of inventory, sales, revenue, and expenses."
+          },
+          "benefit6": {
+            "title": "Superior Customer Support",
+            "description": "Our team is available 24/7. Fast and efficient customer support is the foundation of our business."
+          }
+        },
+        "features": {
+          "title": "Simple. Reliable. Ready to work.",
+          "description": "Everything you need for stable sales and secure checkout, with an intuitive system anyone can start using quickly.",
+          "feat1": {
+            "title": "Built for Hospitality",
+            "description": "Complete solution designed specifically for restaurants and cafes. Covers all your business processes efficiently, whether you run a small cafe or a high-traffic restaurant.",
+            "icon": "i-heroicons-building-office"
+          },
+          "feat2": {
+            "title": "Incredibly Easy to Use",
+            "description": "Tired of software that takes forever to do simple tasks? Konty is built to be intuitive, efficient, and gets the job done fast.",
+            "icon": "i-heroicons-cursor-arrow-rays"
+          },
+          "feat3": {
+            "title": "Reliable & Secure",
+            "description": "No more fear of losing data from power outages. Konty is a full cloud software that ensures you never lose your data. All data is centralized and always accessible.",
+            "icon": "i-heroicons-shield-check"
+          },
+          "feat4": {
+            "title": "Advanced Reports",
+            "description": "Comprehensive and precise reports you need to run your business. Enables accurate tracking of inventory, sales, revenue, and expenses.",
+            "icon": "i-heroicons-chart-bar"
+          },
+          "feat5": {
+            "title": "Available Everywhere",
+            "description": "Konty works on Web, Windows, and Android. 24/7, anywhere in the world, you have free remote access to your application.",
+            "icon": "i-heroicons-globe-alt"
+          },
+          "feat6": {
+            "title": "Superior Customer Support",
+            "description": "Our team is available 24/7. Fast and efficient customer support is the foundation of our business.",
+            "icon": "i-heroicons-chat-bubble-left-right"
+          },
+          "hero": {
+            "title": "All Hospitality Features",
+            "subtitle": "Everything your restaurant needs to run smoothly, from table management to kitchen display systems.",
+            "backToProduct": "Back to Hospitality"
+          },
+          "list": {
+            "title": "Complete Feature Set",
+            "subtitle": "Explore all the tools designed specifically for restaurants, cafes, and bars.",
+            "cta": "View All Features"
+          },
+          "groups": {
+            "title": "Comprehensive Tools for Your Restaurant",
+            "description": "Everything you need to deliver exceptional dining experiences and streamline operations.",
+            "group1": {
+              "title": "Table & Floor Management",
+              "description": "Visualize and manage your entire dining room with ease.",
+              "imageAlt": "Table management interface",
+              "item1": {
+                "text": "Interactive floor plan with drag-and-drop tables",
+                "icon": "i-heroicons-table-cells"
+              },
+              "item2": {
+                "text": "Real-time table status and availability",
+                "icon": "i-heroicons-clock"
+              },
+              "item3": {
+                "text": "Quick table transfers and merging",
+                "icon": "i-heroicons-arrows-right-left"
+              },
+              "item4": {
+                "text": "Reservation management integration",
+                "icon": "i-heroicons-calendar-days"
+              }
+            },
+            "group2": {
+              "title": "Kitchen Display System",
+              "description": "Seamless communication between front of house and kitchen.",
+              "imageAlt": "Kitchen display system",
+              "item1": {
+                "text": "Real-time order routing to kitchen stations",
+                "icon": "i-heroicons-arrow-path"
+              },
+              "item2": {
+                "text": "Course timing and fire control",
+                "icon": "i-heroicons-fire"
+              },
+              "item3": {
+                "text": "Order modification alerts",
+                "icon": "i-heroicons-bell"
+              },
+              "item4": {
+                "text": "Prep time tracking and analytics",
+                "icon": "i-heroicons-chart-bar"
+              }
+            },
+            "group3": {
+              "title": "Menu & Inventory Control",
+              "description": "Complete control over your menu items and stock levels.",
+              "imageAlt": "Menu and inventory management",
+              "item1": {
+                "text": "Flexible menu creation and pricing",
+                "icon": "i-heroicons-document-text"
+              },
+              "item2": {
+                "text": "Recipe costing and ingredient tracking",
+                "icon": "i-heroicons-calculator"
+              },
+              "item3": {
+                "text": "Automatic low stock alerts",
+                "icon": "i-heroicons-exclamation-triangle"
+              },
+              "item4": {
+                "text": "Supplier management and ordering",
+                "icon": "i-heroicons-truck"
+              }
+            }
+          }
+        },
+        "faq": {
+          "q1": "Can I manage multiple locations?",
+          "a1": "Yes, Konty supports multi-location management with centralized reporting.",
+          "q2": "Does it work offline?",
+          "a2": "Yes, all transactions sync automatically when connection is restored.",
+          "q3": "How long does setup take?",
+          "a3": "Most restaurants are up and running within 48 hours.",
+          "q4": "Can I keep my existing hardware?",
+          "a4": "Yes, Konty works with most existing POS hardware.",
+          "q5": "What about staff training?",
+          "a5": "Our intuitive interface requires minimal training. Most staff learn in under 30 minutes."
+        }
+      },
+      "retail": {
+        "hero": {
+          "tagline": "Trusted by 9,000+ businesses and growing",
+          "cta": "Start 30-Day Free Trial",
+          "features": "Inventory tracking • Fast checkout • Sales reporting",
+          "subtitle": "Retail and service POS that runs fast, secure, and without interruption — from quick checkout and inventory tracking to clear reports for decision making.",
+          "title": "POS system you can count on during peak hours",
+          "viewDemo": "Watch 2-Min Demo"
+        },
+        "benefits": {
+          "title": "Why Choose Konty for Your Store",
+          "description": "Complete solution built specifically for retail and service businesses. Covers your business processes efficiently.",
+          "benefit1": {
+            "title": "Built for Retail",
+            "description": "Complete solution designed specifically for retail and service businesses. Covers your business processes in an efficient way."
+          },
+          "benefit2": {
+            "title": "Incredibly Easy to Use",
+            "description": "Tired of software that takes significant time just to change a single item price? Konty is built to be intuitive, efficient, and gets your work done quickly."
+          },
+          "benefit3": {
+            "title": "Reliable & Secure",
+            "description": "No more fear of losing data from the first power surge. Konty is a full cloud software that ensures you never lose your data. All data is centralized and always accessible."
+          },
+          "benefit4": {
+            "title": "Available Everywhere, Always",
+            "description": "Konty works on Web, Windows, and Android. 24/7, anywhere in the world, you have free remote access to your application."
+          },
+          "benefit5": {
+            "title": "Advanced Reports",
+            "description": "Comprehensive and precise reports you need to run your business. Enables accurate tracking of inventory, sales, revenue, and expenses."
+          },
+          "benefit6": {
+            "title": "Superior Customer Support",
+            "description": "Our team is available 24/7. Fast and efficient customer support is the foundation of our business."
+          }
+        },
+        "features": {
+          "title": "Simple. Reliable. Ready to work.",
+          "description": "Everything you need for stable sales and secure checkout, with an intuitive system anyone can start using quickly.",
+          "feat1": {
+            "title": "Built for Retail",
+            "description": "Complete solution designed specifically for retail and service businesses. Covers your business processes in an efficient way.",
+            "icon": "i-heroicons-shopping-cart"
+          },
+          "feat2": {
+            "title": "Incredibly Easy to Use",
+            "description": "Tired of software that takes significant time just to change a single item price? Konty is built to be intuitive, efficient, and gets your work done quickly.",
+            "icon": "i-heroicons-cursor-arrow-rays"
+          },
+          "feat3": {
+            "title": "Reliable & Secure",
+            "description": "No more fear of losing data from the first power surge. Konty is a full cloud software that ensures you never lose your data. All data is centralized and always accessible.",
+            "icon": "i-heroicons-shield-check"
+          },
+          "feat4": {
+            "title": "Advanced Reports",
+            "description": "Comprehensive and precise reports you need to run your business. Enables accurate tracking of inventory, sales, revenue, and expenses.",
+            "icon": "i-heroicons-chart-bar"
+          },
+          "feat5": {
+            "title": "Available Everywhere",
+            "description": "Konty works on Web, Windows, and Android. 24/7, anywhere in the world, you have free remote access to your application.",
+            "icon": "i-heroicons-globe-alt"
+          },
+          "feat6": {
+            "title": "Superior Customer Support",
+            "description": "Our team is available 24/7. Fast and efficient customer support is the foundation of our business.",
+            "icon": "i-heroicons-chat-bubble-left-right"
+          },
+          "hero": {
+            "title": "All Retail Features",
+            "subtitle": "Complete inventory management, barcode scanning, and analytics tools for modern retail.",
+            "backToProduct": "Back to Retail"
+          },
+          "list": {
+            "title": "Complete Feature Set",
+            "subtitle": "Discover all the tools built specifically for retail stores and chains.",
+            "cta": "View All Features"
+          },
+          "groups": {
+            "title": "Powerful Features for Your Retail Business",
+            "description": "Discover how Konty streamlines your retail operations with comprehensive tools.",
+            "group1": {
+              "title": "Smart Inventory Management",
+              "description": "Keep track of your stock in real-time across all locations.",
+              "imageAlt": "Inventory management dashboard",
+              "item1": {
+                "text": "Real-time stock tracking across multiple locations",
+                "icon": "i-heroicons-cube"
+              },
+              "item2": {
+                "text": "Automated low stock alerts and reorder points",
+                "icon": "i-heroicons-bell-alert"
+              },
+              "item3": {
+                "text": "Barcode scanning for fast product lookup",
+                "icon": "i-heroicons-qr-code"
+              },
+              "item4": {
+                "text": "Detailed inventory reports and analytics",
+                "icon": "i-heroicons-chart-bar"
+              }
+            },
+            "group2": {
+              "title": "Fast & Secure Checkout",
+              "description": "Process transactions quickly with our intuitive POS system.",
+              "imageAlt": "POS checkout interface",
+              "item1": {
+                "text": "Lightning-fast transaction processing",
+                "icon": "i-heroicons-bolt"
+              },
+              "item2": {
+                "text": "Multiple payment methods support",
+                "icon": "i-heroicons-credit-card"
+              },
+              "item3": {
+                "text": "Customer loyalty program integration",
+                "icon": "i-heroicons-gift"
+              },
+              "item4": {
+                "text": "Secure and encrypted payment processing",
+                "icon": "i-heroicons-lock-closed"
+              }
+            },
+            "group3": {
+              "title": "Business Intelligence & Reporting",
+              "description": "Make data-driven decisions with comprehensive analytics.",
+              "imageAlt": "Analytics and reporting dashboard",
+              "item1": {
+                "text": "Real-time sales and revenue tracking",
+                "icon": "i-heroicons-chart-pie"
+              },
+              "item2": {
+                "text": "Employee performance analytics",
+                "icon": "i-heroicons-users"
+              },
+              "item3": {
+                "text": "Product performance insights",
+                "icon": "i-heroicons-shopping-bag"
+              },
+              "item4": {
+                "text": "Customizable reports and exports",
+                "icon": "i-heroicons-document-chart-bar"
+              }
+            }
+          }
+        },
+        "faq": {
+          "q1": "Can I manage inventory across multiple stores?",
+          "a1": "Yes, real-time inventory sync across all your locations.",
+          "q2": "Does it support barcode scanning?",
+          "a2": "Yes, works with all standard barcode scanners and mobile devices.",
+          "q3": "What about loyalty programs?",
+          "a3": "Built-in loyalty program with points, discounts, and customer tracking.",
+          "q4": "Can I import my existing inventory?",
+          "a4": "Yes, we provide free data migration from your current system.",
+          "q5": "How are returns handled?",
+          "a5": "Simple one-click returns with automatic inventory adjustment."
+        }
+      }
+    },
+    "solutions": {
+      "hero": {
+        "title": "Industry-Specific Solutions",
+        "subtitle": "Konty adapts to your business - from restaurants to retail stores",
+        "cta": "Find Your Solution"
+      },
+      "categories": {
+        "hospitality": {
+          "title": "Hospitality",
+          "description": "Solutions for restaurants, cafes, and quick service"
+        },
+        "retail": {
+          "title": "Retail",
+          "description": "Solutions for all types of retail stores"
+        }
+      },
+      "restaurants": {
+        "hero": {
+          "title": "Konty for Restaurants",
+          "subtitle": "Complete restaurant management solution - from reservations to payment",
+          "cta": "Start 30-Day Free Trial",
+          "features": "Tables • Kitchen • Reservations • Analytics"
+        },
+        "overview": {
+          "title": "Everything Your Restaurant Needs",
+          "description": "From table management to kitchen orders",
+          "image": "/images/solutions/restaurants.jpg"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Table Management",
+            "description": "Visual floor plan with real-time table status"
+          },
+          "b2": {
+            "title": "Kitchen Display System",
+            "description": "Direct communication between dining room and kitchen"
+          },
+          "b3": {
+            "title": "Split Bills",
+            "description": "Easy splitting by items or percentage"
+          }
+        },
+        "features": {
+          "title": "Everything Your Restaurant Needs",
+          "description": "Complete solution designed specifically for restaurant operations",
+          "cta": "Learn More About Restaurant Features",
+          "feat1": {
+            "title": "Table & Floor Management",
+            "description": "Visual floor plan with drag-and-drop tables, real-time status updates, and easy table transfers",
+            "icon": "i-heroicons-table-cells"
+          },
+          "feat2": {
+            "title": "Kitchen Display System",
+            "description": "Real-time order routing to kitchen stations, course timing, and order modification alerts",
+            "icon": "i-heroicons-fire"
+          },
+          "feat3": {
+            "title": "Reservation Management",
+            "description": "Integrated reservation system with table assignment and customer preferences tracking",
+            "icon": "i-heroicons-calendar-days"
+          },
+          "feat4": {
+            "title": "Split Bills & Payments",
+            "description": "Flexible bill splitting by items, seats, or percentage with multiple payment methods",
+            "icon": "i-heroicons-banknotes"
+          },
+          "feat5": {
+            "title": "Menu Engineering",
+            "description": "Easy menu management with modifiers, combos, and special pricing for different time periods",
+            "icon": "i-heroicons-document-text"
+          },
+          "feat6": {
+            "title": "Staff Performance",
+            "description": "Track server sales, tips, and performance with detailed analytics and reports",
+            "icon": "i-heroicons-user-group"
+          }
+        }
+      },
+      "barsCafes": {
+        "hero": {
+          "title": "Konty for Bars & Cafes",
+          "subtitle": "Fast checkout and inventory management for high-volume venues",
+          "cta": "Start 30-Day Free Trial",
+          "features": "Quick Pay • Inventory • Happy Hour • Loyalty"
+        },
+        "overview": {
+          "title": "Optimized for Speed",
+          "description": "System designed for fast service and high traffic",
+          "image": "/images/solutions/bars-cafes.jpg"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Fast Checkout",
+            "description": "Shortcuts and favorites for most common items"
+          },
+          "b2": {
+            "title": "Happy Hour Support",
+            "description": "Automatic pricing by time and day"
+          },
+          "b3": {
+            "title": "Inventory Tracking",
+            "description": "Real-time beverage inventory monitoring"
+          }
+        },
+        "features": {
+          "title": "Optimized for High-Volume Service",
+          "description": "Fast, efficient tools designed for bars and cafes",
+          "cta": "Explore Bar & Cafe Features",
+          "feat1": {
+            "title": "Quick Order Entry",
+            "description": "Customizable shortcuts and favorites for lightning-fast order entry during rush hours",
+            "icon": "i-heroicons-bolt"
+          },
+          "feat2": {
+            "title": "Happy Hour Automation",
+            "description": "Automatic pricing adjustments by time and day with schedule management",
+            "icon": "i-heroicons-clock"
+          },
+          "feat3": {
+            "title": "Beverage Inventory",
+            "description": "Real-time tracking of kegs, bottles, and ingredients with automatic alerts",
+            "icon": "i-heroicons-beaker"
+          },
+          "feat4": {
+            "title": "Tab Management",
+            "description": "Easy open tab system with name or card lookup and automatic tab reminders",
+            "icon": "i-heroicons-credit-card"
+          },
+          "feat5": {
+            "title": "Loyalty & Rewards",
+            "description": "Built-in loyalty program to keep customers coming back with points and rewards",
+            "icon": "i-heroicons-gift"
+          },
+          "feat6": {
+            "title": "Quick Analytics",
+            "description": "Real-time sales tracking, top sellers, and profit margins at your fingertips",
+            "icon": "i-heroicons-chart-bar"
+          }
+        }
+      },
+      "fastFood": {
+        "hero": {
+          "title": "Konty for Quick Service",
+          "subtitle": "Optimized for speed and efficiency - perfect for fast food restaurants",
+          "cta": "Start 30-Day Free Trial",
+          "features": "Quick Orders • Drive-thru • Delivery • KDS"
+        },
+        "overview": {
+          "title": "Speed is Everything",
+          "description": "System designed for maximum efficiency and throughput",
+          "image": "/images/solutions/fast-food.jpg"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Rapid Order Entry",
+            "description": "Optimized interface for fastest input"
+          },
+          "b2": {
+            "title": "Multi-channel Support",
+            "description": "Drive-thru, delivery, and dine-in from one system"
+          },
+          "b3": {
+            "title": "Automated Prep",
+            "description": "KDS system for more efficient kitchen"
+          }
+        },
+        "features": {
+          "title": "Built for Speed & Efficiency",
+          "description": "Maximum throughput for quick service restaurants",
+          "cta": "See Quick Service Features",
+          "feat1": {
+            "title": "Multi-Channel Orders",
+            "description": "Unified system for drive-thru, counter, delivery, and mobile orders in one place",
+            "icon": "i-heroicons-queue-list"
+          },
+          "feat2": {
+            "title": "Kitchen Display System",
+            "description": "Real-time order display with prep time tracking and priority management",
+            "icon": "i-heroicons-tv"
+          },
+          "feat3": {
+            "title": "Combo Meal Builder",
+            "description": "Easy combo creation and upsell prompts to increase average ticket size",
+            "icon": "i-heroicons-squares-2x2"
+          },
+          "feat4": {
+            "title": "Drive-Thru Timer",
+            "description": "Track service times and optimize speed with timer alerts and performance metrics",
+            "icon": "i-heroicons-clock"
+          },
+          "feat5": {
+            "title": "Delivery Integration",
+            "description": "Seamless integration with delivery platforms and in-house delivery management",
+            "icon": "i-heroicons-truck"
+          },
+          "feat6": {
+            "title": "Peak Time Management",
+            "description": "Special pricing and menu adjustments for breakfast, lunch, and dinner rushes",
+            "icon": "i-heroicons-sun"
+          }
+        }
+      },
+      "grocerySupermarkets": {
+        "hero": {
+          "title": "Konty for Grocery & Supermarkets",
+          "subtitle": "Manage thousands of products and high-volume transactions",
+          "cta": "Start 30-Day Free Trial",
+          "features": "Inventory • Barcodes • Promotions • Analytics"
+        },
+        "overview": {
+          "title": "Control Thousands of Items",
+          "description": "Powerful system for managing large product catalogs",
+          "image": "/images/solutions/grocery.jpg"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Inventory Management",
+            "description": "Real-time stock tracking and automatic reordering"
+          },
+          "b2": {
+            "title": "Promotion Support",
+            "description": "Flexible promotions, discounts, and bundles"
+          },
+          "b3": {
+            "title": "Fast Scanning",
+            "description": "Integrated barcode scanners for faster checkout"
+          }
+        },
+        "features": {
+          "title": "Manage Thousands of Products",
+          "description": "Powerful inventory and checkout system for grocery stores",
+          "cta": "View Grocery Store Features",
+          "feat1": {
+            "title": "Advanced Inventory",
+            "description": "Real-time stock tracking across multiple locations with automatic reorder points",
+            "icon": "i-heroicons-cube"
+          },
+          "feat2": {
+            "title": "Barcode Scanning",
+            "description": "Fast checkout with integrated barcode scanners and weight scale support",
+            "icon": "i-heroicons-qr-code"
+          },
+          "feat3": {
+            "title": "Promotions Engine",
+            "description": "Flexible promotions, BOGO deals, bundle pricing, and seasonal discounts",
+            "icon": "i-heroicons-tag"
+          },
+          "feat4": {
+            "title": "Fresh Product Management",
+            "description": "Track expiration dates, batch numbers, and automatically rotate stock",
+            "icon": "i-heroicons-shopping-bag"
+          },
+          "feat5": {
+            "title": "Multi-Department",
+            "description": "Organize products by departments with specialized handling for each category",
+            "icon": "i-heroicons-building-storefront"
+          },
+          "feat6": {
+            "title": "Supplier Management",
+            "description": "Track suppliers, purchase orders, and delivery schedules in one system",
+            "icon": "i-heroicons-truck"
+          }
+        }
+      },
+      "clothingBoutiques": {
+        "hero": {
+          "title": "Konty for Clothing & Boutiques",
+          "subtitle": "Track sizes, colors, and seasonal collections",
+          "cta": "Start 30-Day Free Trial",
+          "features": "Sizes/Colors • Seasons • Loyalty • Analytics"
+        },
+        "overview": {
+          "title": "Perfect for Fashion Retail",
+          "description": "Specialized for boutiques and clothing stores",
+          "image": "/images/solutions/clothing.jpg"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Size & Color Matrix",
+            "description": "Easy management of product variants"
+          },
+          "b2": {
+            "title": "Seasonal Collections",
+            "description": "Organize by seasons and collections"
+          },
+          "b3": {
+            "title": "Loyalty Program",
+            "description": "Build your regular customer base"
+          }
+        },
+        "features": {
+          "title": "Perfect for Fashion Retail",
+          "description": "Specialized tools for clothing stores and boutiques",
+          "cta": "Discover Fashion Retail Features",
+          "feat1": {
+            "title": "Size & Color Matrix",
+            "description": "Manage unlimited variants with size and color combinations, stock by variant",
+            "icon": "i-heroicons-swatch"
+          },
+          "feat2": {
+            "title": "Seasonal Collections",
+            "description": "Organize inventory by seasons, collections, and designers with easy filtering",
+            "icon": "i-heroicons-sparkles"
+          },
+          "feat3": {
+            "title": "Customer Profiles",
+            "description": "Track purchase history, preferences, and sizes for personalized service",
+            "icon": "i-heroicons-user-circle"
+          },
+          "feat4": {
+            "title": "Layaway & Hold",
+            "description": "Manage layaway plans and hold items for customers with payment tracking",
+            "icon": "i-heroicons-archive-box"
+          },
+          "feat5": {
+            "title": "Style Recommendations",
+            "description": "Suggest complementary items based on purchase history and current trends",
+            "icon": "i-heroicons-light-bulb"
+          },
+          "feat6": {
+            "title": "Loyalty & VIP",
+            "description": "Reward program with tiers, exclusive offers, and birthday rewards",
+            "icon": "i-heroicons-star"
+          }
+        }
+      },
+      "convenienceStores": {
+        "hero": {
+          "title": "Konty for Convenience Stores",
+          "subtitle": "Simple management of diverse product mix",
+          "cta": "Start 30-Day Free Trial",
+          "features": "Wide Range • Quick Checkout • 24/7 Operation • Inventory"
+        },
+        "overview": {
+          "title": "For Stores That Never Sleep",
+          "description": "Reliable system for 24/7 operation with diverse products",
+          "image": "/images/solutions/convenience.jpg"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Simplified Inventory",
+            "description": "Easy management of diverse products"
+          },
+          "b2": {
+            "title": "Shift Management",
+            "description": "Access control and shift tracking"
+          },
+          "b3": {
+            "title": "Quick Checkout",
+            "description": "Optimized for speed at the register"
+          }
+        },
+        "features": {
+          "title": "24/7 Reliability",
+          "description": "Simple, fast system for around-the-clock operation",
+          "cta": "See Convenience Store Features",
+          "feat1": {
+            "title": "Quick Checkout",
+            "description": "Lightning-fast scanning and payment processing for high customer turnover",
+            "icon": "i-heroicons-bolt"
+          },
+          "feat2": {
+            "title": "Age Verification",
+            "description": "Built-in age verification prompts for restricted items like tobacco and alcohol",
+            "icon": "i-heroicons-identification"
+          },
+          "feat3": {
+            "title": "Multi-Shift Control",
+            "description": "Easy shift changes, cash drawer management, and employee time tracking",
+            "icon": "i-heroicons-clock"
+          },
+          "feat4": {
+            "title": "Lottery & Prepaid",
+            "description": "Integrated support for lottery tickets, prepaid cards, and bill payments",
+            "icon": "i-heroicons-ticket"
+          },
+          "feat5": {
+            "title": "Fuel Integration",
+            "description": "Connect with fuel pumps for seamless gas station operations (optional)",
+            "icon": "i-heroicons-fire"
+          },
+          "feat6": {
+            "title": "Loss Prevention",
+            "description": "Track inventory shrinkage, suspicious transactions, and employee activity",
+            "icon": "i-heroicons-shield-check"
+          }
+        }
+      },
+      "b2b": {
+        "hero": {
+          "title": "Konty for B2B Sales & E-Invoicing",
+          "subtitle": "Professional solutions for wholesale and B2B partnerships",
+          "cta": "Start 30-Day Free Trial",
+          "features": "E-Invoicing • Wholesale • Partners • Reports"
+        },
+        "overview": {
+          "title": "B2B Digitalization",
+          "description": "Complete solution for B2B sales and e-invoicing",
+          "image": "/images/solutions/b2b.jpg"
+        },
+        "benefits": {
+          "b1": {
+            "title": "E-Invoicing",
+            "description": "Automatic generation and sending of e-invoices"
+          },
+          "b2": {
+            "title": "Partner Management",
+            "description": "Different pricing and terms per partner"
+          },
+          "b3": {
+            "title": "Advanced Reports",
+            "description": "Detailed reports for B2B analytics"
+          }
+        },
+        "features": {
+          "title": "Professional B2B Tools",
+          "description": "Complete solution for wholesale and business partnerships",
+          "cta": "Explore B2B Features",
+          "feat1": {
+            "title": "E-Invoicing System",
+            "description": "Automated e-invoice generation and sending compliant with local regulations",
+            "icon": "i-heroicons-document-check"
+          },
+          "feat2": {
+            "title": "Customer-Specific Pricing",
+            "description": "Set different price lists, discounts, and payment terms for each B2B partner",
+            "icon": "i-heroicons-currency-dollar"
+          },
+          "feat3": {
+            "title": "Credit & Payment Terms",
+            "description": "Manage credit limits, payment terms, and automatic payment reminders",
+            "icon": "i-heroicons-banknotes"
+          },
+          "feat4": {
+            "title": "Bulk Orders",
+            "description": "Quick entry for large wholesale orders with item lookup and quantity management",
+            "icon": "i-heroicons-shopping-cart"
+          },
+          "feat5": {
+            "title": "Partner Portal",
+            "description": "Give partners access to order history, invoices, and account statements",
+            "icon": "i-heroicons-user-group"
+          },
+          "feat6": {
+            "title": "Analytics & Forecasting",
+            "description": "Advanced reports on partner performance, trends, and revenue forecasting",
+            "icon": "i-heroicons-chart-bar-square"
+          }
+        }
+      },
+      "cta": {
+        "learnMore": "Learn More",
+        "seeAll": "View All Solutions"
+      }
+    },
+    "demo": {
+      "hero": {
+        "title": "Book your free demo today!",
+        "subtitle": "See how Konty can solve your problems and improve your business.",
+        "formTitle": "Schedule a demo",
+        "formDescription": "Fill out the form and we'll contact you shortly to arrange a time.",
+        "benefits": {
+          "benefit1": "Personalized demonstration (~30 min)",
+          "benefit2": "Tailored to your industry and business type",
+          "benefit3": "Live Q&A with our expert",
+          "benefit4": "Discuss implementation immediately"
+        }
+      },
+      "expectations": {
+        "title": "What to expect from the demo",
+        "subtitle": "Personalized demonstration tailored to your needs",
+        "items": {
+          "personalized": {
+            "title": "Personalized feature presentation",
+            "description": "We show only the features that solve your specific problems"
+          },
+          "tailored": {
+            "title": "Tailored to your industry",
+            "description": "Demo focused on your business type - restaurant, café, store, or other"
+          },
+          "duration": {
+            "title": "Duration: approximately 30 minutes",
+            "description": "Short, efficient meeting that respects your time"
+          },
+          "qa": {
+            "title": "Live Q&A",
+            "description": "Direct communication with our expert - ask anything you're interested in"
+          },
+          "implementation": {
+            "title": "Fast implementation",
+            "description": "If you decide to switch, we can have you up and running in 48 hours"
+          },
+          "trial": {
+            "title": "30-day free trial",
+            "description": "Start using Konty immediately with full access to all features - no obligations"
+          }
+        }
+      },
+      "benefits": {
+        "title": "What to expect from the demo",
+        "subtitle": "Get a personalized demonstration tailored to your needs",
+        "benefit1": {
+          "title": "Personalized feature demonstration",
+          "description": "We show only the features that solve your specific problems"
+        },
+        "benefit2": {
+          "title": "Tailored to your industry and business type",
+          "description": "Demo is focused on your business type - restaurant, café, store, or other"
+        },
+        "benefit3": {
+          "title": "Duration: approximately 30 minutes",
+          "description": "Short, efficient meeting that respects your time"
+        },
+        "benefit4": {
+          "title": "Live Q&A",
+          "description": "Direct communication with our expert - ask anything you're interested in"
+        },
+        "benefit5": {
+          "title": "Discuss next steps immediately",
+          "description": "If you're interested, we can plan implementation and transition right away"
+        },
+        "details": "Online (Zoom/Meet) or phone • English or local language • Weekdays 9am-6pm"
+      },
+      "testimonials": {
+        "title": "From demo to implementation in days",
+        "subtitle": "Our clients started using Konty in just a few days",
+        "testimonial1": {
+          "quote": "The demo was exactly what we were looking for. We were fully operational with the new system in 3 days.",
+          "author": "Marko Petrović",
+          "role": "Owner of 'Taste Valley' restaurant",
+          "timeline": "3 days to implementation"
+        },
+        "testimonial2": {
+          "quote": "From first conversation to first receipt took only 48 hours. Fast, efficient, no complications.",
+          "author": "Ana Nikolić",
+          "role": "Owner of 'Fashion Forward' boutique",
+          "timeline": "2 days to implementation"
+        },
+        "testimonial3": {
+          "quote": "The demo showed us exactly what we needed. Implementation was faster than we expected.",
+          "author": "Stefan Jovanović",
+          "role": "Manager of 'Urban Grounds' café",
+          "timeline": "4 days to implementation"
+        }
+      },
+      "process": {
+        "title": "What happens during the demo?",
+        "subtitle": "4 simple steps to your new POS system",
+        "step1": {
+          "title": "Understanding your needs",
+          "description": "First we learn what's important to you and where you have problems",
+          "duration": "5 minutes"
+        },
+        "step2": {
+          "title": "Feature demonstration",
+          "description": "We show exactly those features that solve your problems",
+          "duration": "15-20 minutes"
+        },
+        "step3": {
+          "title": "Custom proposal",
+          "description": "You get a proposal tailored to your needs, no hidden costs",
+          "duration": "5 minutes"
+        },
+        "step4": {
+          "title": "Migration plan",
+          "description": "If you decide to switch, we create a 48-hour migration plan",
+          "duration": "5 minutes"
+        },
+        "whatYouGet": {
+          "title": "What you get after the demo?",
+          "outcome1": {
+            "title": "Clear picture of capabilities",
+            "description": "You'll know exactly what Konty can do for your business"
+          },
+          "outcome2": {
+            "title": "Personalized quote",
+            "description": "Pricing and features tailored just for you"
+          },
+          "outcome3": {
+            "title": "30 days free",
+            "description": "Test all features with no obligations"
+          }
+        }
+      },
+      "categorySelector": {
+        "title": "What type of business do you run?",
+        "subtitle": "We'll customize the demonstration for your industry",
+        "personalizedFor": "Demo customized for {business}",
+        "demoFeatures": "In the demo we'll focus on:",
+        "scheduleButton": "Schedule demo for this industry",
+        "examples": {
+          "restaurants": "Fine dining, family restaurants, pizzerias",
+          "barsCafes": "Cafes, bars, clubs, cafeterias",
+          "fastFood": "Fast food, kiosks, food trucks",
+          "grocery": "Supermarkets, grocery stores, mini markets",
+          "clothing": "Boutiques, clothing stores, shoe stores",
+          "convenience": "Tobacco shops, gas stations, 24/7 stores"
+        },
+        "features": {
+          "tableManagement": "Table management and reservations",
+          "kitchenDisplay": "Kitchen display and coordination",
+          "reservations": "Online reservations",
+          "splitBills": "Split bills by items",
+          "inventoryTracking": "Inventory tracking",
+          "barcodeScanning": "Barcode scanning",
+          "promotions": "Promotions and discounts",
+          "loyaltyProgram": "Loyalty program",
+          "onlineOrdering": "Online ordering",
+          "inventoryManagement": "Inventory management",
+          "multiLocation": "Multi-location support",
+          "analytics": "Advanced analytics"
+        }
+      },
+      "meetingDetails": {
+        "title": "What can you expect from the demo meeting?",
+        "format": {
+          "title": "Online video call",
+          "description": "We use Zoom or Google Meet. Phone call works too if you prefer."
+        },
+        "duration": {
+          "title": "15-30 minutes",
+          "description": "Short, focused meeting. We respect your time."
+        },
+        "language": {
+          "title": "In your language",
+          "description": "English or local language - whatever you prefer."
+        },
+        "participants": {
+          "title": "You and our expert",
+          "description": "Invite anyone from your team. We come with one expert."
+        },
+        "preparation": {
+          "title": "Prepare before the meeting:",
+          "item1": "Current POS system problems",
+          "item2": "Number of locations and registers",
+          "item3": "Monthly revenue (approximate)",
+          "item4": "Specific features you need"
+        },
+        "questions": "Have questions before the demo meeting?",
+        "viewFaq": "View FAQ",
+        "testimonial": {
+          "quote": "The demo was exactly what we were looking for - no sales pitch, just concrete solutions to our problems.",
+          "author": "Mark Johnson",
+          "role": "Restaurant Owner"
+        }
+      },
+      "features": {
+        "liveDemo": "Live Demo",
+        "personalizedWalkthrough": "Personalized Walkthrough",
+        "industrySpecific": "Industry Specific Solutions",
+        "qaSession": "Q&A Session",
+        "trialSetup": "Free Trial Setup"
+      }
+    },
+    "contact": {
+      "hero": {
+        "title": "Get In Touch",
+        "subtitle": "We're here to help you choose the perfect POS solution for your business."
+      },
+      "address": {
+        "title": "Address",
+        "line1": "Bulevar Svetog Petra Cetinjskog 56",
+        "line2": "81000 Podgorica, Montenegro"
+      },
+      "phone": {
+        "title": "Phone",
+        "number": "+382 67 607 670"
+      },
+      "email": {
+        "title": "Email",
+        "address": "contact"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "weekdays": "Monday - Friday: 9:00 - 18:00",
+        "weekend": "Saturday: 10:00 - 14:00"
+      }
+    },
+    "clientStories": {
+      "hero": {
+        "title": "Success Stories",
+        "subtitle": "See how businesses like yours transformed their operations with Konty."
+      },
+      "badge": "Real Results",
+      "empty": {
+        "title": "No stories yet",
+        "description": "Check back soon for client success stories."
+      }
+    },
+    "partners": {
+      "hero": {
+        "title": "Become a Konty Partner",
+        "subtitle": "Expand your offering and deliver cutting-edge POS solutions to your clients. Join our growing partner network."
+      },
+      "cta": "Become a Partner",
+      "filterPlaceholder": "Search partners...",
+      "noResults": "No results found for your search",
+      "benefits": {
+        "title": "Why Partner with Konty",
+        "description": "Join a growing network and expand your business with competitive advantages and comprehensive support.",
+        "benefit1": {
+          "title": "Competitive Pricing",
+          "description": "Attractive partner pricing structure with volume-based incentives to maximize your profitability and grow your business."
+        },
+        "benefit2": {
+          "title": "Proven Product",
+          "description": "Sell a reliable, cloud-based POS system trusted by thousands of businesses across retail and hospitality sectors."
+        },
+        "benefit3": {
+          "title": "Comprehensive Training",
+          "description": "Complete onboarding and ongoing product training to ensure you can confidently sell and support Konty solutions."
+        },
+        "benefit4": {
+          "title": "Technical Support",
+          "description": "Dedicated partner support line and technical assistance to help you successfully implement and maintain client solutions."
+        },
+        "benefit5": {
+          "title": "Marketing Materials",
+          "description": "Co-branded marketing materials, sales tools, and lead generation support to accelerate your sales process."
+        },
+        "benefit6": {
+          "title": "Growing Market",
+          "description": "Tap into the expanding POS market with a modern, feature-rich solution that meets diverse business needs."
+        }
+      },
+      "flow": {
+        "title": "Partnership Process",
+        "description": "How to become a Konty partner in 4 simple steps",
+        "steps": {
+          "step1": {
+            "title": "Initial Contact",
+            "description": "Fill out the form and our partnership team will reach out within 24 hours"
+          },
+          "step2": {
+            "title": "Partnership Agreement",
+            "description": "Review and sign the partnership terms and commercial conditions"
+          },
+          "step3": {
+            "title": "Training & Onboarding",
+            "description": "Complete comprehensive training on products, sales, and technical implementation"
+          },
+          "step4": {
+            "title": "Start Selling",
+            "description": "Begin offering Konty solutions with full support from our team"
+          }
+        }
+      },
+      "support": {
+        "title": "Partner Support",
+        "description": "Comprehensive support to ensure your success as a Konty partner",
+        "types": {
+          "technical": {
+            "title": "Technical Support",
+            "description": "Get the technical backing you need to confidently implement and support Konty solutions.",
+            "features": {
+              "feature1": "Dedicated technical support line",
+              "feature2": "Implementation assistance",
+              "feature3": "Regular product training",
+              "feature4": "Access to technical documentation"
+            }
+          },
+          "commercial": {
+            "title": "Commercial Support",
+            "description": "Attractive commercial terms and conditions to maximize your profitability.",
+            "features": {
+              "feature1": "Competitive partner pricing",
+              "feature2": "Volume-based incentives",
+              "feature3": "Deal registration program",
+              "feature4": "Quarterly business reviews"
+            }
+          },
+          "marketing": {
+            "title": "Marketing Support",
+            "description": "Marketing materials and co-marketing opportunities to help you succeed.",
+            "features": {
+              "feature1": "Co-branded marketing materials",
+              "feature2": "Lead generation support",
+              "feature3": "Partner portal access",
+              "feature4": "Joint marketing campaigns"
+            }
+          }
+        }
+      },
+      "faq": {
+        "title": "Partner FAQ",
+        "subtitle": "Common questions about becoming a Konty partner",
+        "q1": "How do I become a Konty partner?",
+        "a1": "Simply fill out the contact form on this page and our partnership team will reach out to you within 24 hours to discuss the opportunity and next steps.",
+        "q2": "What are the requirements to become a partner?",
+        "a2": "We look for partners with experience in retail or hospitality technology, a proven sales track record, and the ability to provide local support to clients in your region.",
+        "q3": "What support do partners receive?",
+        "a3": "Partners receive comprehensive technical, commercial, and marketing support including training, documentation, co-branded materials, dedicated support lines, and ongoing product updates.",
+        "q4": "How does the delivery process work?",
+        "a4": "After signing the partnership agreement and completing training, you'll have access to our partner portal, demo systems, and sales materials. Our team supports you throughout the sales and implementation process.",
+        "q5": "What are the commercial terms?",
+        "a5": "We offer competitive partner pricing with volume-based incentives. Specific terms are discussed during the partnership evaluation process and tailored to your market and capabilities."
+      }
+    },
+    "blog": {
+      "hero": {
+        "title": "Blog & Resources",
+        "subtitle": "Expert insights and practical tips for modern POS management"
+      },
+      "featured": "Featured",
+      "related": {
+        "title": "Related Articles"
+      },
+      "readMore": "Read more",
+      "byAuthor": "By",
+      "minRead": "min read"
+    }
+  },
+  "seo": {
+    "contact": {
+      "title": "Contact Us - Konty POS",
+      "description": "Get in touch with our team. We're here to help you choose the perfect POS solution."
+    },
+    "clientStories": {
+      "title": "Client Success Stories - Konty POS",
+      "description": "Real stories from businesses that transformed their operations with Konty POS."
+    },
+    "partners": {
+      "title": "Partners Network - Konty POS",
+      "description": "Join our growing network of partners delivering Konty solutions."
+    },
+    "demo": {
+      "description": "See Konty in action. Free 15-minute demo tailored to your business. No obligations.",
+      "title": "Book a Demo - Konty POS"
+    },
+    "home": {
+      "description": "Reliable cloud POS system trusted by 25,000+ businesses. 30-second support response. Switch in 48 hours. Keep your hardware.",
+      "title": "Konty - Professional POS System for Restaurants & Retail"
+    },
+    "pricing": {
+      "description": "Transparent pricing with no hidden fees. Monthly subscriptions tailored to your business size. Start free for 30 days.",
+      "title": "Pricing - Konty POS System"
+    },
+    "privacy": {
+      "description": "How Konty protects your data and your customers' privacy.",
+      "title": "Privacy Policy - Konty"
+    },
+    "products": {
+      "description": "Choose the perfect POS solution for your business. Specialized systems for restaurants, cafes, retail stores, and chains.",
+      "title": "Products - Konty POS Solutions",
+      "hospitality": {
+        "description": "Specialized POS for restaurants, cafes, and bars. Reservations, orders, tables, delivery - all in one place.",
+        "title": "Restaurant POS System - Konty Hospitality",
+        "features": {
+          "title": "All Hospitality Features - Konty POS",
+          "description": "Complete feature list for restaurant POS: table management, kitchen display, staff scheduling, and more."
+        }
+      },
+      "retail": {
+        "description": "Fast checkout, automatic inventory management, sales analytics. Perfect for stores, supermarkets, and chains.",
+        "title": "Retail POS System - Konty Retail",
+        "features": {
+          "title": "All Retail Features - Konty POS",
+          "description": "Complete feature list for retail POS: inventory management, barcode scanning, loyalty programs, and more."
+        }
+      },
+      "download": {
+        "title": "Download Konty",
+        "description": "Download Konty for any device or platform"
+      },
+      "faqdocs": {
+        "title": "FAQ and Documentation",
+        "description": "FAQ and Documentation for Konty"
+      }
+    },
+    "terms": {
+      "description": "Terms of service for Konty POS system and related services.",
+      "title": "Terms of Service - Konty"
+    },
+    "solutions": {
+      "title": "Industry-Specific POS Solutions | Konty POS Tailored to Your Business",
+      "description": "Discover how Konty POS can transform your business. Specialized solutions for restaurants, cafes, retail stores, and B2B.",
+      "restaurants": {
+        "title": "Restaurant POS System | Konty for Full-Service Dining",
+        "description": "Complete POS solution for restaurants. Table management, kitchen display, reservations, and analytics."
+      },
+      "barsCafes": {
+        "title": "Bar & Cafe POS | Fast Service Point of Sale System",
+        "description": "Speed-optimized POS system. Perfect for bars and cafes with high-volume traffic."
+      },
+      "fastFood": {
+        "title": "Fast Food POS System | Quick Service Restaurant Solutions",
+        "description": "Efficient POS for quick service restaurants. Drive-thru, delivery, and dine-in from one system."
+      },
+      "grocerySupermarkets": {
+        "title": "Grocery Store POS | Supermarket Point of Sale System",
+        "description": "Manage thousands of products with ease. Barcode scanning, promotions, and real-time inventory."
+      },
+      "clothingBoutiques": {
+        "title": "Clothing Store POS | Fashion Retail Management System",
+        "description": "Specialized POS for fashion retail. Sizes, colors, seasons, and loyalty programs."
+      },
+      "convenienceStores": {
+        "title": "Convenience Store POS | 24/7 Retail Management System",
+        "description": "Reliable POS for round-the-clock operations. Simplified inventory and fast checkout."
+      },
+      "b2b": {
+        "title": "B2B POS & E-Invoicing | Wholesale Management System",
+        "description": "Professional B2B solution with e-invoicing. Different pricing per partner and advanced reports."
+      }
+    },
+    "blog": {
+      "title": "Blog - Konty POS Insights & Resources",
+      "description": "Expert insights, tips, and best practices for modern POS management. Learn how to optimize your business operations."
+    }
+  },
+  "data": {
+    "company": {
+      "tradeName": "Codeus",
+      "legalName": "Codeus",
+      "description": "Software development agency with 8+ years of experience. Building web and mobile applications for US and European clients.",
+      "vatID": "03091627",
+      "registrationNumber": "50762726",
+      "foundingDate": "2016-01-01",
+      "domain": "lexora.me",
+      "geo": {
+        "latitude": "42.4470781472723",
+        "longitude": "19.250017528179818"
+      },
+      "numberOfEmployees": {
+        "min": 25,
+        "max": 35
+      },
+      "paymentAccepted": "Credit Card, Bank Transfer",
+      "businessHours": {
+        "weekdays": {
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      },
+      "address": {
+        "street": "Moskovska 153",
+        "city": "Podgorica",
+        "region": "Podgorica",
+        "postalCode": "81000",
+        "country": "Montenegro",
+        "countryCode": "ME"
+      },
+      "contact": {
+        "phone": "+38267607670",
+        "email": "contact"
+      },
+      "areaServed": ["US", "EU", "ME", "RS", "BA", "HR"],
+      "availableLanguage": ["en", "sr"],
+      "knowsAbout": [
+        "Web Application Development",
+        "Mobile Application Development",
+        "Backend Development",
+        "System Architecture",
+        "Technology Consulting",
+        "Project Management",
+        "PHP Development",
+        "Laravel Framework",
+        "Vue.js Development",
+        "Custom Software Development"
+      ],
+      "social": {
+        "facebook": "https://www.facebook.com/lexora.me",
+        "linkedin": "https://me.linkedin.com/company/codeus-doo",
+        "twitter": "https://x.com/codeusTeam"
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+@theme {
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+  /* Primary color scale - 500 is the base brand color */
+  --color-primary-50: #f5f3f7;
+  --color-primary-100: #ebe7ef;
+  --color-primary-200: #d7cede;
+  --color-primary-300: #bbaace;
+  --color-primary-400: #9c81ba;
+  --color-primary-500: #4a2d67;  /* Base brand color */
+  --color-primary-600: #3b2453;
+  --color-primary-700: #2d1c3e;
+  --color-primary-800: #1e132a;
+  --color-primary-900: #0f0a15;
+  --color-primary-950: #000000;
+
+  /* Semantic colors for custom usage */
+  --ui-secondary: #fa7faa;
+
+  /* Background colors */
+  --ui-bg: white;
+  --ui-bg-alt: #f3f4f8;
+}
+
+/* Dark theme overrides */
+:root.dark, .dark {
+  /* In dark mode, use lighter purple scale for better contrast */
+  --color-primary-50: #fdfbff;
+  --color-primary-100: #f9f5fd;
+  --color-primary-200: #f1e9fa;
+  --color-primary-300: #e4d4f4;
+  --color-primary-400: #d1b5eb;
+  --color-primary-500: #c9a5e8;  /* Lighter purple as base for dark mode */
+  --color-primary-600: #ba91dd;
+  --color-primary-700: #a67fca;
+  --color-primary-800: #8a5fb3;
+  --color-primary-900: #744c98;
+  --color-primary-950: #4a2d67;
+
+  --ui-secondary: #f88eb3;
+
+  --ui-bg: #201633;
+  --ui-bg-alt: #2f2350;
+  --ui-bg-elevated: #3d2d5e;
+}
+
+html {
+  font-family: var(--font-sans);
+}
+
+/* Fix mobile viewport issues */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+.ui-appear {
+  opacity: 0;
+  transform: var(--appear-transform, translate3d(0, 24px, 0));
+  transition:
+    opacity var(--appear-duration, 700ms) var(--appear-ease, ease-out) var(--appear-delay, 0ms),
+    transform var(--appear-duration, 700ms) var(--appear-ease, ease-out) var(--appear-delay, 0ms);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.ui-appear.is-visible {
+  opacity: 1;
+  transform: none;
+}

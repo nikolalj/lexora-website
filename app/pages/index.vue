@@ -1,0 +1,57 @@
+<template>
+  <div>
+    <!-- Critical above-fold - hydrate immediately -->
+    <HomeHero class="dark" />
+
+    <!-- Below-fold components - delay hydration, keep SSR -->
+    <LazySharedClientList class="dark" hydrate-on-visible />
+    <LazySharedStatistics class="dark !pt-4" hydrate-on-visible />
+    <LazyHomeFeatures hydrate-on-visible />
+    <LazySharedTestimonials hydrate-on-idle />
+    <LazySharedGetStarted variant="alt" hydrate-on-visible />
+    <LazySharedPricing hydrate-on-visible />
+    <LazySharedContactForm variant="alt" hydrate-on-visible />
+
+    <!-- Far below fold - maximum delay -->
+    <LazyHomeBlogPosts class="mb-8" hydrate-on-idle />
+  </div>
+</template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+const schemas = useSchemas()
+
+// SEO meta tags
+usePageSeo({
+  title: t('seo.home.title'),
+  description: t('seo.home.description')
+})
+
+// OG Image generation
+defineOgImageComponent('Main', {
+  title: t('pages.home.hero.title'),
+  description: t('pages.home.hero.subtitle'),
+  badge: t('pages.pricing.freeTrial'),
+  cta: t('ui.cta.primary')
+})
+
+// Schema.org structured data using module composables
+// Organization schema is automatically added from site.identity
+defineWebPage({
+  name: t('seo.home.title'),
+  description: t('seo.home.description')
+})
+
+// Use centralized FAQ schema
+const faqQuestions = [
+  { q: t('pages.products.faq.q1'), a: t('pages.products.faq.a1') },
+  { q: t('pages.products.faq.q2'), a: t('pages.products.faq.a2') },
+  { q: t('pages.products.faq.q3'), a: t('pages.products.faq.a3') },
+  { q: t('pages.products.faq.q4'), a: t('pages.products.faq.a4') },
+  { q: t('pages.products.faq.q5'), a: t('pages.products.faq.a5') },
+  { q: t('pages.pricing.faq.pricing.q1'), a: t('pages.pricing.faq.pricing.a1') },
+  { q: t('pages.pricing.faq.pricing.q2'), a: t('pages.pricing.faq.pricing.a2') }
+]
+
+useSchemaOrg([schemas.faqSchema(faqQuestions)])
+</script>

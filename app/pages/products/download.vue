@@ -1,0 +1,163 @@
+<template>
+  <section class="pt-44 pb-16">
+    <UContainer class="flex flex-col lg:grid gap-y-16 gap-12 lg:grid-cols-2 lg:items-center">
+      <!-- Left column: Text content -->
+      <div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl text-pretty tracking-tight font-bold text-highlighted">
+          {{ t('pages.products.download.hero.title') }}
+        </h1>
+
+        <p class="text-xl font-semibold text-primary mt-4">
+          {{ t('pages.products.download.hero.subtitle') }}
+        </p>
+
+        <p class="text-lg text-muted text-pretty mt-6">
+          {{ t('pages.products.download.hero.description') }}
+        </p>
+
+        <!-- Documentation link - hidden on mobile, shown on desktop -->
+        <div class="hidden lg:block">
+          <div class="mt-12 inline-flex items-center gap-2 px-4 py-3 bg-primary-500/10 rounded-lg border border-primary-200">
+            <UIcon name="i-lucide-file-text" class="w-5 h-5 text-primary" />
+              <p class="text-base text-gray-700 dark:text-gray-300">
+                {{ t('pages.products.download.hero.docsLink') }}
+                <a href="https://docs.lexora.me" target="_blank" class="text-primary underline font-semibold cursor-pointer">
+                  {{ t('pages.products.download.hero.docsLinkText') }}
+                </a>
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column: All Downloads -->
+      <div class="space-y-6">
+        <!-- Production Downloads -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4 text-highlighted">{{ items.production.title }}</h3>
+          <div class="grid grid-cols-4 gap-3">
+            <a
+              v-for="option in items.production.options"
+              :key="option.title"
+              :href="option.link"
+              target="_blank"
+              class="flex flex-col items-center justify-center p-6 rounded-lg bg-white dark:bg-[var(--bg-300)] hover:bg-gray-100 dark:hover:bg-[var(--bg-400)] ring-1 ring-gray-200 dark:ring-gray-700 hover:shadow-lg transition-all duration-300 cursor-pointer group"
+              @click="handleDownload('Full', option.platform)"
+            >
+              <UIcon :name="option.icon" class="w-12 h-12 text-primary mb-3" />
+              <span class="text-sm font-medium">{{ option.title }}</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Demo Downloads -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4 text-highlighted">{{ items.demo.title }}</h3>
+          <div class="grid grid-cols-4 gap-3">
+            <a
+              v-for="option in items.demo.options"
+              :key="option.title"
+              :href="option.link"
+              target="_blank"
+              class="flex flex-col items-center justify-center p-6 rounded-lg bg-white dark:bg-[var(--bg-300)] hover:bg-gray-100 dark:hover:bg-[var(--bg-400)] ring-1 ring-gray-200 dark:ring-gray-700 hover:shadow-lg transition-all duration-300 cursor-pointer group"
+              @click="handleDownload('Demo', option.platform)"
+            >
+              <UIcon :name="option.icon" class="w-12 h-12 text-gray-500 mb-3" />
+              <span class="text-sm font-medium">{{ option.title }}</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Documentation link - shown on mobile only, after downloads -->
+      <div class="lg:hidden">
+        <div class="inline-flex items-center gap-2 px-4 py-3 bg-primary-500/10 rounded-lg border border-primary-200">
+          <UIcon name="i-lucide-file-text" class="w-5 h-5 text-primary" />
+          <p class="text-base text-gray-700 dark:text-gray-300">
+            {{ t('pages.products.download.hero.docsLink') }}
+            <a href="https://docs.lexora.me" target="_blank" class="text-primary underline font-semibold cursor-pointer">
+              {{ t('pages.products.download.hero.docsLinkText') }}
+            </a>
+          </p>
+        </div>
+      </div>
+    </UContainer>
+  </section>
+</template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+const { track } = useTracking()
+
+const handleDownload = (version: 'Demo' | 'Full', platform: string) => {
+  track('download', {
+    category: version,
+    label: platform
+  })
+}
+
+const items = ref({
+  production: {
+    title: t('pages.products.download.sections.production.title'),
+    options: [
+      {
+        title: t('pages.products.download.sections.production.web'),
+        platform: 'Web',
+        icon: 'i-lucide-globe',
+        link: 'https://app.konty.app'
+      },
+      {
+        title: t('pages.products.download.sections.production.windows'),
+        platform: 'Windows',
+        icon: 'i-simple-icons-windows',
+        link: 'https://downloads.konty.app/windows/konty-setup.exe'
+      },
+      {
+        title: t('pages.products.download.sections.production.android'),
+        platform: 'Android',
+        icon: 'i-simple-icons-android',
+        link: 'https://downloads.konty.app/android/konty.apk'
+      },
+      {
+        title: t('pages.products.download.sections.production.macos'),
+        platform: 'Mac',
+        icon: 'i-simple-icons-apple',
+        link: 'https://downloads.konty.app/macos/konty.dmg'
+      }
+    ]
+  },
+  demo: {
+    title: t('pages.products.download.sections.demo.title'),
+    options: [
+      {
+        title: t('pages.products.download.sections.demo.web'),
+        platform: 'Web',
+        icon: 'i-lucide-globe',
+        link: 'https://demo.konty.app'
+      },
+      {
+        title: t('pages.products.download.sections.demo.windows'),
+        platform: 'Windows',
+        icon: 'i-simple-icons-windows',
+        link: 'https://downloads.konty.app/demo/windows/konty-demo-setup.exe'
+      },
+      {
+        title: t('pages.products.download.sections.demo.android'),
+        platform: 'Android',
+        icon: 'i-simple-icons-android',
+        link: 'https://downloads.konty.app/demo/android/konty-demo.apk'
+      },
+      {
+        title: t('pages.products.download.sections.demo.macos'),
+        platform: 'Mac',
+        icon: 'i-simple-icons-apple',
+        link: 'https://downloads.konty.app/demo/macos/konty-demo.dmg'
+      }
+    ]
+  }
+})
+
+usePageSeo({
+  title: t('seo.products.download.title'),
+  description: t('seo.products.download.description')
+})
+</script>

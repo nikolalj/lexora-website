@@ -1,0 +1,65 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "lexora-website",
+	"main": "./server-wrapper.ts",
+	"compatibility_date": "2025-09-09",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"workers_dev": true,
+	"assets": {
+		"binding": "ASSETS",
+		"directory": "./.output/public/"
+	},
+	"observability": {
+		"enabled": true
+	},
+	"placement": {
+		"mode": "smart"
+	},
+	"vars": {
+		"NODE_ENV": "development",
+		"APP_ENV": "development",
+		"NUXT_PUBLIC_SITE_URL": "http://localhost:3000"
+	},
+	"env": {
+		"production": {
+			"workers_dev": true, // TODO Production - set to false and use real domain
+			"assets": {
+				"binding": "ASSETS",
+				"directory": "./.output/public/"
+			},
+			"d1_databases": [
+				{
+					"binding": "content_db",
+					"database_name": "content-production",
+					"database_id": "ba2933f7-3807-4324-812b-c984dfe9cc3f"
+				}
+			],
+			"vars": {
+				"NODE_ENV": "production",
+				"APP_ENV": "production",
+				"NUXT_PUBLIC_SITE_URL": "https://lexora.me"
+			}
+		},
+		"staging": {
+			"workers_dev": true,
+			"assets": {
+				"binding": "ASSETS",
+				"directory": "./.output/public/"
+			},
+			"d1_databases": [
+				{
+					"binding": "content_db",
+					"database_name": "content-staging",
+					"database_id": "c7b7af8b-e85d-4a32-89a3-eaa2ad9962b5"
+				}
+			],
+			"vars": {
+				"NODE_ENV": "production",
+				"APP_ENV": "staging",
+				"NUXT_PUBLIC_SITE_URL": "https://lexora-website-staging.codeusteam.workers.dev"
+			}
+		}
+	}
+}
