@@ -233,48 +233,6 @@ const columns: FooterColumn[] = [
     ]
   },
   {
-    label: t('ui.footer.hospitalitySolutions.title'),
-    children: [
-      {
-        label: t('ui.footer.hospitalitySolutions.restaurants'),
-        to: localePath('/solutions/restaurants')
-      },
-      {
-        label: t('ui.footer.hospitalitySolutions.cafes'),
-        to: localePath('/solutions/bars-cafes')
-      },
-      {
-        label: t('ui.footer.hospitalitySolutions.bars'),
-        to: localePath('/solutions/bars-cafes')
-      },
-      {
-        label: t('ui.footer.hospitalitySolutions.pizzerias'),
-        to: localePath('/solutions/restaurants')
-      }
-    ]
-  },
-  {
-    label: t('ui.footer.retailSolutions.title'),
-    children: [
-      {
-        label: t('ui.footer.retailSolutions.grocery'),
-        to: localePath('/solutions/grocery-supermarkets')
-      },
-      {
-        label: t('ui.footer.retailSolutions.supermarkets'),
-        to: localePath('/solutions/grocery-supermarkets')
-      },
-      {
-        label: t('ui.footer.retailSolutions.clothing'),
-        to: localePath('/solutions/clothing-boutiques')
-      },
-      {
-        label: t('ui.footer.retailSolutions.convenience'),
-        to: localePath('/solutions/convenience-stores')
-      }
-    ]
-  },
-  {
     label: t('ui.footer.about.title'),
     children: [
       { label: t('ui.footer.about.contact'), to: localePath('/contact') },

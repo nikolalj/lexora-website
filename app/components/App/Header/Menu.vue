@@ -27,126 +27,75 @@
           </template>
 
           <template #content>
-            <!-- Products content -->
-            <div v-if="item.slot === 'products'" class="p-4 space-y-4">
-              <div class="grid grid-cols-2 gap-4 mb-6">
+            <!-- Solutions content -->
+            <div v-if="item.slot === 'solutions'" class="p-4 space-y-4">
+              <div class="flex gap-4 mb-4">
                 <template
                   v-for="child in item.children.slice(0, 2)"
                   :key="child.label"
                 >
-                  <ULink
-                    :to="child.to || '#'"
-                    class="relative group block overflow-hidden aspect-[4/3]"
-                    :exact="route.path === child.to"
-                    @click="handleNavigate"
+                  <div
+                    class="flex flex-col flex-1"
+                    @mouseenter="hoveredSolutionLabel = child.label"
                   >
-                    <NuxtImg
-                      v-if="child.image"
-                      :src="child.image.src"
-                      format="avif"
-                      loading="lazy"
-                      :alt="child.image.alt"
-                      quality="80"
-                      class="absolute inset-0 w-full h-full object-cover"
-                    />
+                    <ULink
+                      :to="child.to || '#'"
+                      :style="child.image ? { backgroundImage: `url('${child.image.src}')`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}"
+                      :class="[
+                        'relative group block overflow-hidden h-56 rounded-lg flex-shrink-0 cursor-pointer transition-opacity',
+                        hoveredSolutionLabel && hoveredSolutionLabel !== child.label ? 'opacity-50' : 'opacity-100',
+                        !child.image && (child.icon === 'i-lucide-scale'
+                          ? 'bg-gradient-to-br from-[#4C5BA8] via-[#3D4A8F] to-[#2D3A6F]'
+                          : 'bg-gradient-to-br from-[#47ABAA] via-[#3A9B9A] to-[#2A7B7A]')
+                      ]"
+                      :exact="route.path === child.to"
+                      @click="handleNavigate"
+                    >
+                      <!-- Overlay for text readability -->
+                      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
 
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-
-                    <div class="absolute inset-0 flex items-end justify-center pb-3 px-3">
-                      <p class="text-white text-sm font-bold text-center leading-tight line-clamp-2">
-                        {{ child.label }}
-                      </p>
-                    </div>
-                  </ULink>
+                      <!-- Title -->
+                      <div class="absolute inset-0 flex items-end justify-center pb-3 px-3">
+                        <p class="text-white text-sm font-bold text-center leading-tight">
+                          {{ child.label }}
+                        </p>
+                      </div>
+                    </ULink>
+                  </div>
                 </template>
+              </div>
+              <!-- Shared description area -->
+              <div v-if="hoveredSolutionLabel" class="text-xs text-[var(--ui-text-secondary)] text-center leading-relaxed px-2 min-h-12 mb-2 flex items-center justify-center overflow-hidden max-w-116">
+                <p class="break-words">{{ item.children.slice(0, 2).find(c => c.label === hoveredSolutionLabel)?.description }}</p>
               </div>
 
               <div
                 v-if="item.children.length > 2"
-                class="flex items-center justify-center"
+                class="flex gap-2"
               >
                 <template
-                  v-for="(child, index) in item.children.slice(2)"
+                  v-for="child in item.children.slice(2)"
                   :key="child.label"
                 >
                   <ULink
                     :to="child.to || '#'"
-                    class="flex items-center space-x-2 text-sm font-semibold text-left rounded-md px-3 py-2 transition-colors hover:bg-elevated/50"
+                    class="group flex items-center justify-center space-x-2 text-sm font-semibold text-center rounded-md px-3 py-2 transition-all text-[var(--ui-text-primary)] hover:bg-primary-500 hover:text-white"
                     :exact="route.path === child.to"
                     @click="handleNavigate"
                   >
                     <Icon
                       v-if="child.icon"
                       :name="child.icon"
-                      class="w-5 h-5 text-primary flex-shrink-0"
+                      class="w-5 h-5 text-primary group-hover:text-white flex-shrink-0 transition-colors"
                     />
                     <p class="font-semibold text-sm">
                       {{ child.label }}
                     </p>
                   </ULink>
-
-                  <div
-                    v-if="index === 0 && item.children.slice(2).length > 1"
-                    class="w-px h-4 bg-gray-300 mx-2"
-                  />
                 </template>
               </div>
             </div>
 
-            <!-- Hospitality and retail content -->
-            <div
-              v-else-if="item.slot === 'hospitality' || item.slot === 'retail'"
-              class="p-4 min-w-64"
-              @mouseleave="openStates[item.label] = false"
-            >
-              <div
-                class="flex transition-all duration-300 ease-in-out"
-                @mouseleave="resetDescription"
-              >
-                <div class="flex flex-col space-y-2 flex-shrink-0">
-                  <template v-for="child in item.children" :key="child.label">
-                    <ULink
-                      :to="child.to || '#'"
-                      class="flex items-center space-x-3 px-4 py-3 rounded-md transition-colors hover:bg-elevated/50 whitespace-nowrap"
-                      :exact="route.path === child.to"
-                      @mouseenter="hoveredItem = child"
-                      @click="handleNavigate"
-                    >
-                      <Icon
-                        v-if="child.icon"
-                        :name="child.icon"
-                        class="w-5 h-5 text-primary flex-shrink-0"
-                      />
-                      <p class="text-sm font-semibold">
-                        {{ child.label }}
-                      </p>
-                    </ULink>
-                  </template>
-                </div>
-
-                <div
-                  class="transition-all duration-300 ease-in-out bg-gray-200 flex-shrink-0"
-                  :class="hoveredItem ? 'w-px opacity-100 mx-4' : 'w-0 opacity-0 mx-0'"
-                />
-
-                <div
-                  class="transition-all duration-300 ease-in-out flex-1 min-w-0"
-                  :class="hoveredItem || lastHoveredItem ? 'opacity-100' : 'opacity-0'"
-                >
-                  <div
-                    v-if="
-                      (hoveredItem || lastHoveredItem) &&
-                      (hoveredItem?.description || lastHoveredItem?.description)
-                    "
-                    class="pr-4 w-44"
-                  >
-                    <p class="text-sm leading-relaxed whitespace-normal break-words">
-                      {{ hoveredItem?.description || lastHoveredItem?.description }}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <!-- About content -->
             <div v-else-if="item.slot === 'about'" class="p-4">
@@ -154,13 +103,13 @@
                 <li v-for="child in item.children" :key="child.label">
                   <ULink
                     :to="child.to || '#'"
-                    class="flex items-center space-x-3 px-4 py-3 rounded-md transition-colors hover:bg-elevated/50 whitespace-nowrap"
+                    class="group flex items-center space-x-3 px-4 py-3 rounded-md transition-all text-[var(--ui-text-primary)] hover:bg-primary-500 hover:text-white whitespace-nowrap"
                     @click="handleNavigate"
                   >
                     <Icon
                       v-if="child.icon"
                       :name="child.icon"
-                      class="w-5 h-5 text-primary flex-shrink-0"
+                      class="w-5 h-5 text-primary group-hover:text-white flex-shrink-0 transition-colors"
                     />
                     <p class="text-sm font-semibold">
                       {{ child.label }}
@@ -215,13 +164,14 @@ interface BaseMenuItem {
 }
 
 interface MenuGroup extends BaseMenuItem {
-  slot?: 'products' | 'hospitality' | 'retail' | 'about'
+  slot?: 'solutions' | 'about'
   children?: BaseMenuItem[]
   class?: string
 }
 
 const hoveredItem = ref<BaseMenuItem | null>(null)
 const lastHoveredItem = ref<BaseMenuItem | null>(null)
+const hoveredSolutionLabel = ref<string | null>(null)
 const openStates = reactive<Record<string, boolean>>({})
 
 watch(hoveredItem, (val) => {
@@ -260,97 +210,45 @@ watch(anyOpen, (isOpen, wasOpen) => {
 
 const items = computed<MenuGroup[]>(() => [
   {
-    label: t('ui.navigation.main.products'),
+    label: t('ui.navigation.main.solutions'),
     class: 'font-bold',
-    slot: 'products' as const,
+    slot: 'solutions' as const,
     children: [
       {
-        label: t('ui.navigation.products.forHospitality'),
-        description: t('ui.navigation.main.hospitalityDesc'),
-        to: localePath('/products/hospitality'),
+        label: t('ui.navigation.solutions.forJudges'),
+        description: t('ui.navigation.solutions.forJudgesDesc'),
+        to: localePath('/solutions/judges'),
         image: {
-          src: '/images/features/hospitality.avif',
-          alt: 'Hospitality products'
+          src: '/images/features/solutions/judge.png',
+          alt: 'AI Assistant for Judges'
         },
-        icon: 'i-lucide-coffee'
+        icon: 'i-lucide-scale'
       },
       {
-        label: t('ui.navigation.products.forRetail'),
-        description: t('ui.navigation.main.retailDesc'),
-        to: localePath('/products/retail'),
-        image: { src: '/images/features/retail.avif', alt: 'Retail products' },
-        icon: 'i-lucide-shopping-cart'
+        label: t('ui.navigation.solutions.forLawyers'),
+        description: t('ui.navigation.solutions.forLawyersDesc'),
+        to: localePath('/solutions/lawyers'),
+        image: {
+          src: '/images/features/solutions/lawyer.png',
+          alt: 'AI Assistant for Lawyers'
+        },
+        icon: 'i-lucide-briefcase'
       },
       {
-        label: t('ui.navigation.products.bookDemo'),
+        label: t('ui.navigation.solutions.forResearchers'),
+        description: t('ui.navigation.solutions.forResearchersDesc'),
+        icon: 'i-lucide-book-open',
+        to: localePath('/solutions/researchers')
+      },
+      {
+        label: t('ui.navigation.solutions.bookDemo'),
         icon: 'i-lucide-calendar',
         to: localePath('/demo')
       },
       {
-        label: t('ui.navigation.products.download'),
-        icon: 'i-lucide-download',
-        to: localePath('/products/download')
-      },
-      {
-        label: t('ui.navigation.products.faqdocs'),
+        label: t('ui.navigation.solutions.documentation'),
         icon: 'i-lucide-file-text',
-        to: localePath('/products/faqdocs')
-      }
-    ]
-  },
-  {
-    label: t('ui.navigation.main.hospitality'),
-    class: 'font-bold',
-    slot: 'hospitality' as const,
-    children: [
-      {
-        label: t('ui.navigation.categories.restaurants'),
-        description: t('ui.navigation.categories.restaurantsDesc'),
-        icon: 'i-lucide-utensils',
-        to: localePath('/solutions/restaurants')
-      },
-      {
-        label: t('ui.navigation.categories.barsCafes'),
-        description: t('ui.navigation.categories.barsCafesDesc'),
-        icon: 'i-lucide-coffee',
-        to: localePath('/solutions/bars-cafes')
-      },
-      {
-        label: t('ui.navigation.categories.fastFood'),
-        description: t('ui.navigation.categories.fastFoodDesc'),
-        icon: 'ion:fast-food-outline',
-        to: localePath('/solutions/fast-food')
-      }
-    ]
-  },
-  {
-    label: t('ui.navigation.main.retail'),
-    class: 'font-bold',
-    slot: 'retail' as const,
-    children: [
-      {
-        label: t('ui.navigation.categories.grocerySupermarkets'),
-        description: t('ui.navigation.categories.grocerySupermarketsDesc'),
-        icon: 'i-lucide-shopping-cart',
-        to: localePath('/solutions/grocery-supermarkets')
-      },
-      {
-        label: t('ui.navigation.categories.clothingBoutiques'),
-        description: t('ui.navigation.categories.clothingBoutiquesDesc'),
-        icon: 'i-lucide-shirt',
-        to: localePath('/solutions/clothing-boutiques')
-      },
-      {
-        label: t('ui.navigation.categories.convenienceStores'),
-        description: t('ui.navigation.categories.convenienceStoresDesc'),
-        icon: 'i-lucide-store',
-        to: localePath('/solutions/convenience-stores')
-      },
-      {
-        label: t('ui.navigation.categories.b2b'),
-        description: t('ui.navigation.categories.b2bDesc'),
-        icon: 'i-lucide-building',
-        to: localePath('/solutions/b2b')
+        to: localePath('/docs')
       }
     ]
   },

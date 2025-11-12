@@ -10,8 +10,8 @@
     "
     :class="[
       variant === 'primary'
-        ? 'font-semibold hover:bg-secondary'
-        : 'font-semibold bg-transparent hover:bg-primary-200 dark:hover:bg-[#61356c] ring-2 ring-secondary',
+        ? 'font-semibold bg-gradient-to-r from-primary-600 to-primary-500 hover:shadow-lg hover:scale-105 transition-all'
+        : 'font-semibold bg-transparent hover:bg-[var(--ui-accent-teal)] hover:text-white dark:hover:bg-[var(--ui-accent-teal)] ring-2 ring-[var(--ui-accent-teal)] transition-all',
       customClass
     ]"
     @click="handleClick"

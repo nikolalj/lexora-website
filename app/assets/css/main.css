@@ -3,47 +3,72 @@
 @theme {
   --font-sans: 'Plus Jakarta Sans', sans-serif;
 
-  /* Primary color scale - 500 is the base brand color */
-  --color-primary-50: #f5f3f7;
-  --color-primary-100: #ebe7ef;
-  --color-primary-200: #d7cede;
-  --color-primary-300: #bbaace;
-  --color-primary-400: #9c81ba;
-  --color-primary-500: #4a2d67;  /* Base brand color */
-  --color-primary-600: #3b2453;
-  --color-primary-700: #2d1c3e;
-  --color-primary-800: #1e132a;
-  --color-primary-900: #0f0a15;
-  --color-primary-950: #000000;
+  /* Primary color scale - Gold (#A98B1F) - 500 is the base brand color */
+  --color-primary-50: #FBF9F3;
+  --color-primary-100: #F7F2E6;
+  --color-primary-200: #EDDFCC;
+  --color-primary-300: #E1CAB3;
+  --color-primary-400: #D1B495;
+  --color-primary-500: #A98B1F;  /* Base brand color - Gold */
+  --color-primary-600: #8F7418;
+  --color-primary-700: #754F0C;
+  --color-primary-800: #5C3D08;
+  --color-primary-900: #432A05;
+  --color-primary-950: #2A1A03;
 
-  /* Semantic colors for custom usage */
-  --ui-secondary: #fa7faa;
+  /* Semantic colors - Teal accent and Warm terracotta */
+  --ui-secondary: #D97A50;
+  --ui-accent-teal: #47ABAA;
+  --ui-accent-teal-light: #5BBBB9;
 
-  /* Background colors */
-  --ui-bg: white;
-  --ui-bg-alt: #f3f4f8;
+  /* Background colors - Clean white base with light accents */
+  --ui-bg: #FFFFFF;
+  --ui-bg-alt: #F8F8F8;
+  --ui-bg-secondary: #F0F0F0;
+
+  /* Text colors - Optimized for light backgrounds */
+  --ui-text-primary: #1A1A1A;
+  --ui-text-secondary: #555555;
+  --ui-text-tertiary: #888888;
+
+  /* Border colors */
+  --ui-border: #E0E0E0;
+  --ui-border-light: #F0F0F0;
 }
 
-/* Dark theme overrides */
+/* Dark theme overrides - Dark Gray (#202020) base with lighter gold */
 :root.dark, .dark {
-  /* In dark mode, use lighter purple scale for better contrast */
-  --color-primary-50: #fdfbff;
-  --color-primary-100: #f9f5fd;
-  --color-primary-200: #f1e9fa;
-  --color-primary-300: #e4d4f4;
-  --color-primary-400: #d1b5eb;
-  --color-primary-500: #c9a5e8;  /* Lighter purple as base for dark mode */
-  --color-primary-600: #ba91dd;
-  --color-primary-700: #a67fca;
-  --color-primary-800: #8a5fb3;
-  --color-primary-900: #744c98;
-  --color-primary-950: #4a2d67;
+  /* Light gold scale for better contrast on dark background */
+  --color-primary-50: #FFFCF7;
+  --color-primary-100: #FFF9ED;
+  --color-primary-200: #FFF3DB;
+  --color-primary-300: #FFEBCC;
+  --color-primary-400: #FFE0B3;
+  --color-primary-500: #F4D494;  /* Lighter gold for dark mode */
+  --color-primary-600: #E8C37D;
+  --color-primary-700: #DAB266;
+  --color-primary-800: #C9A050;
+  --color-primary-900: #B38E3A;
+  --color-primary-950: #A98B1F;
 
-  --ui-secondary: #f88eb3;
+  /* Semantic colors - Lighter teal and warm orange */
+  --ui-secondary: #FFAA7A;
+  --ui-accent-teal: #6DB5B4;
+  --ui-accent-teal-light: #7FC4C3;
 
-  --ui-bg: #201633;
-  --ui-bg-alt: #2f2350;
-  --ui-bg-elevated: #3d2d5e;
+  /* Dark background - Dark gray with teal/gold tints */
+  --ui-bg: #202020;
+  --ui-bg-alt: #2D2D2D;
+  --ui-bg-elevated: #3A3A3A;
+
+  /* Text colors - Optimized for dark backgrounds */
+  --ui-text-primary: #FFFFFF;
+  --ui-text-secondary: #E0E0E0;
+  --ui-text-tertiary: #AAAAAA;
+
+  /* Border colors */
+  --ui-border: #404040;
+  --ui-border-light: #333333;
 }
 
 html {

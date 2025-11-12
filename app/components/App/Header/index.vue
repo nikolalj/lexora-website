@@ -2,12 +2,12 @@
   <UHeader
     mode="slideover"
     class="fixed top-0 w-full h-auto transition-[background-color,box-shadow,color] duration-1000 border-none"
-    :class="!isHeaderSolid ? 'bg-transparent' : 'bg-[#201633]/90'"
+    :class="!isHeaderSolid ? 'bg-transparent' : 'bg-[rgba(169,139,31,0.95)]'"
     :ui="{
       container: 'min-h-16'
     }"
     :toggle="{
-      class: 'text-white hover:bg-gray-100/10'
+      class: 'text-white hover:bg-white/10'
     }"
   >
     <template #top>
@@ -21,11 +21,11 @@
 
         <UContainer class="h-full flex items-center text-sm transition-colors duration-500">
           <div class="flex items-center gap-4 flex-1">
-            <a :href="`mailto:${t('data.company.contact.email')}@${t('data.company.domain')}`" class="flex items-center gap-1 text-gray-300">
+            <a :href="`mailto:${t('data.company.contact.email')}@${t('data.company.domain')}`" class="flex items-center gap-1 text-white hover:text-[var(--ui-accent-teal)] transition-colors">
               <Icon name="i-lucide-mail" class="w-4 h-4" />
               <span class="hidden md:inline">{{ t('data.company.contact.email') }}@{{ t('data.company.domain') }}</span>
             </a>
-            <a :href="`tel:${t('data.company.contact.phone')}`" class="flex items-center gap-1 text-gray-300">
+            <a :href="`tel:${t('data.company.contact.phone')}`" class="flex items-center gap-1 text-white hover:text-[var(--ui-accent-teal)] transition-colors">
               <Icon name="i-lucide-phone" class="w-4 h-4" />
               <span>{{ t('data.company.contact.phone') }}</span>
             </a>
@@ -62,7 +62,7 @@
     </template>
 
     <template #content>
-      <div class="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-800">
+      <div class="flex items-center justify-between p-4 border-b border-[var(--ui-border)] dark:border-[var(--ui-border)]">
         <ULink :to="localePath('/')" class="flex items-center gap-2 shrink-0">
           <div class="sm:hidden">
             <UColorModeImage
@@ -140,9 +140,9 @@ function isRouteWithTransparentHeader(path: string) {
 
   const routesWithTransparentHeader = [
     '/',
-    '/products',
-    '/products/hospitality',
-    '/products/retail',
+    '/solutions/judges',
+    '/solutions/lawyers',
+    '/solutions/researchers',
     '/demo',
   ]
 

@@ -52,13 +52,19 @@
     },
     "navigation": {
       "main": {
-        "products": "Products",
+        "solutions": "Solutions",
         "pricing": "Pricing",
-        "about": "About",
-        "hospitality": "Hospitality",
-        "hospitalityDesc": "Complete restaurant management system with table service, kitchen coordination, and payment processing.",
-        "retail": "Retail",
-        "retailDesc": "Point of sale system with inventory tracking, barcode scanning, and sales reporting for retail stores."
+        "about": "About"
+      },
+      "solutions": {
+        "forJudges": "For Judges",
+        "forJudgesDesc": "Quickly access and compare similar cases across jurisdictions to inform your rulings and reduce research time",
+        "forLawyers": "For Lawyers",
+        "forLawyersDesc": "Build stronger cases with comprehensive precedent analysis and success rate statistics",
+        "forResearchers": "For Researchers",
+        "forResearchersDesc": "Access the most complete administrative law database in the Western Balkans for comparative studies",
+        "bookDemo": "Book a Demo",
+        "documentation": "Documentation"
       },
       "categories": {
         "restaurants": "Restaurants",
@@ -778,7 +784,7 @@
         "overview": {
           "title": "Everything Your Restaurant Needs",
           "description": "From table management to kitchen orders",
-          "image": "/images/solutions/restaurants.jpg"
+          "image": "/images/solutions/judges.png"
         },
         "benefits": {
           "b1": {
@@ -840,7 +846,7 @@
         "overview": {
           "title": "Optimized for Speed",
           "description": "System designed for fast service and high traffic",
-          "image": "/images/solutions/bars-cafes.jpg"
+          "image": "/images/solutions/lawyers.png"
         },
         "benefits": {
           "b1": {

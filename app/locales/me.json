@@ -52,13 +52,19 @@
     },
     "navigation": {
       "main": {
-        "products": "Proizvodi",
+        "solutions": "Rješenja",
         "pricing": "Cijene",
-        "about": "O nama",
-        "hospitality": "Ugostiteljstvo",
-        "hospitalityDesc": "Kompletan sistem za upravljanje restoranima sa uslugom za stolovima, koordinacijom kuhinje i procesiranjem plaćanja.",
-        "retail": "Trgovina",
-        "retailDesc": "POS sistem sa praćenjem zaliha, skeniranjem barkoda i izvještajima o prodaji za maloprodajne radnje."
+        "about": "O nama"
+      },
+      "solutions": {
+        "forJudges": "Za sudove",
+        "forJudgesDesc": "Brzo pronađite i poredite slične slučajeve iz različitih jurisdikcija kako biste donjeli informisanije odluke",
+        "forLawyers": "Za advokate",
+        "forLawyersDesc": "Ojačajte svoje pravne argumente analizom precedenata i statistikom uspjeha",
+        "forResearchers": "Za istraživače",
+        "forResearchersDesc": "Pristupite najvećoj bazi upravnog prava na Balkanu za komparativne pravne studije",
+        "bookDemo": "Zakažite demo",
+        "documentation": "Dokumentacija"
       },
       "categories": {
         "restaurants": "Restorani",
@@ -881,7 +887,7 @@
         "overview": {
           "title": "Sve što restoranu treba",
           "description": "Od upravljanja stolovima do kuhinjskih narudžbina",
-          "image": "/images/solutions/restaurants.jpg"
+          "image": "/images/solutions/judges.png"
         },
         "benefits": {
           "b1": {
@@ -943,7 +949,7 @@
         "overview": {
           "title": "Optimizovano za brzinu",
           "description": "Sistem dizajniran za brzu uslugu i visok promet",
-          "image": "/images/solutions/bars-cafes.jpg"
+          "image": "/images/solutions/lawyers.png"
         },
         "benefits": {
           "b1": {

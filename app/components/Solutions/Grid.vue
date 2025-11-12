@@ -57,13 +57,13 @@ const solutionsList = [
     "id": "restaurants",
     "category": "hospitality",
     "icon": "🍽️",
-    "href": "/solutions/restaurants"
+    "href": "/solutions/judges"
   },
   {
     "id": "barsCafes",
     "category": "hospitality",
     "icon": "☕",
-    "href": "/solutions/bars-cafes"
+    "href": "/solutions/lawyers"
   },
   {
     "id": "fastFood",
