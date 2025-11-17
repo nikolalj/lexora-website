@@ -3,15 +3,15 @@
     :to="buttonTo"
     :size="size"
     :variant="variant === 'primary' ? 'solid' : 'outline'"
-    :color="variant === 'primary' ? 'primary' : 'neutral'"
+    :color="variant === 'primary' ? 'secondary' : 'primary'"
     :icon="!noIcon && iconPosition === 'leading' ? getIcon : undefined"
     :trailing-icon="
       !noIcon && iconPosition === 'trailing' ? getIcon : undefined
     "
     :class="[
       variant === 'primary'
-        ? 'font-semibold bg-gradient-to-r from-primary-600 to-primary-500 hover:shadow-lg hover:scale-105 transition-all'
-        : 'font-semibold bg-transparent hover:bg-[var(--ui-accent-teal)] hover:text-white dark:hover:bg-[var(--ui-accent-teal)] ring-2 ring-[var(--ui-accent-teal)] transition-all',
+        ? 'font-semibold !bg-[#A98B1F] hover:!bg-[#C4A73D] hover:!shadow-lg hover:scale-105 transition-all !text-white !border-none'
+        : 'font-semibold !bg-transparent hover:!bg-white/20 !text-white hover:!text-white !ring-2 !ring-white transition-all',
       customClass
     ]"
     @click="handleClick"

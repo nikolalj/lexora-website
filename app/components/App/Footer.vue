@@ -211,38 +211,91 @@ const toggleAccordion = (index: number) => {
 
 const columns: FooterColumn[] = [
   {
-    label: t('ui.footer.links.products'),
+    label: t('ui.navigation.main.solutions'),
     children: [
       {
-        label: t('ui.navigation.products.forHospitality'),
-        to: localePath('/products/hospitality')
+        label: t('ui.navigation.solutions.forJudges'),
+        to: localePath('/solutions/judges')
       },
       {
-        label: t('ui.navigation.products.forRetail'),
-        to: localePath('/products/retail')
-      },
-      { label: t('ui.navigation.main.pricing'), to: localePath('/pricing') },
-      {
-        label: t('ui.navigation.products.download'),
-        to: localePath('/products/download')
+        label: t('ui.navigation.solutions.forLawyers'),
+        to: localePath('/solutions/lawyers')
       },
       {
-        label: t('ui.navigation.products.faqdocs'),
-        to: localePath('/products/faqdocs')
+        label: t('ui.navigation.solutions.forResearchers'),
+        to: localePath('/solutions/researchers')
+      },
+      {
+        label: t('ui.navigation.solutions.forCitizens'),
+        to: localePath('/solutions/citizens')
+      },
+      {
+        label: t('ui.navigation.solutions.enterprise'),
+        to: localePath('/enterprise')
       }
     ]
   },
   {
-    label: t('ui.footer.about.title'),
+    label: t('ui.navigation.main.features'),
     children: [
-      { label: t('ui.footer.about.contact'), to: localePath('/contact') },
       {
-        label: t('ui.footer.about.clients'),
-        to: localePath('/client-stories')
+        label: t('ui.navigation.features.crossJurisdictional'),
+        to: localePath('/features/cross-jurisdictional')
       },
-      { label: t('ui.footer.about.partners'), to: localePath('/partners') },
-      { label: t('ui.footer.about.careers'), to: localePath('/contact') },
-      { label: t('ui.footer.about.blog'), to: localePath('/blog') }
+      {
+        label: t('ui.navigation.features.statisticalAnalytics'),
+        to: localePath('/features/statistical-analytics')
+      },
+      {
+        label: t('ui.navigation.features.caseSummarization'),
+        to: localePath('/features/case-summarization')
+      },
+      {
+        label: t('ui.navigation.features.precedentMapping'),
+        to: localePath('/features/precedent-mapping')
+      },
+      {
+        label: t('ui.navigation.features.seeAll'),
+        to: localePath('/features')
+      }
+    ]
+  },
+  {
+    label: t('ui.navigation.main.resources'),
+    children: [
+      {
+        label: t('ui.navigation.resources.documentation'),
+        to: localePath('/docs')
+      },
+      {
+        label: t('ui.navigation.resources.caseStudies'),
+        to: localePath('/case-studies')
+      },
+      {
+        label: t('ui.navigation.resources.blog'),
+        to: localePath('/blog')
+      },
+      {
+        label: t('ui.navigation.main.pricing'),
+        to: localePath('/pricing')
+      }
+    ]
+  },
+  {
+    label: t('ui.navigation.main.about'),
+    children: [
+      {
+        label: t('ui.navigation.about.partners'),
+        to: localePath('/partners')
+      },
+      {
+        label: t('ui.navigation.about.aboutLexora'),
+        to: localePath('/about')
+      },
+      {
+        label: t('ui.navigation.about.contact'),
+        to: localePath('/contact')
+      }
     ]
   }
 ]

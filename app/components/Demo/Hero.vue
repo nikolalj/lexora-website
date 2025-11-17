@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pt-34 pb-20 relative isolate overflow-hidden flex items-center justify-center bg-[radial-gradient(ellipse_at_center,_#8d5494_0%,_#563275_40%,_#1f1633_100%)]"
+    class="pt-34 pb-20 relative isolate overflow-hidden flex items-center justify-center bg-[radial-gradient(ellipse_at_center,_#47ABAA_0%,_#3A8988_40%,_#0A1211_100%)]"
     :aria-label="t('pages.demo.hero.title')"
   >
     <UContainer class="relative z-10">

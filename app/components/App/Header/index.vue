@@ -2,7 +2,7 @@
   <UHeader
     mode="slideover"
     class="fixed top-0 w-full h-auto transition-[background-color,box-shadow,color] duration-1000 border-none"
-    :class="!isHeaderSolid ? 'bg-transparent' : 'bg-[rgba(169,139,31,0.95)]'"
+    :class="!isHeaderSolid ? 'bg-transparent' : 'bg-[rgba(71,171,170,0.95)]'"
     :ui="{
       container: 'min-h-16'
     }"

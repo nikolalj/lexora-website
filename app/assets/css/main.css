@@ -3,23 +3,36 @@
 @theme {
   --font-sans: 'Plus Jakarta Sans', sans-serif;
 
-  /* Primary color scale - Gold (#A98B1F) - 500 is the base brand color */
-  --color-primary-50: #FBF9F3;
-  --color-primary-100: #F7F2E6;
-  --color-primary-200: #EDDFCC;
-  --color-primary-300: #E1CAB3;
-  --color-primary-400: #D1B495;
-  --color-primary-500: #A98B1F;  /* Base brand color - Gold */
-  --color-primary-600: #8F7418;
-  --color-primary-700: #754F0C;
-  --color-primary-800: #5C3D08;
-  --color-primary-900: #432A05;
-  --color-primary-950: #2A1A03;
+  /* Primary color scale - Teal (#47ABAA) - 500 is the base brand color */
+  --color-primary-50: #F0FAFA;
+  --color-primary-100: #E0F5F5;
+  --color-primary-200: #C1EBEB;
+  --color-primary-300: #99DDDC;
+  --color-primary-400: #70CECD;
+  --color-primary-500: #47ABAA;  /* Base brand color - Teal */
+  --color-primary-600: #3A8988;
+  --color-primary-700: #2D6766;
+  --color-primary-800: #204544;
+  --color-primary-900: #142322;
+  --color-primary-950: #0A1211;
 
-  /* Semantic colors - Teal accent and Warm terracotta */
-  --ui-secondary: #D97A50;
-  --ui-accent-teal: #47ABAA;
-  --ui-accent-teal-light: #5BBBB9;
+  /* Secondary color scale - Gold (#A98B1F) - for buttons and accents */
+  --color-secondary-50: #FBF9F3;
+  --color-secondary-100: #F7F2E6;
+  --color-secondary-200: #EDDFCC;
+  --color-secondary-300: #E1CAB3;
+  --color-secondary-400: #D1B495;
+  --color-secondary-500: #A98B1F;  /* Gold - for buttons */
+  --color-secondary-600: #8F7418;
+  --color-secondary-700: #754F0C;
+  --color-secondary-800: #5C3D08;
+  --color-secondary-900: #432A05;
+  --color-secondary-950: #2A1A03;
+
+  /* Semantic colors - Warm terracotta */
+  --ui-tertiary: #D97A50;
+  --ui-accent-gold: #A98B1F;
+  --ui-accent-gold-light: #C4A73D;
 
   /* Background colors - Clean white base with light accents */
   --ui-bg: #FFFFFF;
@@ -36,25 +49,38 @@
   --ui-border-light: #F0F0F0;
 }
 
-/* Dark theme overrides - Dark Gray (#202020) base with lighter gold */
+/* Dark theme overrides - Dark Gray (#202020) base with lighter teal */
 :root.dark, .dark {
-  /* Light gold scale for better contrast on dark background */
-  --color-primary-50: #FFFCF7;
-  --color-primary-100: #FFF9ED;
-  --color-primary-200: #FFF3DB;
-  --color-primary-300: #FFEBCC;
-  --color-primary-400: #FFE0B3;
-  --color-primary-500: #F4D494;  /* Lighter gold for dark mode */
-  --color-primary-600: #E8C37D;
-  --color-primary-700: #DAB266;
-  --color-primary-800: #C9A050;
-  --color-primary-900: #B38E3A;
-  --color-primary-950: #A98B1F;
+  /* Lighter teal scale for better contrast on dark background */
+  --color-primary-50: #0A1211;
+  --color-primary-100: #142322;
+  --color-primary-200: #204544;
+  --color-primary-300: #2D6766;
+  --color-primary-400: #3A8988;
+  --color-primary-500: #5BBBB9;  /* Lighter teal for dark mode */
+  --color-primary-600: #70CECD;
+  --color-primary-700: #99DDDC;
+  --color-primary-800: #C1EBEB;
+  --color-primary-900: #E0F5F5;
+  --color-primary-950: #F0FAFA;
 
-  /* Semantic colors - Lighter teal and warm orange */
-  --ui-secondary: #FFAA7A;
-  --ui-accent-teal: #6DB5B4;
-  --ui-accent-teal-light: #7FC4C3;
+  /* Secondary color scale - Lighter gold for dark mode */
+  --color-secondary-50: #2A1A03;
+  --color-secondary-100: #432A05;
+  --color-secondary-200: #5C3D08;
+  --color-secondary-300: #754F0C;
+  --color-secondary-400: #8F7418;
+  --color-secondary-500: #F4D494;  /* Lighter gold for dark mode */
+  --color-secondary-600: #FFE0B3;
+  --color-secondary-700: #FFEBCC;
+  --color-secondary-800: #FFF3DB;
+  --color-secondary-900: #FFF9ED;
+  --color-secondary-950: #FFFCF7;
+
+  /* Semantic colors - Lighter warm orange */
+  --ui-tertiary: #FFAA7A;
+  --ui-accent-gold: #F4D494;
+  --ui-accent-gold-light: #FFE0B3;
 
   /* Dark background - Dark gray with teal/gold tints */
   --ui-bg: #202020;

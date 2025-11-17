@@ -1,13 +1,13 @@
 <template>
   <section
-    class="pt-34 relative isolate overflow-hidden flex items-center justify-center bg-[radial-gradient(ellipse_at_center,_#8d5494_0%,_#563275_40%,_#1f1633_100%)]"
+    class="pt-34 relative isolate overflow-hidden flex items-center justify-center bg-[radial-gradient(ellipse_at_center,_#47ABAA_0%,_#3A8988_40%,_#0A1211_100%)]"
     :aria-label="t('pages.home.hero.title')"
   >
     <UContainer class="pb-12 sm:pb-24 relative z-10">
       <div class="flex flex-col items-center text-center">
         <!-- Tagline -->
         <UIAppear direction="up">
-          <div class="mb-6 text-sm sm:text-base font-semibold px-3 py-2 bg-gradient-to-r from-[#C83852] via-[#B44092] to-[#6A5FC1] bg-[length:100%_100%] transition-all duration-300 text-white rounded-lg">
+          <div class="mb-6 text-sm sm:text-base font-semibold px-3 py-2 bg-gradient-to-r from-[#70CECD] via-[#47ABAA] to-[#3A8988] bg-[length:100%_100%] transition-all duration-300 text-white rounded-lg">
             {{ t('pages.home.hero.tagline') }}
           </div>
         </UIAppear>

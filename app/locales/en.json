@@ -53,18 +53,33 @@
     "navigation": {
       "main": {
         "solutions": "Solutions",
+        "features": "Features",
         "pricing": "Pricing",
+        "resources": "Resources",
         "about": "About"
       },
       "solutions": {
         "forJudges": "For Judges",
         "forJudgesDesc": "Quickly access and compare similar cases across jurisdictions to inform your rulings and reduce research time",
-        "forLawyers": "For Lawyers",
+        "forLawyers": "For Lawyers & Law Firms",
         "forLawyersDesc": "Build stronger cases with comprehensive precedent analysis and success rate statistics",
-        "forResearchers": "For Researchers",
+        "forResearchers": "For Researchers & Academia",
         "forResearchersDesc": "Access the most complete administrative law database in the Western Balkans for comparative studies",
-        "bookDemo": "Book a Demo",
-        "documentation": "Documentation"
+        "forCitizens": "For Citizens",
+        "forCitizensDesc": "Understand your legal situation in plain language with relevant laws and precedents",
+        "enterprise": "Enterprise Solutions"
+      },
+      "features": {
+        "crossJurisdictional": "Cross-Jurisdictional Search",
+        "statisticalAnalytics": "Statistical Legal Analytics",
+        "caseSummarization": "Case Summarization",
+        "precedentMapping": "Precedent Chain Mapping",
+        "seeAll": "See All Features"
+      },
+      "resources": {
+        "documentation": "Documentation",
+        "caseStudies": "Case Studies",
+        "blog": "Blog & Insights"
       },
       "categories": {
         "restaurants": "Restaurants",
@@ -92,7 +107,8 @@
       "about": {
         "contact": "Contact",
         "clientStories": "Client stories",
-        "partners": "Partners"
+        "partners": "Partners",
+        "aboutLexora": "About Lexora"
       }
     },
     "footer": {
@@ -343,59 +359,19 @@
     },
     "products": {
       "features": {
-        "title": "Simple. Reliable. Ready to work.",
-        "description": "Everything you need for stable sales and secure checkout, with an intuitive system anyone can start using quickly.",
-        "hospitality": {
-          "feat1": {
-            "title": "Sections and Tables",
-            "description": "Manage tables across multiple sections. Get detailed overview of bills, server activities, POS terminal status, reports, and more."
-          },
-          "feat2": {
-            "title": "Fast and Efficient Sales",
-            "description": "Quick item selection through intuitive interface. Efficient billing and ordering with various cash and cashless payment methods, order printing to kitchen or bar printers, and more."
-          },
-          "feat3": {
-            "title": "Administration",
-            "description": "Advanced management of employees, items and inventory, suppliers, customers, receiving and shipping goods, etc. Precise reports and detailed insights into all segments of your business."
-          },
-          "feat4": {
-            "title": "Advanced Reports",
-            "description": "Comprehensive and precise reports you need to run your business. Enables accurate tracking of inventory, sales, revenue, and expenses."
-          },
-          "feat5": {
-            "title": "Available Everywhere",
-            "description": "Konty works on Web, Windows, and Android. 24/7, anywhere in the world, you have free remote access to your application."
-          },
-          "feat6": {
-            "title": "Superior Customer Support",
-            "description": "Our team is available 24/7. Fast and efficient customer support is the foundation of our business."
-          }
+        "title": "Intelligent. Accurate. Always Learning.",
+        "description": "Advanced AI-powered legal research that understands context, finds precedents across jurisdictions, and delivers insights legal professionals can trust.",
+        "feat1": {
+          "title": "Cross-Jurisdictional Search",
+          "description": "Search and compare legal precedents across Montenegro, Serbia, and Croatia simultaneously. Find similar cases, identify jurisdictional differences, and understand regional legal trends—all in one query."
         },
-        "retail": {
-          "feat1": {
-            "title": "Fast and Efficient Sales",
-            "description": "Quick search and selection of items by name, code, barcode (regular and weight-based). Detailed overview of receipts, employee activities, POS terminal status, reports, and more."
-          },
-          "feat2": {
-            "title": "Administration",
-            "description": "Advanced management of employees, items and inventory, suppliers, customers, receiving and shipping goods and other business processes."
-          },
-          "feat3": {
-            "title": "Reports and Statistics",
-            "description": "Precise and comprehensive reports that give you detailed insights into all segments of your business."
-          },
-          "feat4": {
-            "title": "Inventory Management",
-            "description": "Real-time stock tracking with automatic alerts when items are running low. Manage thousands of products with ease and optimize your inventory levels."
-          },
-          "feat5": {
-            "title": "Available Everywhere",
-            "description": "Konty works on Web, Windows, and Android. 24/7, anywhere in the world, you have free remote access to your application."
-          },
-          "feat6": {
-            "title": "Superior Customer Support",
-            "description": "Our team is available 24/7. Fast and efficient customer support is the foundation of our business."
-          }
+        "feat2": {
+          "title": "Statistical Legal Analytics",
+          "description": "Go beyond case search with unique statistical insights. Analyze success rates, identify judicial patterns, track outcome trends, and make data-driven legal decisions based on historical case data."
+        },
+        "feat3": {
+          "title": "Multi-Level Summarization",
+          "description": "From quick executive summaries to comprehensive case analysis—get exactly the depth you need. AI-powered summarization with full citation traceability ensures you never miss critical details."
         }
       },
       "faq": {

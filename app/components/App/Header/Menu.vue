@@ -45,8 +45,8 @@
                         'relative group block overflow-hidden h-56 rounded-lg flex-shrink-0 cursor-pointer transition-opacity',
                         hoveredSolutionLabel && hoveredSolutionLabel !== child.label ? 'opacity-50' : 'opacity-100',
                         !child.image && (child.icon === 'i-lucide-scale'
-                          ? 'bg-gradient-to-br from-[#4C5BA8] via-[#3D4A8F] to-[#2D3A6F]'
-                          : 'bg-gradient-to-br from-[#47ABAA] via-[#3A9B9A] to-[#2A7B7A]')
+                          ? 'bg-gradient-to-br from-[#47ABAA] via-[#3A8988] to-[#2D6766]'
+                          : 'bg-gradient-to-br from-[#5BBBB9] via-[#47ABAA] to-[#3A8988]')
                       ]"
                       :exact="route.path === child.to"
                       @click="handleNavigate"
@@ -96,6 +96,55 @@
               </div>
             </div>
 
+
+            <!-- Features content -->
+            <div v-else-if="item.slot === 'features'" class="p-4">
+              <ul class="space-y-1">
+                <li v-for="child in item.children" :key="child.label">
+                  <ULink
+                    :to="child.to || '#'"
+                    class="group flex items-center space-x-3 px-4 py-3 rounded-md transition-all text-[var(--ui-text-primary)] hover:bg-primary-500 hover:text-white whitespace-nowrap"
+                    @click="handleNavigate"
+                  >
+                    <Icon
+                      v-if="child.icon"
+                      :name="child.icon"
+                      class="w-5 h-5 text-primary group-hover:text-white flex-shrink-0 transition-colors"
+                    />
+                    <div class="flex items-center gap-2">
+                      <p class="text-sm font-semibold">
+                        {{ child.label }}
+                      </p>
+                      <span v-if="child.badge" class="text-xs bg-secondary-500 text-white px-2 py-0.5 rounded-full">
+                        {{ child.badge }}
+                      </span>
+                    </div>
+                  </ULink>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Resources content -->
+            <div v-else-if="item.slot === 'resources'" class="p-4">
+              <ul class="space-y-1">
+                <li v-for="child in item.children" :key="child.label">
+                  <ULink
+                    :to="child.to || '#'"
+                    class="group flex items-center space-x-3 px-4 py-3 rounded-md transition-all text-[var(--ui-text-primary)] hover:bg-primary-500 hover:text-white whitespace-nowrap"
+                    @click="handleNavigate"
+                  >
+                    <Icon
+                      v-if="child.icon"
+                      :name="child.icon"
+                      class="w-5 h-5 text-primary group-hover:text-white flex-shrink-0 transition-colors"
+                    />
+                    <p class="text-sm font-semibold">
+                      {{ child.label }}
+                    </p>
+                  </ULink>
+                </li>
+              </ul>
+            </div>
 
             <!-- About content -->
             <div v-else-if="item.slot === 'about'" class="p-4">
@@ -161,12 +210,14 @@ interface BaseMenuItem {
   icon?: string
   description?: string
   image?: { src: string; alt?: string }
+  badge?: string
 }
 
 interface MenuGroup extends BaseMenuItem {
-  slot?: 'solutions' | 'about'
+  slot?: 'solutions' | 'features' | 'resources' | 'about'
   children?: BaseMenuItem[]
   class?: string
+  badge?: string
 }
 
 const hoveredItem = ref<BaseMenuItem | null>(null)
@@ -241,14 +292,48 @@ const items = computed<MenuGroup[]>(() => [
         to: localePath('/solutions/researchers')
       },
       {
-        label: t('ui.navigation.solutions.bookDemo'),
-        icon: 'i-lucide-calendar',
-        to: localePath('/demo')
+        label: t('ui.navigation.solutions.forCitizens'),
+        description: t('ui.navigation.solutions.forCitizensDesc'),
+        icon: 'i-lucide-users',
+        to: localePath('/solutions/citizens')
       },
       {
-        label: t('ui.navigation.solutions.documentation'),
+        label: t('ui.navigation.solutions.enterprise'),
+        icon: 'i-lucide-building-2',
+        to: localePath('/enterprise')
+      }
+    ]
+  },
+  {
+    label: t('ui.navigation.main.features'),
+    class: 'font-bold',
+    slot: 'features' as const,
+    children: [
+      {
+        label: t('ui.navigation.features.crossJurisdictional'),
+        icon: 'i-lucide-globe',
+        to: localePath('/features/cross-jurisdictional')
+      },
+      {
+        label: t('ui.navigation.features.statisticalAnalytics'),
+        icon: 'i-lucide-chart-bar',
+        to: localePath('/features/statistical-analytics'),
+        badge: 'Unique'
+      },
+      {
+        label: t('ui.navigation.features.caseSummarization'),
         icon: 'i-lucide-file-text',
-        to: localePath('/docs')
+        to: localePath('/features/case-summarization')
+      },
+      {
+        label: t('ui.navigation.features.precedentMapping'),
+        icon: 'i-lucide-network',
+        to: localePath('/features/precedent-mapping')
+      },
+      {
+        label: t('ui.navigation.features.seeAll'),
+        icon: 'i-lucide-arrow-right',
+        to: localePath('/features')
       }
     ]
   },
@@ -258,24 +343,46 @@ const items = computed<MenuGroup[]>(() => [
     to: localePath('/pricing')
   },
   {
+    label: t('ui.navigation.main.resources'),
+    class: 'font-bold',
+    slot: 'resources' as const,
+    children: [
+      {
+        label: t('ui.navigation.resources.documentation'),
+        to: localePath('/docs'),
+        icon: 'i-lucide-file-text',
+      },
+      {
+        label: t('ui.navigation.resources.caseStudies'),
+        to: localePath('/case-studies'),
+        icon: 'i-lucide-lightbulb',
+      },
+      {
+        label: t('ui.navigation.resources.blog'),
+        to: localePath('/blog'),
+        icon: 'i-lucide-newspaper',
+      }
+    ]
+  },
+  {
     label: t('ui.navigation.main.about'),
     class: 'font-bold',
     slot: 'about' as const,
     children: [
       {
+        label: t('ui.navigation.about.partners'),
+        to: localePath('/partners'),
+        icon: 'i-lucide-handshake',
+      },
+      {
+        label: t('ui.navigation.about.aboutLexora'),
+        to: localePath('/about'),
+        icon: 'i-lucide-info',
+      },
+      {
         label: t('ui.navigation.about.contact'),
         to: localePath('/contact'),
         icon: 'i-lucide-phone',
-      },
-      {
-        label: t('ui.navigation.about.clientStories'),
-        to: localePath('/client-stories'),
-        icon: 'i-lucide-users',
-      },
-      {
-        label: t('ui.navigation.about.partners'),
-        to: localePath('/partners'),
-        icon: 'i-lucide-building-2',
       }
     ]
   }
