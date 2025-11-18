@@ -18,14 +18,14 @@
               <div class="relative flex-shrink-0 sm:flex-shrink">
                 <div class="flex overflow-hidden sm:aspect-[16/9] h-full sm:h-auto sm:w-full w-28">
                   <!-- Strip with number -->
-                  <div class="w-6 sm:w-10 bg-[#c4b4ff] flex items-center justify-center flex-shrink-0">
-                    <span class="text-lg sm:text-2xl font-bold text-primary">{{ index + 1 }}</span>
+                  <div class="w-6 sm:w-10 bg-[#D4AF37] flex items-center justify-center flex-shrink-0">
+                    <span class="text-lg sm:text-2xl font-bold text-white">{{ index + 1 }}</span>
                   </div>
 
                   <!-- Icon area with gradient -->
-                  <div class="relative flex-1 bg-gradient-to-r from-[#c4b4ff]/30 to-transparent">
+                  <div class="relative flex-1 bg-gradient-to-r from-[#D4AF37]/30 to-transparent">
                     <div class="absolute inset-0 flex items-center justify-center">
-                      <UIcon :name="step.icon" class="w-12 sm:w-20 h-12 sm:h-20 text-primary [&_*]:[stroke-width:1]" />
+                      <UIcon :name="step.icon" class="w-12 sm:w-20 h-12 sm:h-20 text-[#A98B1F] [&_*]:[stroke-width:1]" />
                     </div>
                   </div>
                 </div>

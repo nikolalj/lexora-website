@@ -7,7 +7,12 @@
   >
     <UIAppear direction="none">
       <div class="flex justify-center">
-        <UPricingPlans class="max-w-5xl">
+        <UPricingPlans
+          class="max-w-5xl"
+          :ui="{
+            highlight: 'ring-2 ring-secondary-500 dark:ring-secondary-400'
+          }"
+        >
           <UPricingPlan
             v-for="(plan, index) in config.plans"
             :key="index"
@@ -16,7 +21,7 @@
             :price="plan.price"
             :features="plan.features"
             :highlight="plan.highlight"
-            :badge="plan.badge"
+            :badge="plan.badgeConfig"
             :billing-cycle="plan.billingCycle"
             :scale="plan.scale"
             :button="plan.button"
@@ -58,6 +63,8 @@ const config = computed(() => ({
       features: tArray('pages.pricing.plans.free.features'),
       button: {
         label: t('pages.pricing.plans.free.button'),
+        color: 'secondary' as const,
+        class: 'text-white',
         onClick: () => handlePricingPlanChoice('Legal AI', 'Free Trial')
       }
     },
@@ -69,9 +76,14 @@ const config = computed(() => ({
       features: tArray('pages.pricing.plans.professional.features'),
       highlight: true,
       scale: true,
-      badge: t('pages.pricing.plans.professional.badge'),
+      badgeConfig: {
+        label: t('pages.pricing.plans.professional.badge'),
+        color: 'secondary' as const
+      },
       button: {
         label: t('pages.pricing.plans.professional.button'),
+        color: 'secondary' as const,
+        class: 'text-white',
         onClick: () => handlePricingPlanChoice('Legal AI', 'Professional')
       }
     },
@@ -83,6 +95,8 @@ const config = computed(() => ({
       features: tArray('pages.pricing.plans.enterprise.features'),
       button: {
         label: t('pages.pricing.plans.enterprise.button'),
+        color: 'secondary' as const,
+        class: 'text-white',
         onClick: () => handlePricingPlanChoice('Legal AI', 'Enterprise')
       }
     }

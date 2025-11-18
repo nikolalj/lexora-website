@@ -21,7 +21,9 @@
       "convenience-stores": "Prodavnice mješovite robe",
       "b2b": "B2B prodaja i E fakture",
       "blog": "Blog",
-      "demo": "Demo"
+      "demo": "Demo",
+      "judges": "Sudstvo",
+      "lawyers": "Advokatura"
     },
     "learnMore": "Saznaj više",
     "readMore": "Pročitaj više",
@@ -53,18 +55,40 @@
     "navigation": {
       "main": {
         "solutions": "Rješenja",
+        "features": "Mogućnosti",
         "pricing": "Cijene",
+        "resources": "Resursi",
         "about": "O nama"
       },
       "solutions": {
         "forJudges": "Za sudove",
-        "forJudgesDesc": "Brzo pronađite i poredite slične slučajeve iz različitih jurisdikcija kako biste donjeli informisanije odluke",
+        "forJudgesDesc": "Brzo pronađite i uporedite slične predmete iz različitih zemalja za doношenje informisanijih odluka",
         "forLawyers": "Za advokate",
-        "forLawyersDesc": "Ojačajte svoje pravne argumente analizom precedenata i statistikom uspjeha",
+        "forLawyersDesc": "Osnažite svoje argumente analizom sudske prakse i statističkim podacima o uspješnosti",
         "forResearchers": "Za istraživače",
-        "forResearchersDesc": "Pristupite najvećoj bazi upravnog prava na Balkanu za komparativne pravne studije",
+        "forResearchersDesc": "Pristup najvećoj bazi upravnog prava na Balkanu za komparativna pravna istraživanja",
+        "forCitizens": "Za građane",
+        "forCitizensDesc": "Razumijte svoja prava uz AI objašnjenja složenih zakona jasnim i jednostavnim jezikom",
+        "enterprise": "Za institucije",
+        "enterpriseDesc": "Prilagođena rješenja za pravne institucije, sudove i velika advokatska društva",
         "bookDemo": "Zakažite demo",
         "documentation": "Dokumentacija"
+      },
+      "features": {
+        "crossJurisdictional": "Pretraga po državama",
+        "crossJurisdictionalDesc": "Istovremeno pretražite sudsku praksu u Crnoj Gori, Srbiji i Hrvatskoj",
+        "statisticalAnalytics": "Statistička analiza",
+        "statisticalAnalyticsDesc": "Jedinstvena statistička analiza pravnih predmeta i trendova u sudskoj praksi",
+        "caseSummarization": "Automatski sažeci",
+        "caseSummarizationDesc": "AI sažeci sudskih odluka sa tačnim navodima izvora",
+        "precedentMapping": "Mapa povezanih predmeta",
+        "precedentMappingDesc": "Vizuelno prikažite povezanost između sličnih slučajeva u različitim zemljama",
+        "seeAll": "Sve mogućnosti"
+      },
+      "resources": {
+        "documentation": "Dokumentacija",
+        "caseStudies": "Studije slučaja",
+        "blog": "Blog i članci"
       },
       "categories": {
         "restaurants": "Restorani",
@@ -92,7 +116,8 @@
       "about": {
         "contact": "Kontakt",
         "clientStories": "Iskustva klijenata",
-        "partners": "Partneri"
+        "partners": "Partneri",
+        "aboutLexora": "O Lexori"
       }
     },
     "footer": {
@@ -446,71 +471,19 @@
     },
     "products": {
       "features": {
-        "title": "Jednostavan. Pouzdan. Spreman za rad.",
-        "description": "Sve što vam treba za stabilnu prodaju i sigurnu naplatu, uz intuitivan sistem koji svako može brzo da koristi.",
-        "hospitality": {
-          "feat1": {
-            "title": "Sektori i stolovi",
-            "description": "Rad po stolovima podijeljenim u više sektora. Detaljan pregled računa, aktivnosti konobara, stanja naplatnog uređaja, izvještaja, itd.",
-            "icon": "i-heroicons-shopping-cart"
-          },
-          "feat2": {
-            "title": "Brza i efikasna prodaja",
-            "description": "Brz odabir artikala kroz intuitivan korisnički interfejs. Efikasno izdavanje računa i porudžbina uz različite metode gotovinskog i bezgotovinskog plaćanja, štampanje porudžbina na kuhinjskom ili šank printeru, itd.",
-            "icon": "i-heroicons-cursor-arrow-rays"
-          },
-          "feat3": {
-            "title": "Administracija",
-            "description": "Omogućava napredno upravljanje zaposlenima, artiklima i magacinom, kao i dobavljačima, kupcima, prijemom i otpremom robe, itd. Precizni izvještaji i detaljan uvid u sve segmente vašeg poslovanja.",
-            "icon": "i-heroicons-shield-check"
-          },
-          "feat4": {
-            "title": "Napredni izvještaji",
-            "description": "Sveobuhvatni i precizni izvještaji koji su vam potrebni za vođenje poslovanja. Omogućava tačno praćenje zaliha, prodaje, prihoda i rashoda.",
-            "icon": "i-heroicons-chart-bar"
-          },
-          "feat5": {
-            "title": "Dostupno svugdje",
-            "description": "Konty radi na Web-u, Windows-u i Android-u. 24/7, bilo gdje u svijetu, imate besplatan daljinski pristup vašoj aplikaciji.",
-            "icon": "i-heroicons-globe-alt"
-          },
-          "feat6": {
-            "title": "Vrhunska korisnička podrška",
-            "description": "Naš tim je dostupan 24/7. Brza i efikasna korisnička podrška je temelj našeg poslovanja.",
-            "icon": "i-heroicons-chat-bubble-left-right"
-          }
+        "title": "Pametno. Precizno. Stalno se unapređuje.",
+        "description": "AI sistem koji razumije pravni kontekst, pronalazi relevantne predmete u više zemalja i daje pouzdane odgovore za pravne profesionalce.",
+        "feat1": {
+          "title": "Pretraga po državama",
+          "description": "Istovremeno pretražite sudsku praksu u Crnoj Gori, Srbiji i Hrvatskoj. Uporedite slične slučajeve, uočite razlike u tumačenju zakona i analizirajte pravne trendove u regionu."
         },
-        "retail": {
-          "feat1": {
-            "title": "Brza i efikasna prodaja",
-            "description": "Brza pretraga i odabir artikala po imenu, šifri, barkodu (običnom i težinskom). Detaljan pregled računa, aktivnosti zaposlenih, stanja naplatnog uređaja, izvještaja, itd.",
-            "icon": "i-heroicons-shopping-cart"
-          },
-          "feat2": {
-            "title": "Administracija",
-            "description": "Omogućava napredno upravljanje zaposlenima, artiklima i magacinom, kao i dobavljačima, kupcima, prijemom i otpremom robe i ostalim poslovnim procesima.",
-            "icon": "i-heroicons-cursor-arrow-rays"
-          },
-          "feat3": {
-            "title": "Izvještaji i statistike",
-            "description": "Precizni i temeljni izvještaji koji će vam omogućiti detaljan uvid u sve segmente vašeg poslovanja.",
-            "icon": "i-heroicons-chart-bar"
-          },
-          "feat4": {
-            "title": "Upravljanje zalihama",
-            "description": "Praćenje stanja zaliha u realnom vremenu sa automatskim upozorenjima kada su artikli pri kraju. Upravljajte hiljade proizvoda s lakoćom i optimizirajte svoje nivoe zaliha.",
-            "icon": "i-heroicons-shield-check"
-          },
-          "feat5": {
-            "title": "Dostupno svugdje",
-            "description": "Konty radi na Web-u, Windows-u i Android-u. 24/7, bilo gdje u svijetu, imate besplatan daljinski pristup vašoj aplikaciji.",
-            "icon": "i-heroicons-globe-alt"
-          },
-          "feat6": {
-            "title": "Vrhunska korisnička podrška",
-            "description": "Naš tim je dostupan 24/7. Brza i efikasna korisnička podrška je temelj našeg poslovanja.",
-            "icon": "i-heroicons-chat-bubble-left-right"
-          }
+        "feat2": {
+          "title": "Statistička analiza",
+          "description": "Više od obične pretrage - analizirajte stopu uspješnosti, identifikujte pravilnosti u odlukama sudova, pratite trendove u presudama i donosite odluke zasnovane na realnim podacima."
+        },
+        "feat3": {
+          "title": "Prilagodljivi sažeci",
+          "description": "Od brzog pregleda do detaljne analize - dobijate onoliko informacija koliko vam treba. AI automatski izdvaja ključne tačke uz precizno navođenje izvora, tako da ne propustite važne detalje."
         }
       },
       "faq": {
@@ -557,7 +530,7 @@
         "hero": {
           "tagline": "Konty pokreće 9.000+ biznisa širom regiona",
           "title": "POS na koji možete da računate u najvećoj gužvi",
-          "subtitle": "Sveobuhvatan POS sistem za ugostiteljstvo — od rada po stolovima i praćenja porudžbina do potpune koordinacije kuhinje. Stvoren za lokale svih veličina."
+          "subtitle": "Sveobuhvatan POS sistem za ugostiteljstvo - od rada po stolovima i praćenja porudžbina do potpune koordinacije kuhinje. Stvoren za lokale svih veličina."
         },
         "benefits": {
           "title": "Zašto izabrati Konty za vaš lokal",
@@ -710,7 +683,7 @@
           "tagline": "Konty pokreće 9.000+ biznisa širom regiona",
           "cta": "Počni 30 dana besplatno",
           "features": "Nula padova • Auto-dopuna • Podrška za 30 sek",
-          "subtitle": "POS za maloprodaju i uslužne djelatnosti koji radi brzo, sigurno i bez prekida — od brze kase i evidencije zaliha do jasnih izvještaja za donošenje odluka.",
+          "subtitle": "POS za maloprodaju i uslužne djelatnosti koji radi brzo, sigurno i bez prekida - od brze kase i evidencije zaliha do jasnih izvještaja za donošenje odluka.",
           "title": "POS na koji možete da računate u najvećoj gužvi",
           "viewDemo": "2-minutni demo"
         },
@@ -863,18 +836,142 @@
     },
     "solutions": {
       "hero": {
-        "title": "Rješenja po djelatnosti",
-        "subtitle": "Konty se prilagođava vašem poslovanju - od restorana do prodavnica",
+        "title": "Rješenja za pravne profesionalce",
+        "subtitle": "Lexora se prilagođava vašim potrebama - od sudija do pravnih istraživača",
         "cta": "Pronađi svoje rješenje"
       },
       "categories": {
-        "hospitality": {
-          "title": "Ugostiteljstvo",
-          "description": "Rješenja za restorane, kafiće i brzu hranu"
+        "judicial": {
+          "title": "Sudstvo",
+          "description": "Rješenja za sudove, sudije i donosioce pravnih odluka"
         },
-        "retail": {
-          "title": "Trgovina",
-          "description": "Rješenja za sve tipove prodavnica"
+        "legal": {
+          "title": "Pravna praksa",
+          "description": "Rješenja za advokate, odvjetnike i advokatske kancelarije"
+        }
+      },
+      "judges": {
+        "hero": {
+          "title": "Lexora za sudove",
+          "subtitle": "Pronađite i uporedite slične predmete iz različitih zemalja za brže donošenje informisanih odluka",
+          "cta": "Zakažite demo",
+          "features": "Pretraga po državama • Analiza precedenata • Statistika predmeta"
+        },
+        "overview": {
+          "title": "Pouzdana pravna istraživanja za sudstvo",
+          "description": "Pristup sveobuhvatnoj bazi upravnog prava u Crnoj Gori, Srbiji i Hrvatskoj",
+          "image": "/images/solutions/judges.png"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Pronađite slične slučajeve trenutno",
+            "description": "AI pretraga pronalazi relevantne precedente u više jurisdikcija za nekoliko sekundi"
+          },
+          "b2": {
+            "title": "Uporedite pravna tumačenja",
+            "description": "Paralelno poređenje kako su različiti sudovi tumačili slične slučajeve"
+          },
+          "b3": {
+            "title": "Pristup kompletnoj sudskoj praksi",
+            "description": "Više od 1 milion upravnih sudskih odluka sa punim tekstom i metapodacima"
+          }
+        },
+        "features": {
+          "title": "Sve što sudijama treba za pravna istraživanja",
+          "description": "Sveobuhvatni alati dizajnirani specifično za donošenje pravnih odluka",
+          "cta": "Istražite mogućnosti za sudije",
+          "feat1": {
+            "title": "Pretraga precedenata po državama",
+            "description": "Pretražite i uporedite upravne predmete u Crnoj Gori, Srbiji i Hrvatskoj istovremeno",
+            "icon": "i-lucide-globe"
+          },
+          "feat2": {
+            "title": "Statistička analiza predmeta",
+            "description": "Analizirajte trendove, stope uspješnosti i pravilnosti u sudskim odlukama",
+            "icon": "i-lucide-chart-bar"
+          },
+          "feat3": {
+            "title": "AI sažimanje predmeta",
+            "description": "Dobijte trenutne sažetke sa ključnim nalazima i istaknutim relevantnim precedentima",
+            "icon": "i-lucide-file-text"
+          },
+          "feat4": {
+            "title": "Mapiranje citata",
+            "description": "Vizualizujte kako se predmeti međusobno citiraju i automatski otkrijte povezane precedente",
+            "icon": "i-lucide-network"
+          },
+          "feat5": {
+            "title": "Upiti na prirodnom jeziku",
+            "description": "Postavljajte pitanja običnim jezikom - nije potrebna složena Boolean sintaksa",
+            "icon": "i-lucide-message-square"
+          },
+          "feat6": {
+            "title": "Sigurno i povjerljivo",
+            "description": "Vaše pretrage su privatne i nikada se ne dijele. GDPR usklađena obrada podataka",
+            "icon": "i-lucide-shield-check"
+          }
+        }
+      },
+      "lawyers": {
+        "hero": {
+          "title": "Lexora za advokate i advokatske kancelarije",
+          "subtitle": "Izgradite jače predmete uz sveobuhvatnu analizu precedenata i statistiku uspješnosti",
+          "cta": "Zakažite demo",
+          "features": "Analiza precedenata • Statistika uspješnosti • Istraživanje po državama"
+        },
+        "overview": {
+          "title": "Moćna pravna istraživanja za advokatsku praksu",
+          "description": "Pristup bazi od 1M+ upravnih sudskih odluka u Crnoj Gori, Srbiji i Hrvatskoj uz AI analizu",
+          "image": "/images/solutions/lawyers.png"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Analizirajte stopu uspješnosti predmeta",
+            "description": "Statistički uvidi pokazuju stopu uspjeha sličnih predmeta i pomažu vam da savjetujete klijente sa pouzdanjem"
+          },
+          "b2": {
+            "title": "Pronađite argumente koji pobjeđuju",
+            "description": "Otkrijte koji pravni argumenti su uspjeli u sličnim predmetima u sve tri jurisdikcije"
+          },
+          "b3": {
+            "title": "Uštedite vrijeme na istraživanju",
+            "description": "Ono što je prije trajalo danima ručnog istraživanja sada traje minute uz AI pretragu"
+          }
+        },
+        "features": {
+          "title": "Sve što advokatima treba za pobjedu u predmetima",
+          "description": "Sveobuhvatni alati dizajnirani specifično za izgradnju jačih pravnih argumenata",
+          "cta": "Istražite mogućnosti za advokate",
+          "feat1": {
+            "title": "Analitika stope uspješnosti",
+            "description": "Analizirajte istorijske stope uspjeha sličnih predmeta za odluke zasnovane na podacima",
+            "icon": "i-lucide-trending-up"
+          },
+          "feat2": {
+            "title": "Istraživanje precedenata preko granica",
+            "description": "Pronađite i uporedite precedente iz Crne Gore, Srbije i Hrvatske za jače argumente",
+            "icon": "i-lucide-globe"
+          },
+          "feat3": {
+            "title": "Analiza obrazaca argumentacije",
+            "description": "Identifikujte koji pravni argumenti su bili najuspješniji u sličnim upravnim predmetima",
+            "icon": "i-lucide-lightbulb"
+          },
+          "feat4": {
+            "title": "Sažeci sudske prakse",
+            "description": "Dobijte AI sažetke sa ključnim nalazima, obrazloženjima i ishodima za brže istraživanje",
+            "icon": "i-lucide-file-text"
+          },
+          "feat5": {
+            "title": "Eksport citata",
+            "description": "Eksportujte pravilno formatirane citate i reference direktno u vaše pravne podneske",
+            "icon": "i-lucide-download"
+          },
+          "feat6": {
+            "title": "Povjerljivost klijenta",
+            "description": "Vaše pretrage su potpuno privatne i povjerljive. GDPR usklađeno uz zaštitu advokatske tajne",
+            "icon": "i-lucide-shield-check"
+          }
         }
       },
       "restaurants": {
@@ -1735,6 +1832,22 @@
       "description": "Stručni uvidi o pravnoj AI, trendovima u administrativnom pravu i najboljim praksama za pravna istraživanja na Zapadnom Balkanu."
     },
     "solutions": {
+      "judges": {
+        "title": "Lexora za sudije | Alat za istraživanje upravnih sudova",
+        "description": "Istražite slične predmete između jurisdikcija trenutno. Smanjite vrijeme donošenja odluka sa dana na minute uz AI pravnu pretragu."
+      },
+      "lawyers": {
+        "title": "Lexora za advokate | Analiza pravnih precedenata",
+        "description": "Izgradite jače slučajeve sa sveobuhvatnom analizom precedenata i statistikom uspješnosti u tri jurisdikcije."
+      },
+      "researchers": {
+        "title": "Lexora za istraživače | Komparativne pravne studije",
+        "description": "Pristupite najkompletnijem database-u upravnog prava na Zapadnom Balkanu za komparativna pravna istraživanja."
+      },
+      "citizens": {
+        "title": "Lexora za građane | Razumijte svoja prava",
+        "description": "Dobijte jasna objašnjenja relevantnih zakona i precedenata jednostavnim jezikom. Donosite informisane pravne odluke."
+      },
       "title": "DEPRECATED",
       "description": "DEPRECATED",
       "restaurants": {

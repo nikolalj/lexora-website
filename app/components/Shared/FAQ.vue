@@ -71,7 +71,7 @@ const props = defineProps({
     default: undefined,
   },
   category: {
-    type: String as PropType<'retail' | 'hospitality' | 'partners' | undefined>,
+    type: String as PropType<'retail' | 'hospitality' | 'legal' | 'partners' | undefined>,
     default: undefined
   },
   headingLevel: {

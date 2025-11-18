@@ -1,6 +1,6 @@
 <template>
   <section
-    class="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-950"
+    class="relative overflow-hidden bg-[radial-gradient(ellipse_at_center,_#47ABAA_0%,_#3A8988_40%,_#0A1211_100%)]"
   >
     <UContainer class="relative z-10 py-16 sm:py-24 lg:py-32">
       <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
@@ -8,21 +8,21 @@
         <div>
           <UIAppear>
             <h1
-              class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl lg:text-6xl"
+              class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl"
             >
               {{ hero.title }}
             </h1>
           </UIAppear>
 
           <UIAppear direction="up" :delay="100">
-            <p class="mt-6 text-lg text-gray-600 dark:text-gray-300">
+            <p class="mt-6 text-lg text-gray-100">
               {{ hero.subtitle }}
             </p>
           </UIAppear>
 
           <UIAppear direction="up" :delay="150">
             <p
-              class="mt-4 text-sm font-medium text-gray-500 dark:text-gray-400"
+              class="mt-4 text-sm font-medium text-gray-300"
             >
               {{ hero.features }}
             </p>
@@ -66,12 +66,12 @@
       <div class="mt-16 sm:mt-24">
         <UIAppear>
           <h2
-            class="text-center text-3xl font-bold text-gray-900 dark:text-white"
+            class="text-center text-3xl font-bold text-white"
           >
             {{ overview.title }}
           </h2>
           <p
-            class="mx-auto mt-4 max-w-2xl text-center text-lg text-gray-600 dark:text-gray-300"
+            class="mx-auto mt-4 max-w-2xl text-center text-lg text-gray-200"
           >
             {{ overview.description }}
           </p>
@@ -86,19 +86,19 @@
           >
             <div class="text-center">
               <div
-                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary-100 dark:bg-primary-900"
+                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-white/90 shadow-xl"
               >
                 <UIcon
                   name="i-lucide-check-circle"
-                  class="h-8 w-8 text-primary-600 dark:text-primary-400"
+                  class="h-8 w-8 text-[#A98B1F]"
                 />
               </div>
               <h3
-                class="mb-2 text-lg font-semibold text-gray-900 dark:text-white"
+                class="mb-2 text-lg font-semibold text-white"
               >
                 {{ benefit.title }}
               </h3>
-              <p class="text-sm text-gray-600 dark:text-gray-300">
+              <p class="text-sm text-gray-200">
                 {{ benefit.description }}
               </p>
             </div>
@@ -112,6 +112,10 @@
 <script setup lang="ts">
 const props = defineProps<{
   solution:
+    | 'judges'
+    | 'lawyers'
+    | 'researchers'
+    | 'citizens'
     | 'restaurants'
     | 'barsCafes'
     | 'fastFood'

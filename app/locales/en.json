@@ -21,7 +21,9 @@
       "convenience-stores": "Convenience Stores",
       "b2b": "B2B Sales & E-Invoicing",
       "blog": "Blog",
-      "demo": "Demo"
+      "demo": "Demo",
+      "judges": "Judges",
+      "lawyers": "Lawyers"
     },
     "learnMore": "Learn more",
     "readMore": "Read more",
@@ -736,18 +738,142 @@
     },
     "solutions": {
       "hero": {
-        "title": "Industry-Specific Solutions",
-        "subtitle": "Konty adapts to your business - from restaurants to retail stores",
+        "title": "Solutions for Legal Professionals",
+        "subtitle": "Lexora adapts to your legal research needs - from judges to legal researchers",
         "cta": "Find Your Solution"
       },
       "categories": {
-        "hospitality": {
-          "title": "Hospitality",
-          "description": "Solutions for restaurants, cafes, and quick service"
+        "judicial": {
+          "title": "Judicial",
+          "description": "Solutions for courts, judges, and legal decision-makers"
         },
-        "retail": {
-          "title": "Retail",
-          "description": "Solutions for all types of retail stores"
+        "legal": {
+          "title": "Legal Practice",
+          "description": "Solutions for lawyers, attorneys, and law firms"
+        }
+      },
+      "judges": {
+        "hero": {
+          "title": "Lexora for Judges",
+          "subtitle": "Find and compare similar cases across jurisdictions to make informed decisions faster",
+          "cta": "Schedule a Demo",
+          "features": "Cross-Jurisdictional Search • Precedent Analysis • Case Statistics"
+        },
+        "overview": {
+          "title": "Trusted Legal Research for the Judiciary",
+          "description": "Access comprehensive administrative law database across Montenegro, Serbia, and Croatia",
+          "image": "/images/solutions/judges.png"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Find Similar Cases Instantly",
+            "description": "AI-powered search finds relevant precedents across multiple jurisdictions in seconds"
+          },
+          "b2": {
+            "title": "Compare Legal Interpretations",
+            "description": "Side-by-side comparison of how different courts interpreted similar cases"
+          },
+          "b3": {
+            "title": "Access Complete Case Law",
+            "description": "1M+ administrative court decisions with full text and metadata"
+          }
+        },
+        "features": {
+          "title": "Everything Judges Need for Legal Research",
+          "description": "Comprehensive tools designed specifically for judicial decision-making",
+          "cta": "Explore Features for Judges",
+          "feat1": {
+            "title": "Cross-Jurisdictional Precedent Search",
+            "description": "Search and compare administrative law cases across Montenegro, Serbia, and Croatia simultaneously",
+            "icon": "i-lucide-globe"
+          },
+          "feat2": {
+            "title": "Statistical Case Analysis",
+            "description": "Analyze trends, success rates, and judicial patterns to inform your decisions with data",
+            "icon": "i-lucide-chart-bar"
+          },
+          "feat3": {
+            "title": "AI-Powered Summarization",
+            "description": "Get instant case summaries with key findings and relevant precedents highlighted",
+            "icon": "i-lucide-file-text"
+          },
+          "feat4": {
+            "title": "Citation Network Mapping",
+            "description": "Visualize how cases cite each other and discover related precedents automatically",
+            "icon": "i-lucide-network"
+          },
+          "feat5": {
+            "title": "Natural Language Queries",
+            "description": "Ask questions in plain language - no need for complex Boolean search syntax",
+            "icon": "i-lucide-message-square"
+          },
+          "feat6": {
+            "title": "Secure & Confidential",
+            "description": "Your research queries are private and never shared. GDPR-compliant data handling",
+            "icon": "i-lucide-shield-check"
+          }
+        }
+      },
+      "lawyers": {
+        "hero": {
+          "title": "Lexora for Lawyers & Law Firms",
+          "subtitle": "Build stronger cases with comprehensive precedent analysis and success rate statistics",
+          "cta": "Schedule a Demo",
+          "features": "Precedent Analysis • Success Rate Statistics • Cross-Jurisdictional Research"
+        },
+        "overview": {
+          "title": "Powerful Legal Research for Legal Professionals",
+          "description": "Access 1M+ administrative court decisions across Montenegro, Serbia, and Croatia with AI-powered insights",
+          "image": "/images/solutions/lawyers.png"
+        },
+        "benefits": {
+          "b1": {
+            "title": "Analyze Case Success Rates",
+            "description": "Statistical insights show success rates for similar cases helping you advise clients with confidence"
+          },
+          "b2": {
+            "title": "Find Winning Arguments",
+            "description": "Discover which legal arguments succeeded in similar cases across all three jurisdictions"
+          },
+          "b3": {
+            "title": "Save Research Time",
+            "description": "What used to take days of manual research now takes minutes with AI-powered search"
+          }
+        },
+        "features": {
+          "title": "Everything Lawyers Need to Win Cases",
+          "description": "Comprehensive tools designed specifically for building stronger legal arguments",
+          "cta": "Explore Features for Lawyers",
+          "feat1": {
+            "title": "Success Rate Analytics",
+            "description": "Analyze historical success rates for similar cases to make data-driven decisions on case acceptance",
+            "icon": "i-lucide-trending-up"
+          },
+          "feat2": {
+            "title": "Precedent Research Across Borders",
+            "description": "Find and compare precedents from Montenegro, Serbia, and Croatia to strengthen your arguments",
+            "icon": "i-lucide-globe"
+          },
+          "feat3": {
+            "title": "Argument Pattern Analysis",
+            "description": "Identify which legal arguments have been most successful in similar administrative law cases",
+            "icon": "i-lucide-lightbulb"
+          },
+          "feat4": {
+            "title": "Case Law Summaries",
+            "description": "Get AI-generated summaries with key holdings, reasoning, and outcomes for faster research",
+            "icon": "i-lucide-file-text"
+          },
+          "feat5": {
+            "title": "Citation Export",
+            "description": "Export properly formatted citations and case references directly into your legal briefs",
+            "icon": "i-lucide-download"
+          },
+          "feat6": {
+            "title": "Client Confidentiality",
+            "description": "Your searches are completely private and confidential. GDPR-compliant with lawyer-client privilege protection",
+            "icon": "i-lucide-shield-check"
+          }
         }
       },
       "restaurants": {
@@ -1606,6 +1732,24 @@
     "blog": {
       "title": "Blog - Lexora Legal AI Insights & Resources",
       "description": "Expert insights on legal AI, administrative law trends, and best practices for legal research in the Western Balkans."
+    },
+    "solutions": {
+      "judges": {
+        "title": "Lexora for Judges | Administrative Court Research Tool",
+        "description": "Research similar cases across jurisdictions instantly. Reduce decision-making time from days to minutes with AI-powered legal search."
+      },
+      "lawyers": {
+        "title": "Lexora for Lawyers | Legal Precedent Analysis",
+        "description": "Build stronger cases with comprehensive precedent analysis and success rate statistics across three jurisdictions."
+      },
+      "researchers": {
+        "title": "Lexora for Researchers | Comparative Legal Studies",
+        "description": "Access the most complete administrative law database in the Western Balkans for comparative legal research."
+      },
+      "citizens": {
+        "title": "Lexora for Citizens | Understand Your Legal Rights",
+        "description": "Get clear explanations of relevant laws and precedents in plain language. Make informed legal decisions."
+      }
     }
   },
   "data": {

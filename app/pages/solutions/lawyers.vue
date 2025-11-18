@@ -1,16 +1,15 @@
 <template>
   <div>
     <!-- Solution-specific hero and overview -->
-    <SolutionsOverview solution="barsCafes" />
+    <SolutionsOverview solution="lawyers" />
 
     <!-- Features List -->
-    <LazySolutionsFeaturesList solution="barsCafes" hydrate-on-visible />
+    <LazySolutionsFeaturesList solution="lawyers" hydrate-on-visible />
 
     <!-- Reusable components -->
-    <LazySharedClientList class="dark" product="hospitality" hydrate-on-visible />
-    <LazySharedStatistics class="dark !pt-4" hydrate-on-visible />
-    <LazySharedPricing product="hospitality" hydrate-on-visible />
-    <LazySharedFAQ category="hospitality" hydrate-on-visible />
+    <LazySharedStatistics class="!pt-4" hydrate-on-visible />
+    <LazySharedPricing hydrate-on-visible />
+    <LazySharedFAQ category="legal" hydrate-on-visible />
     <LazySharedContactForm variant="alt" hydrate-on-visible />
   </div>
 </template>
@@ -21,18 +20,18 @@ const schemas = useSchemas()
 
 // SEO
 usePageSeo({
-  title: t('seo.solutions.barsCafes.title'),
-  description: t('seo.solutions.barsCafes.description')
+  title: t('seo.solutions.lawyers.title'),
+  description: t('seo.solutions.lawyers.description')
 })
 
 // Schema.org
-useSchemaOrg([schemas.solutionService('bars-cafes')])
+useSchemaOrg([schemas.solutionService('lawyers')])
 
 // OG Image
 defineOgImageComponent('Main', {
-  title: t('pages.solutions.barsCafes.hero.title'),
-  description: t('pages.solutions.barsCafes.hero.subtitle'),
+  title: t('pages.solutions.lawyers.hero.title'),
+  description: t('pages.solutions.lawyers.hero.subtitle'),
   badge: t('pages.pricing.freeTrial'),
-  cta: t('pages.solutions.barsCafes.hero.cta')
+  cta: t('pages.solutions.lawyers.hero.cta')
 })
 </script>

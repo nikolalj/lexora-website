@@ -1,9 +1,14 @@
 <template>
-  <SharedSection
-    variant="alt"
-    :title="t(`pages.solutions.${solution}.features.title`)"
-    :description="t(`pages.solutions.${solution}.features.description`)"
-  >
+  <SharedSection>
+    <div class="mb-16 text-center">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+        {{ t(`pages.solutions.${solution}.features.title`) }}
+      </h2>
+      <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+        {{ t(`pages.solutions.${solution}.features.description`) }}
+      </p>
+    </div>
+
     <UIAppear direction="up">
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mb-12">
         <div
@@ -13,17 +18,17 @@
         >
           <div class="flex justify-center mb-4">
             <div
-              class="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 group-hover:bg-primary-600 group-hover:text-white transition-all duration-300"
+              class="inline-flex h-16 w-16 items-center justify-center rounded-full bg-primary-600/10 text-primary-600 group-hover:bg-[#A98B1F] group-hover:text-white group-hover:scale-110 transition-all duration-300"
             >
-              <UIcon :name="feature.icon" class="h-6 w-6" />
+              <UIcon :name="feature.icon" class="h-8 w-8" />
             </div>
           </div>
 
-          <h3 class="text-xl font-semibold mb-2 text-highlighted">
+          <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
             {{ feature.title }}
           </h3>
 
-          <p class="text-muted">
+          <p class="text-gray-600 dark:text-gray-300">
             {{ feature.description }}
           </p>
         </div>

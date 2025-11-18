@@ -121,8 +121,8 @@
 
           <UButton
             type="submit"
-            color="primary"
-            class="text-center font-semibold"
+            color="secondary"
+            class="text-center font-semibold text-white"
             size="xl"
             block
             :loading="loading"
