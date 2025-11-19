@@ -7,7 +7,7 @@
       <div class="flex flex-col items-center text-center">
         <!-- Tagline -->
         <UIAppear direction="up">
-          <div class="mb-6 text-sm sm:text-base font-semibold px-3 py-2 bg-gradient-to-r from-[#E1CAB3] via-[#D1B495] to-[#C4A73D] bg-[length:100%_100%] transition-all duration-300 text-gray-900 rounded-lg">
+          <div class="mb-6 text-sm sm:text-base font-semibold px-4 py-2 bg-gradient-to-r from-primary-600 to-[#A98B1F] transition-all duration-300 text-white rounded-lg">
             {{ t('pages.home.hero.tagline') }}
           </div>
         </UIAppear>

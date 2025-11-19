@@ -23,7 +23,8 @@
       "blog": "Blog",
       "demo": "Demo",
       "judges": "Judges",
-      "lawyers": "Lawyers"
+      "lawyers": "Lawyers",
+      "cross-jurisdictional": "Cross-Jurisdictional Search"
     },
     "learnMore": "Learn more",
     "readMore": "Read more",
@@ -1670,6 +1671,105 @@
       "readMore": "Read more",
       "byAuthor": "By",
       "minRead": "min read"
+    },
+    "features": {
+      "crossJurisdictional": {
+        "hero": {
+          "title": "Search Legal Precedents Across Three Countries Simultaneously",
+          "subtitle": "Find and compare administrative law cases from Montenegro, Serbia, and Croatia in a single search. Make stronger legal arguments with comprehensive regional insights.",
+          "badge": "Most Popular Feature",
+          "cta": "Start Free Trial",
+          "stats": {
+            "stat1": {
+              "value": "3",
+              "label": "Countries Covered"
+            },
+            "stat2": {
+              "value": "1M+",
+              "label": "Court Decisions"
+            },
+            "stat3": {
+              "value": "<6s",
+              "label": "Search Time"
+            }
+          }
+        },
+        "howItWorks": {
+          "title": "How Cross-Jurisdictional Search Works",
+          "subtitle": "Powerful AI technology that understands legal context across borders",
+          "step1": {
+            "title": "Enter Your Query",
+            "description": "Type your legal question in natural language - no complex syntax needed. Ask in any language."
+          },
+          "step2": {
+            "title": "AI Searches All Jurisdictions",
+            "description": "Our system simultaneously searches 1M+ court decisions across Montenegro, Serbia, and Croatia."
+          },
+          "step3": {
+            "title": "Compare Results Side-by-Side",
+            "description": "See how different courts ruled on similar cases. Identify patterns and differences instantly."
+          },
+          "step4": {
+            "title": "Export to Your Documents",
+            "description": "Save relevant cases with proper citations directly into your legal briefs and documents."
+          }
+        },
+        "useCases": {
+          "title": "Who Benefits from Cross-Jurisdictional Search?",
+          "subtitle": "Real use cases from legal professionals across the Western Balkans",
+          "case1": {
+            "title": "For Judges",
+            "persona": "Administrative Court Judge",
+            "challenge": "Need to ensure consistency with rulings in neighboring jurisdictions",
+            "solution": "Compare how similar cases were decided in all three countries to make informed, consistent rulings",
+            "result": "Reduced research time from days to minutes while increasing decision confidence"
+          },
+          "case2": {
+            "title": "For Lawyers",
+            "persona": "Attorney Representing Client",
+            "challenge": "Client's business operates in multiple Balkan countries",
+            "solution": "Research all relevant precedents across jurisdictions to build comprehensive legal strategy",
+            "result": "Won case by citing successful precedent from neighboring jurisdiction"
+          },
+          "case3": {
+            "title": "For Researchers",
+            "persona": "Legal Academic",
+            "challenge": "Comparative study of administrative law trends",
+            "solution": "Analyze thousands of cases across three jurisdictions to identify regional patterns",
+            "result": "Published groundbreaking research paper in half the expected time"
+          }
+        },
+        "comparison": {
+          "title": "Before Lexora vs. With Lexora",
+          "subtitle": "See the dramatic difference in legal research efficiency",
+          "before": {
+            "title": "Traditional Research Method",
+            "pain1": "Search each country's database separately (3+ hours)",
+            "pain2": "Manually translate results between languages",
+            "pain3": "Inconsistent search quality across jurisdictions",
+            "pain4": "Miss relevant cases in other countries",
+            "pain5": "Difficult to compare similar cases side-by-side"
+          },
+          "after": {
+            "title": "With Lexora Cross-Jurisdictional Search",
+            "benefit1": "Single search finds cases in all 3 countries (<6 seconds)",
+            "benefit2": "Automatic translation and language normalization",
+            "benefit3": "AI ensures consistent quality across all jurisdictions",
+            "benefit4": "Never miss relevant regional precedents",
+            "benefit5": "Built-in comparison tools highlight similarities and differences"
+          }
+        },
+        "faq": {
+          "q1": "Which countries does cross-jurisdictional search cover?",
+          "a1": "Currently covers Montenegro, Serbia, and Croatia. We're actively adding Bosnia and Herzegovina, with other Balkan countries planned for 2025.",
+          "q2": "Can I search in my own language?",
+          "a2": "Yes! Search in Serbian, Montenegrin, Croatian, Bosnian, or English. Our AI automatically searches across all jurisdictions regardless of query language.",
+          "q3": "How does Lexora match similar cases across different legal systems?",
+          "a3": "Our AI is trained on administrative law from all three jurisdictions. It understands legal concepts, terminology differences, and procedural variations to find truly relevant precedents.",
+          "q4": "Can I filter results by specific country?",
+          "a4": "Absolutely. You can search all countries simultaneously or filter to show results from specific jurisdictions. Comparison view lets you see differences side-by-side."
+        }
+      }
     }
   },
   "seo": {
@@ -1703,7 +1803,11 @@
     },
     "features": {
       "description": "Explore Lexora's powerful features: multilingual search, cross-jurisdictional analysis, statistical querying, and AI-powered case summarization.",
-      "title": "Features - Lexora AI Legal Assistant"
+      "title": "Features - Lexora AI Legal Assistant",
+      "crossJurisdictional": {
+        "title": "Cross-Jurisdictional Legal Search | Search 3 Countries Simultaneously",
+        "description": "Search administrative court decisions across Montenegro, Serbia, and Croatia in one query. AI-powered cross-border legal research for judges, lawyers, and researchers."
+      }
     },
     "terms": {
       "description": "Terms of service for Lexora AI legal research platform and related services.",

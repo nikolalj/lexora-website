@@ -23,7 +23,8 @@
       "blog": "Blog",
       "demo": "Demo",
       "judges": "Sudstvo",
-      "lawyers": "Advokatura"
+      "lawyers": "Advokatura",
+      "cross-jurisdictional": "Pretraga po jurisdikcijama"
     },
     "learnMore": "Saznaj više",
     "readMore": "Pročitaj više",
@@ -1768,6 +1769,105 @@
       "readMore": "Pročitaj više",
       "byAuthor": "Autor",
       "minRead": "min čitanja"
+    },
+    "features": {
+      "crossJurisdictional": {
+        "hero": {
+          "title": "Pretražite pravne precedente u tri zemlje istovremeno",
+          "subtitle": "Pronađite i uporedite upravne predmete iz Crne Gore, Srbije i Hrvatske u jednoj pretrazi. Izgradite jače pravne argumente sa sveobuhvatnim regionalnim uvid ima.",
+          "badge": "Najpopularnija funkcija",
+          "cta": "Započni besplatnu probu",
+          "stats": {
+            "stat1": {
+              "value": "3",
+              "label": "Pokrivene zemlje"
+            },
+            "stat2": {
+              "value": "1M+",
+              "label": "Sudskih odluka"
+            },
+            "stat3": {
+              "value": "<6s",
+              "label": "Vrijeme pretrage"
+            }
+          }
+        },
+        "howItWorks": {
+          "title": "Kako radi pretraga po jurisdikcijama",
+          "subtitle": "Moćna AI tehnologija koja razumije pravni kontekst preko granica",
+          "step1": {
+            "title": "Unesite svoj upit",
+            "description": "Napišite pravno pitanje na prirodnom jeziku - nije potrebna složena sintaksa. Pitajte na bilo kom jeziku."
+          },
+          "step2": {
+            "title": "AI pretražuje sve jurisdikcije",
+            "description": "Naš sistem istovremeno pretražuje 1M+ sudskih odluka u Crnoj Gori, Srbiji i Hrvatskoj."
+          },
+          "step3": {
+            "title": "Uporedite rezultate paralelno",
+            "description": "Vidite kako su različiti sudovi odlučivali o sličnim predmetima. Identifikujte obrasce i razlike trenutno."
+          },
+          "step4": {
+            "title": "Eksportujte u dokumenta",
+            "description": "Sačuvajte relevantne predmete sa pravilnim citatima direktno u vaše pravne podneske i dokumente."
+          }
+        },
+        "useCases": {
+          "title": "Ko ima koristi od pretrage po jurisdikcijama?",
+          "subtitle": "Stvarni primjeri upotrebe od pravnih stručnjaka širom Zapadnog Balkana",
+          "case1": {
+            "title": "Za sudije",
+            "persona": "Sudija Upravnog suda",
+            "challenge": "Potreba za osiguravanjem dosljednosti sa presudama u susjednim jurisdikcijama",
+            "solution": "Uporedite kako su slični predmeti odlučeni u sve tri zemlje za donošenje informisanih, dosljednih presuda",
+            "result": "Smanjeno vrijeme istraživanja sa dana na minute uz povećano povjerenje u odluke"
+          },
+          "case2": {
+            "title": "Za advokate",
+            "persona": "Advokat koji zastupa klijenta",
+            "challenge": "Poslovanje klijenta u više balkanskih zemalja",
+            "solution": "Istražite sve relevantne precedente kroz jurisdikcije za izgradnju sveobuhvatne pravne strategije",
+            "result": "Dobijen predmet citirajući uspješan precedent iz susjedne jurisdikcije"
+          },
+          "case3": {
+            "title": "Za istraživače",
+            "persona": "Pravni akademik",
+            "challenge": "Komparativna studija trendova u upravnom pravu",
+            "solution": "Analizirajte hiljade predmeta kroz tri jurisdikcije za identifikaciju regionalnih obrazaca",
+            "result": "Objavljeno revolucionarno istraživanje u pola očekivanog vremena"
+          }
+        },
+        "comparison": {
+          "title": "Prije Lexore vs. Sa Lexorom",
+          "subtitle": "Vidite drastičnu razliku u efikasnosti pravnih istraživanja",
+          "before": {
+            "title": "Tradicionalna metoda istraživanja",
+            "pain1": "Pretražite bazu svake zemlje posebno (3+ sata)",
+            "pain2": "Ručno prevodite rezultate između jezika",
+            "pain3": "Nedosledan kvalitet pretrage kroz jurisdikcije",
+            "pain4": "Propuštate relevantne predmete u drugim zemljama",
+            "pain5": "Teško uporediti slične predmete paralelno"
+          },
+          "after": {
+            "title": "Sa Lexora pretragom po jurisdikcijama",
+            "benefit1": "Jedna pretraga pronalazi predmete u sve 3 zemlje (<6 sekundi)",
+            "benefit2": "Automatski prevod i normalizacija jezika",
+            "benefit3": "AI osigurava dosledan kvalitet kroz sve jurisdikcije",
+            "benefit4": "Nikada ne propustite relevantne regionalne precedente",
+            "benefit5": "Ugrađeni alati za poređenje ističu sličnosti i razlike"
+          }
+        },
+        "faq": {
+          "q1": "Koje zemlje pokriva pretraga po jurisdikcijama?",
+          "a1": "Trenutno pokriva Crnu Goru, Srbiju i Hrvatsku. Aktivno dodajemo Bosnu i Hercegovinu, sa drugim balkanskim zemljama planiranim za 2025.",
+          "q2": "Mogu li da pretražujem na svom jeziku?",
+          "a2": "Da! Pretražujte na srpskom, crnogorskom, hrvatskom, bosanskom ili engleskom. Naša AI automatski pretražuje sve jurisdikcije bez obzira na jezik upita.",
+          "q3": "Kako Lexora uparuje slične predmete kroz različite pravne sisteme?",
+          "a3": "Naša AI je obučena na upravnom pravu iz sve tri jurisdikcije. Razumije pravne koncepte, razlike u terminologiji i proceduralne varijacije kako bi pronašla istinski relevantne precedente.",
+          "q4": "Mogu li filtrirati rezultate po određenoj zemlji?",
+          "a4": "Apsolutno. Možete pretražiti sve zemlje istovremeno ili filtrirati da pokažete rezultate iz određenih jurisdikcija. Prikaz poređenja omogućava da vidite razlike paralelno."
+        }
+      }
     }
   },
   "seo": {
@@ -1801,7 +1901,11 @@
     },
     "features": {
       "description": "Istražite moćne funkcije Lexore: višejezična pretraga, međujurisdikcijska analiza, statističke upite i AI sažimanje predmeta.",
-      "title": "Funkcije - Lexora AI pravni asistent"
+      "title": "Funkcije - Lexora AI pravni asistent",
+      "crossJurisdictional": {
+        "title": "Međujurisdikcijska pravna pretraga | Pretražite 3 zemlje istovremeno",
+        "description": "Pretražite upravne sudske odluke u Crnoj Gori, Srbiji i Hrvatskoj u jednom upitu. AI pravna istraživanja preko granica za sudije, advokate i istraživače."
+      }
     },
     "terms": {
       "description": "Uslovi korišćenja Lexora AI platforme za pravna istraživanja i povezanih usluga.",
