@@ -1,8 +1,11 @@
 <template>
   <UHeader
     mode="slideover"
-    class="fixed top-0 w-full h-auto transition-[background-color,box-shadow,color] duration-1000 border-none"
-    :class="!isHeaderSolid ? 'bg-transparent' : 'bg-[rgba(71,171,170,0.95)]'"
+    class="fixed top-0 w-full h-auto transition-[background-color,box-shadow,color] duration-1000 border-none !backdrop-blur-none"
+    :class="[
+      !isHeaderSolid ? 'bg-transparent' : 'bg-[rgba(71,171,170,0.95)]',
+      isHeaderSolid && 'backdrop-blur'
+    ]"
     :ui="{
       container: 'min-h-16'
     }"
@@ -145,6 +148,9 @@ function isRouteWithTransparentHeader(path: string) {
     '/solutions/researchers',
     '/demo',
     '/features/cross-jurisdictional',
+    '/features/statistical-analytics',
+    '/features/case-summarization',
+    '/features/precedent-mapping',
   ]
 
   return routesWithTransparentHeader.some(p => removeTrailingSlash(localePath(p)) === removeTrailingSlash(path))

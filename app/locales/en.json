@@ -24,7 +24,9 @@
       "demo": "Demo",
       "judges": "Judges",
       "lawyers": "Lawyers",
-      "cross-jurisdictional": "Cross-Jurisdictional Search"
+      "cross-jurisdictional": "Cross-Jurisdictional Search",
+      "statistical-analytics": "Statistical Analytics",
+      "case-summarization": "Case Summarization"
     },
     "learnMore": "Learn more",
     "readMore": "Read more",
@@ -297,6 +299,11 @@
       "title": "Transparent Pricing for Every User",
       "description": "From individual lawyers to institutional partners. Start with a free trial.",
       "freeTrial": "14-day free trial - No credit card required",
+      "trustIndicators": {
+        "trial": "14-day free trial",
+        "noCC": "No credit card required",
+        "cancel": "Cancel anytime"
+      },
       "plans": {
         "free": {
           "title": "Free Trial",
@@ -1552,111 +1559,146 @@
     },
     "partners": {
       "hero": {
-        "title": "Become a Konty Partner",
-        "subtitle": "Expand your offering and deliver cutting-edge POS solutions to your clients. Join our growing partner network."
+        "title": "Partner with Lexora",
+        "subtitle": "Join the leading legal AI network in the Western Balkans. Help legal institutions, law firms, and universities transform their research with AI-powered tools."
       },
       "cta": "Become a Partner",
-      "filterPlaceholder": "Search partners...",
-      "noResults": "No results found for your search",
+      "types": {
+        "title": "Partner Categories",
+        "subtitle": "Lexora partners with different types of legal institutions across the region",
+        "lawFirms": {
+          "title": "Law Firms & Legal Practices",
+          "description": "Partner with us to offer your clients cutting-edge legal research tools. Provide added value with AI-powered case analysis.",
+          "benefits": {
+            "benefit1": "Exclusive partner pricing for your firm",
+            "benefit2": "Priority technical support",
+            "benefit3": "Co-branded client presentations",
+            "benefit4": "Revenue share opportunities"
+          }
+        },
+        "courts": {
+          "title": "Courts & Judicial Institutions",
+          "description": "Institutional partnerships to modernize judicial research. Help judges make faster, more informed decisions with comprehensive precedent access.",
+          "benefits": {
+            "benefit1": "Enterprise deployment support",
+            "benefit2": "Custom training programs",
+            "benefit3": "Dedicated institutional account manager",
+            "benefit4": "Volume licensing discounts"
+          }
+        },
+        "universities": {
+          "title": "Universities & Research Institutions",
+          "description": "Academic partnerships for legal education and research. Provide students and researchers with access to comprehensive legal databases.",
+          "benefits": {
+            "benefit1": "Academic pricing tiers",
+            "benefit2": "Research collaboration opportunities",
+            "benefit3": "Student access programs",
+            "benefit4": "Educational materials and case studies"
+          }
+        }
+      },
+      "showcase": {
+        "title": "Trusted by Legal Institutions",
+        "subtitle": "Leading courts, law firms, and universities across Montenegro, Serbia, and Croatia",
+        "cta": "Join these institutions and become a partner"
+      },
       "benefits": {
-        "title": "Why Partner with Konty",
-        "description": "Join a growing network and expand your business with competitive advantages and comprehensive support.",
+        "title": "Why Partner with Lexora",
+        "description": "Join the leading legal AI platform and help transform legal research in the Western Balkans",
         "benefit1": {
-          "title": "Competitive Pricing",
-          "description": "Attractive partner pricing structure with volume-based incentives to maximize your profitability and grow your business."
+          "title": "First-Mover Advantage",
+          "description": "Be among the first to offer AI-powered legal research in your region. Lexora is the only cross-jurisdictional legal AI platform in the Western Balkans."
         },
         "benefit2": {
-          "title": "Proven Product",
-          "description": "Sell a reliable, cloud-based POS system trusted by thousands of businesses across retail and hospitality sectors."
+          "title": "Comprehensive Database",
+          "description": "Offer access to 1M+ administrative court decisions across three jurisdictions with 100% corpus coverage and multilingual search capabilities."
         },
         "benefit3": {
-          "title": "Comprehensive Training",
-          "description": "Complete onboarding and ongoing product training to ensure you can confidently sell and support Konty solutions."
+          "title": "Ongoing Training & Support",
+          "description": "Complete onboarding, regular product training, and dedicated partner support to ensure successful implementations and satisfied clients."
         },
         "benefit4": {
-          "title": "Technical Support",
-          "description": "Dedicated partner support line and technical assistance to help you successfully implement and maintain client solutions."
+          "title": "Technical Integration",
+          "description": "API access, technical documentation, and integration support to seamlessly incorporate Lexora into existing legal workflows."
         },
         "benefit5": {
-          "title": "Marketing Materials",
-          "description": "Co-branded marketing materials, sales tools, and lead generation support to accelerate your sales process."
+          "title": "Marketing & Sales Support",
+          "description": "Co-branded materials, case studies, and joint marketing opportunities to help you demonstrate value to your clients and stakeholders."
         },
         "benefit6": {
-          "title": "Growing Market",
-          "description": "Tap into the expanding POS market with a modern, feature-rich solution that meets diverse business needs."
+          "title": "Growing Legal Tech Market",
+          "description": "Tap into the rapidly expanding legal technology market with a proven, reliable AI platform trusted by legal professionals."
         }
       },
       "flow": {
         "title": "Partnership Process",
-        "description": "How to become a Konty partner in 4 simple steps",
+        "description": "How to become a Lexora partner in 4 simple steps",
         "steps": {
           "step1": {
             "title": "Initial Contact",
-            "description": "Fill out the form and our partnership team will reach out within 24 hours"
+            "description": "Fill out the partnership inquiry form and our team will contact you within 48 hours to discuss opportunities"
           },
           "step2": {
             "title": "Partnership Agreement",
-            "description": "Review and sign the partnership terms and commercial conditions"
+            "description": "Review partnership terms, pricing structure, and support commitments tailored to your institution type"
           },
           "step3": {
-            "title": "Training & Onboarding",
-            "description": "Complete comprehensive training on products, sales, and technical implementation"
+            "title": "Training & Setup",
+            "description": "Complete comprehensive training on Lexora features, best practices, and technical implementation for your team"
           },
           "step4": {
-            "title": "Start Selling",
-            "description": "Begin offering Konty solutions with full support from our team"
+            "title": "Go Live",
+            "description": "Launch Lexora with full support from our team, including ongoing technical assistance and regular check-ins"
           }
         }
       },
       "support": {
         "title": "Partner Support",
-        "description": "Comprehensive support to ensure your success as a Konty partner",
+        "description": "Comprehensive support to ensure successful implementations and satisfied clients",
         "types": {
           "technical": {
             "title": "Technical Support",
-            "description": "Get the technical backing you need to confidently implement and support Konty solutions.",
+            "description": "Get the technical backing you need to successfully deploy and support Lexora in your institution.",
             "features": {
-              "feature1": "Dedicated technical support line",
-              "feature2": "Implementation assistance",
-              "feature3": "Regular product training",
-              "feature4": "Access to technical documentation"
+              "feature1": "Dedicated partner support channel",
+              "feature2": "API documentation and integration guides",
+              "feature3": "Regular product training webinars",
+              "feature4": "Priority bug fixes and feature requests"
             }
           },
-          "commercial": {
-            "title": "Commercial Support",
-            "description": "Attractive commercial terms and conditions to maximize your profitability.",
+          "institutional": {
+            "title": "Institutional Support",
+            "description": "Tailored support for courts, law firms, and universities to maximize adoption and value.",
             "features": {
-              "feature1": "Competitive partner pricing",
-              "feature2": "Volume-based incentives",
-              "feature3": "Deal registration program",
-              "feature4": "Quarterly business reviews"
+              "feature1": "Custom deployment planning",
+              "feature2": "Volume licensing and billing flexibility",
+              "feature3": "Dedicated account management",
+              "feature4": "Quarterly business reviews and reporting"
             }
           },
-          "marketing": {
-            "title": "Marketing Support",
-            "description": "Marketing materials and co-marketing opportunities to help you succeed.",
+          "training": {
+            "title": "Training & Education",
+            "description": "Comprehensive educational resources to help your team and clients get the most from Lexora.",
             "features": {
-              "feature1": "Co-branded marketing materials",
-              "feature2": "Lead generation support",
-              "feature3": "Partner portal access",
-              "feature4": "Joint marketing campaigns"
+              "feature1": "On-site and remote training sessions",
+              "feature2": "Customized training materials",
+              "feature3": "Train-the-trainer programs",
+              "feature4": "Ongoing webinars and workshops"
             }
           }
         }
       },
       "faq": {
-        "title": "Partner FAQ",
-        "subtitle": "Common questions about becoming a Konty partner",
-        "q1": "How do I become a Konty partner?",
-        "a1": "Simply fill out the contact form on this page and our partnership team will reach out to you within 24 hours to discuss the opportunity and next steps.",
-        "q2": "What are the requirements to become a partner?",
-        "a2": "We look for partners with experience in retail or hospitality technology, a proven sales track record, and the ability to provide local support to clients in your region.",
+        "q1": "How do I become a Lexora partner?",
+        "a1": "Fill out the partnership inquiry form on this page. Our partnerships team will contact you within 48 hours to discuss the partnership opportunity, requirements, and next steps.",
+        "q2": "What types of institutions can become partners?",
+        "a2": "We partner with law firms, courts, judicial institutions, universities, legal research centers, and legal technology providers across Montenegro, Serbia, and Croatia.",
         "q3": "What support do partners receive?",
-        "a3": "Partners receive comprehensive technical, commercial, and marketing support including training, documentation, co-branded materials, dedicated support lines, and ongoing product updates.",
-        "q4": "How does the delivery process work?",
-        "a4": "After signing the partnership agreement and completing training, you'll have access to our partner portal, demo systems, and sales materials. Our team supports you throughout the sales and implementation process.",
-        "q5": "What are the commercial terms?",
-        "a5": "We offer competitive partner pricing with volume-based incentives. Specific terms are discussed during the partnership evaluation process and tailored to your market and capabilities."
+        "a3": "Partners receive comprehensive technical support, dedicated account management, ongoing training, co-branded marketing materials, and priority access to new features and updates.",
+        "q4": "How does pricing work for institutional partners?",
+        "a4": "We offer flexible volume licensing with discounts based on the number of users. Pricing varies by institution type (law firms, courts, universities) and is discussed during the partnership evaluation.",
+        "q5": "Can we integrate Lexora with our existing systems?",
+        "a5": "Yes, Lexora provides API access and technical documentation for integration with existing legal case management systems, research tools, and institutional platforms."
       }
     },
     "blog": {
@@ -1769,6 +1811,493 @@
           "q4": "Can I filter results by specific country?",
           "a4": "Absolutely. You can search all countries simultaneously or filter to show results from specific jurisdictions. Comparison view lets you see differences side-by-side."
         }
+      },
+      "statisticalAnalytics": {
+        "hero": {
+          "title": "Make Data-Driven Legal Decisions with Statistical Analytics",
+          "subtitle": "Analyze success rates, trends, and patterns across 1M+ administrative court decisions. Answer questions no other legal research tool can.",
+          "badge": "Unique Feature",
+          "cta": "Start Free Trial",
+          "stats": {
+            "stat1": {
+              "value": "85%+",
+              "label": "Pattern Accuracy"
+            },
+            "stat2": {
+              "value": "1M+",
+              "label": "Cases Analyzed"
+            },
+            "stat3": {
+              "value": "Real-time",
+              "label": "Updated Daily"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "What You Can Analyze",
+          "subtitle": "Statistical queries that transform how you approach legal research",
+          "cap1": {
+            "title": "Success Rate Analysis",
+            "description": "What percentage of similar cases succeeded? Compare success rates across judges, courts, jurisdictions, and time periods.",
+            "example": "\"What's the success rate for tax assessment appeals in Montenegro from 2020-2024?\""
+          },
+          "cap2": {
+            "title": "Trend Detection",
+            "description": "Identify emerging patterns in judicial rulings. Track how legal interpretations evolve over time.",
+            "example": "\"Show me trends in environmental permit disputes over the last 5 years.\""
+          },
+          "cap3": {
+            "title": "Comparative Analysis",
+            "description": "Compare outcomes across different variables: jurisdictions, court levels, case types, legal arguments.",
+            "example": "\"Compare success rates of administrative silence claims across all three countries.\""
+          },
+          "cap4": {
+            "title": "Judge & Court Patterns",
+            "description": "Understand judicial tendencies. Which judges favor certain arguments? Which courts have highest reversal rates?",
+            "example": "\"Analyze Administrative Court judge patterns in construction permit cases.\""
+          },
+          "cap5": {
+            "title": "Argument Effectiveness",
+            "description": "Measure which legal arguments succeed most often. Build your case strategy on proven approaches.",
+            "example": "\"Which arguments succeed most in procedural violation claims?\""
+          },
+          "cap6": {
+            "title": "Time-Based Patterns",
+            "description": "Discover how case duration, filing timing, and procedural delays affect outcomes.",
+            "example": "\"Average case duration for successful vs unsuccessful appeals?\""
+          }
+        },
+        "examples": {
+          "title": "Real Analytics in Action",
+          "subtitle": "See how legal professionals use statistical insights to win cases",
+          "example1": {
+            "question": "What's the success rate for challenging building permits in Podgorica?",
+            "answer": "67% success rate",
+            "insight": "Cases citing procedural violations have 82% success vs 45% for substantive challenges",
+            "action": "Focus on procedural arguments rather than substantive merit"
+          },
+          "example2": {
+            "question": "How long do tax assessment appeals typically take?",
+            "answer": "14.3 months average",
+            "insight": "Cases filed in Q1 resolve 23% faster than Q3-Q4 filings",
+            "action": "Advise clients on optimal filing timing"
+          },
+          "example3": {
+            "question": "Do environmental permit appeals succeed more in certain jurisdictions?",
+            "answer": "Croatia: 71% | Serbia: 58% | Montenegro: 43%",
+            "insight": "Croatian courts emphasize EU compliance standards more heavily",
+            "action": "Strengthen EU directive arguments when litigating in Croatia"
+          }
+        },
+        "useCases": {
+          "title": "Who Benefits from Statistical Analytics?",
+          "subtitle": "Transform raw data into strategic advantage",
+          "case1": {
+            "title": "For Lawyers",
+            "persona": "Attorney Evaluating New Case",
+            "challenge": "Client asks: \"What are our chances of winning?\"",
+            "solution": "Query success rates for similar cases, analyze which arguments work, identify optimal legal strategy",
+            "result": "Provide data-backed case assessment and win probability estimate"
+          },
+          "case2": {
+            "title": "For Law Firms",
+            "persona": "Managing Partner",
+            "challenge": "Need to decide which cases to accept on contingency",
+            "solution": "Statistical analysis of historical success rates, average settlement values, case duration patterns",
+            "result": "Accept only high-probability cases, increase contingency win rate by 34%"
+          },
+          "case3": {
+            "title": "For Researchers",
+            "persona": "Legal Scholar",
+            "challenge": "Studying judicial decision-making patterns across jurisdictions",
+            "solution": "Comprehensive statistical analysis of thousands of cases, trend identification, comparative metrics",
+            "result": "Publish groundbreaking research on regional legal divergence patterns"
+          }
+        },
+        "comparison": {
+          "title": "Traditional Research vs Statistical Analytics",
+          "subtitle": "See why statistics change everything",
+          "before": {
+            "title": "Without Statistical Analytics",
+            "pain1": "Anecdotal assessments: \"This seems like a strong case\"",
+            "pain2": "No quantitative basis for case evaluation",
+            "pain3": "Miss emerging trends and pattern shifts",
+            "pain4": "Cannot compare effectiveness across strategies",
+            "pain5": "Clients ask for win probability - you can't answer with data"
+          },
+          "after": {
+            "title": "With Lexora Statistical Analytics",
+            "benefit1": "Data-driven assessments: \"Cases like this succeed 73% of the time\"",
+            "benefit2": "Quantitative probability estimates for clients",
+            "benefit3": "Real-time trend detection and alerts",
+            "benefit4": "Compare argument effectiveness with hard numbers",
+            "benefit5": "Answer client questions with statistical evidence"
+          }
+        },
+        "faq": {
+          "q1": "How accurate are the statistical analyses?",
+          "a1": "Our analytics engine processes 1M+ court decisions with 85%+ pattern recognition accuracy. All statistics are based on actual case outcomes, not predictions. We show sample sizes so you can assess statistical significance.",
+          "q2": "Can I query custom statistics beyond the examples shown?",
+          "a2": "Yes! Our natural language query interface lets you ask virtually any statistical question about the dataset. Ask about success rates, trends, patterns, correlations - if it's in the data, we can analyze it.",
+          "q3": "How often is statistical data updated?",
+          "a3": "Our database is updated daily with new court decisions. Statistics reflect the most current data available, with clear timestamps showing data freshness.",
+          "q4": "Do other legal research platforms offer this?",
+          "a4": "No. Lexora is the only legal research platform in the Western Balkans (and one of very few globally) offering sophisticated statistical querying. Most platforms only show individual cases - we show patterns across millions of cases."
+        }
+      },
+      "caseSummarization": {
+        "hero": {
+          "title": "Multi-Level AI Case Summarization in Seconds",
+          "subtitle": "Generate comprehensive case summaries at three different depth levels. From 30-second overviews to detailed analytical breakdowns - all AI-powered and instant.",
+          "badge": "AI-Powered",
+          "cta": "Start Free Trial",
+          "stats": {
+            "stat1": {
+              "value": "3",
+              "label": "Summary Levels"
+            },
+            "stat2": {
+              "value": "<10s",
+              "label": "Generation Time"
+            },
+            "stat3": {
+              "value": "95%+",
+              "label": "Accuracy Rate"
+            }
+          }
+        },
+        "levels": {
+          "title": "Choose Your Summary Depth",
+          "subtitle": "Three levels designed for different workflows - from quick scanning to deep analysis",
+          "level1": {
+            "name": "Quick Overview",
+            "time": "30 seconds to read",
+            "icon": "i-lucide-zap",
+            "description": "Essential facts at a glance",
+            "includes": {
+              "i1": "Case type and subject matter",
+              "i2": "Parties involved",
+              "i3": "Court and date",
+              "i4": "Final outcome (granted/denied)",
+              "i5": "Key relief requested"
+            },
+            "useCase": "Perfect for initial case screening and triage"
+          },
+          "level2": {
+            "name": "Standard Summary",
+            "time": "2-3 minutes to read",
+            "icon": "i-lucide-file-text",
+            "description": "Balanced detail for most research needs",
+            "includes": {
+              "i1": "All Quick Overview elements",
+              "i2": "Factual background and procedural history",
+              "i3": "Main legal arguments from both sides",
+              "i4": "Court's reasoning and analysis",
+              "i5": "Applicable laws and precedents cited",
+              "i6": "Outcome with key points from decision"
+            },
+            "useCase": "Ideal for legal research and case comparison"
+          },
+          "level3": {
+            "name": "Detailed Analysis",
+            "time": "5-7 minutes to read",
+            "icon": "i-lucide-microscope",
+            "description": "Comprehensive breakdown for thorough review",
+            "includes": {
+              "i1": "All Standard Summary elements",
+              "i2": "Detailed procedural timeline",
+              "i3": "Complete legal argumentation from all parties",
+              "i4": "In-depth analysis of court's legal reasoning",
+              "i5": "All statutory provisions and case law cited",
+              "i6": "Dissenting or concurring opinions (if any)",
+              "i7": "Practical implications and precedential value"
+            },
+            "useCase": "For in-depth case study and brief preparation"
+          }
+        },
+        "examples": {
+          "title": "See Summaries in Action",
+          "subtitle": "Real case summaries showing each level's depth",
+          "example": {
+            "caseTitle": "Building Permit Appeal - Environmental Review",
+            "citation": "Administrative Court of Montenegro, Case No. 123/2023",
+            "quick": {
+              "title": "Quick Overview (30 sec)",
+              "content": "Appeal against denial of building permit for residential complex in coastal zone. Appellant: Developer LLC. Respondent: Ministry of Sustainable Development. Court ruled in favor of Ministry, upholding permit denial due to inadequate environmental impact assessment. Appeal denied."
+            },
+            "standard": {
+              "title": "Standard Summary (2-3 min)",
+              "content": "Developer LLC appealed the Ministry's decision denying a building permit for a 50-unit residential complex in a protected coastal zone. The developer argued that their environmental impact assessment (EIA) met all statutory requirements and that the Ministry's denial was arbitrary. The Ministry countered that the EIA failed to adequately address impact on protected bird species and coastal erosion risks.\n\nThe Court found that the Law on Environmental Impact Assessment requires specific analysis of impacts on protected species, which the developer's EIA lacked. The Court also noted that coastal zone construction requires heightened scrutiny under the Spatial Planning Law. The Ministry's decision was deemed legally sound and proportionate to the environmental risks identified.\n\nAppeal denied. No procedural violations found."
+            },
+            "detailed": {
+              "title": "Detailed Analysis (5-7 min)",
+              "content": "Full procedural history, complete argumentation from both parties, detailed analysis of all legal provisions (Articles 15, 23, and 41 of Environmental Impact Assessment Law; Articles 8 and 12 of Spatial Planning Law), discussion of three precedent cases cited, examination of EU Directive compliance requirements, analysis of proportionality test applied by court, implications for future coastal development projects, and precedential value for similar cases."
+            }
+          }
+        },
+        "benefits": {
+          "title": "Why AI Summarization Matters",
+          "subtitle": "Save time without sacrificing comprehension",
+          "benefit1": {
+            "title": "10x Faster Case Review",
+            "description": "Read a detailed summary in 3 minutes instead of spending 30+ minutes reading the full decision",
+            "icon": "i-lucide-clock"
+          },
+          "benefit2": {
+            "title": "Consistent Quality",
+            "description": "AI extracts the same key elements every time - no important details missed due to fatigue or time pressure",
+            "icon": "i-lucide-check-circle"
+          },
+          "benefit3": {
+            "title": "Multiple Cases at Once",
+            "description": "Review 20 cases in the time it would take to read 2 full decisions - perfect for comprehensive research",
+            "icon": "i-lucide-layers"
+          },
+          "benefit4": {
+            "title": "Flexible Depth",
+            "description": "Start with Quick Overview for screening, then dive deeper only on relevant cases - optimize your research workflow",
+            "icon": "i-lucide-sliders-horizontal"
+          },
+          "benefit5": {
+            "title": "Multilingual Summaries",
+            "description": "Get summaries in your preferred language regardless of the original decision's language",
+            "icon": "i-lucide-languages"
+          },
+          "benefit6": {
+            "title": "Export & Share",
+            "description": "Copy summaries directly into briefs, research memos, or client communications with proper citations",
+            "icon": "i-lucide-share-2"
+          }
+        },
+        "comparison": {
+          "title": "Manual Reading vs AI Summarization",
+          "subtitle": "See the dramatic time savings",
+          "before": {
+            "title": "Traditional Case Reading",
+            "pain1": "30-45 minutes per full court decision",
+            "pain2": "Manually identify key facts and legal issues",
+            "pain3": "Easy to miss important details in lengthy decisions",
+            "pain4": "Difficult to compare multiple cases efficiently",
+            "pain5": "Slows down research when reviewing many cases"
+          },
+          "after": {
+            "title": "With Lexora AI Summarization",
+            "benefit1": "30 seconds to 7 minutes depending on detail needed",
+            "benefit2": "AI automatically extracts key elements consistently",
+            "benefit3": "Structured summaries ensure no critical information missed",
+            "benefit4": "Quickly compare summaries of 10+ cases side-by-side",
+            "benefit5": "Review 10x more cases in the same amount of time"
+          }
+        },
+        "faq": {
+          "q1": "How accurate are the AI-generated summaries?",
+          "a1": "Our summarization AI achieves 95%+ accuracy in extracting key case elements. Every summary includes a citation to the full decision so you can verify details. We recommend using summaries for research and screening, then reviewing full decisions for cases you'll cite in court filings.",
+          "q2": "Can I customize what's included in summaries?",
+          "a2": "Currently we offer three preset levels (Quick, Standard, Detailed) that cover the most common research needs. Custom summary templates are planned for enterprise users in 2025.",
+          "q3": "Do summaries work for all three jurisdictions?",
+          "a3": "Yes! Our AI is trained on administrative court decisions from Montenegro, Serbia, and Croatia. Summary quality is consistent across all jurisdictions and languages.",
+          "q4": "Can I export summaries to Word or PDF?",
+          "a4": "Absolutely. You can copy summaries with proper citations directly into your documents, or export them as formatted Word/PDF files. All summaries include the official case citation for proper attribution."
+        }
+      },
+      "precedentMapping": {
+        "hero": {
+          "title": "Discover Precedent Chains Automatically with AI",
+          "subtitle": "Trace how legal reasoning evolved across related cases. Our AI maps citation networks and identifies influential precedents in seconds - work that used to take hours.",
+          "badge": "Advanced AI",
+          "cta": "Start Mapping Precedents",
+          "features": {
+            "feature1": "Automatic citation network visualization",
+            "feature2": "Influence scoring for each precedent",
+            "feature3": "Cross-jurisdictional precedent tracking",
+            "feature4": "Timeline view of legal reasoning evolution"
+          },
+          "visual": {
+            "case1": {
+              "court": "Montenegro Supreme",
+              "year": "2018",
+              "title": "Environmental Impact Requirements"
+            },
+            "case2": {
+              "court": "Serbia Administrative",
+              "year": "2020",
+              "title": "Coastal Zone Protection Standards"
+            },
+            "case3": {
+              "court": "Croatia High Admin",
+              "year": "2023",
+              "title": "Current Case - Permit Denial",
+              "badge": "Your Case"
+            },
+            "badge": "8 precedents found"
+          }
+        },
+        "visualization": {
+          "title": "See Your Case in Context",
+          "subtitle": "Visual precedent mapping reveals connections you might miss in traditional research",
+          "central": {
+            "title": "Your Case",
+            "subtitle": "Building Permit 2023"
+          },
+          "nodes": {
+            "node1": "Environmental review standard established",
+            "node2": "Public participation requirements clarified",
+            "node3": "Agency discretion limits defined",
+            "node4": "Burden of proof allocation discussed",
+            "node5": "Remedies framework established",
+            "node6": "Similar factual pattern - permit granted",
+            "node7": "Contrary holding - different jurisdiction",
+            "node8": "Foundational environmental law decision"
+          },
+          "legend": {
+            "high": "High relevance (85%+)",
+            "medium": "Medium relevance (70-84%)",
+            "low": "Low relevance (<70%)"
+          }
+        },
+        "howItWorks": {
+          "title": "How Precedent Mapping Works",
+          "subtitle": "From citation chaos to clear precedent chains in seconds",
+          "steps": {
+            "step1": {
+              "title": "Upload or Select Your Case",
+              "description": "Start with any court decision from our database or upload your own brief to find relevant precedents"
+            },
+            "step2": {
+              "title": "AI Analyzes Citations & Legal Issues",
+              "description": "Our AI reads the decision, identifies legal issues, extracts all cited cases, and analyzes the reasoning structure",
+              "tech1": "Legal NLP",
+              "tech2": "Citation extraction",
+              "tech3": "Issue spotting"
+            },
+            "step3": {
+              "title": "Map Precedent Network",
+              "description": "System builds a visual network showing how cases cite each other, which precedents are most influential, and where reasoning diverges"
+            },
+            "step4": {
+              "title": "Calculate Relevance Scores",
+              "description": "Each precedent gets a relevance score based on legal similarity, citation frequency, jurisdiction, and outcome alignment"
+            },
+            "step5": {
+              "title": "Explore Interactive Map",
+              "description": "Click any case to see its summary, citation path, and how it influenced the legal reasoning in your target case",
+              "badge": "Results in under 10 seconds"
+            }
+          }
+        },
+        "useCases": {
+          "title": "Who Uses Precedent Mapping?",
+          "subtitle": "Real scenarios where mapping precedents changes outcomes",
+          "cases": {
+            "case1": {
+              "title": "Lawyers Building Stronger Arguments",
+              "description": "Identify the most persuasive precedent chain to support your legal argument. See which cases courts cite most favorably.",
+              "example": {
+                "label": "Example scenario:",
+                "text": "\"I'm arguing for permit approval. Show me cases where courts granted permits in similar environmental review situations - and which precedents they relied on.\""
+              },
+              "benefits": {
+                "benefit1": "Find the strongest precedent chain in minutes",
+                "benefit2": "Identify counter-arguments courts found unpersuasive",
+                "benefit3": "Build citation strategy based on influence scores"
+              }
+            },
+            "case2": {
+              "title": "Judges Ensuring Consistency",
+              "description": "Verify your reasoning aligns with established precedent across jurisdictions.",
+              "cta": "See judicial workflow"
+            },
+            "case3": {
+              "title": "Researchers Tracking Legal Evolution",
+              "description": "Study how legal doctrines developed over time across different courts and jurisdictions.",
+              "cta": "Explore research features"
+            },
+            "case4": {
+              "title": "Law Students Learning Legal Reasoning",
+              "description": "Understand how courts build on previous decisions and how legal principles evolve through case law.",
+              "cta": "Request Academic Access",
+              "stats": {
+                "stat1": {
+                  "value": "1M+",
+                  "label": "Cases mapped"
+                },
+                "stat2": {
+                  "value": "15 years",
+                  "label": "Historical precedent data"
+                },
+                "stat3": {
+                  "value": "3 countries",
+                  "label": "Cross-border tracking"
+                }
+              }
+            }
+          }
+        },
+        "comparison": {
+          "title": "Manual vs AI Precedent Research",
+          "subtitle": "Stop spending hours tracing citations manually",
+          "before": {
+            "title": "Manual Precedent Research",
+            "timeline": {
+              "step1": {
+                "title": "Read full decision and extract citations",
+                "time": "45-60 min"
+              },
+              "step2": {
+                "title": "Look up each cited case individually",
+                "time": "2-4 hours"
+              },
+              "step3": {
+                "title": "Read those cases to find their citations",
+                "time": "3-6 hours"
+              },
+              "step4": {
+                "title": "Manually map relationships and relevance",
+                "time": "1-2 hours"
+              }
+            },
+            "total": {
+              "label": "Total time invested",
+              "time": "7-13 hours"
+            }
+          },
+          "after": {
+            "title": "With Lexora AI Precedent Mapping",
+            "badge": "96% TIME SAVINGS",
+            "process": {
+              "step1": {
+                "title": "AI reads decision and extracts all precedents",
+                "time": "5 sec",
+                "description": "Instant citation extraction across all levels"
+              },
+              "step2": {
+                "title": "System maps complete precedent network",
+                "time": "8 sec",
+                "description": "Builds visual graph showing all relationships"
+              },
+              "step3": {
+                "title": "Relevance scores calculated automatically",
+                "time": "3 sec",
+                "description": "AI ranks precedents by influence and similarity"
+              }
+            },
+            "total": {
+              "label": "Total time invested",
+              "time": "16 seconds",
+              "savings": "Save 7-13 hours per case"
+            }
+          }
+        },
+        "faq": {
+          "q1": "How does the AI determine precedent relevance?",
+          "a1": "Our AI analyzes multiple factors: citation frequency across cases, legal issue similarity, jurisdictional weight, outcome alignment, and temporal relevance. Cases cited more often by courts in similar situations get higher relevance scores.",
+          "q2": "Can I see precedents across all three jurisdictions?",
+          "a2": "Yes! One of Lexora's unique features is cross-jurisdictional precedent mapping. You can see how courts in Montenegro, Serbia, and Croatia cite each other's decisions and identify common legal principles across borders.",
+          "q3": "What if a case cites 50+ precedents?",
+          "a3": "No problem. The system handles cases with hundreds of citations. You can filter by relevance score, jurisdiction, date range, or legal issue to focus on the most important precedents for your research.",
+          "q4": "Can I export the precedent map?",
+          "a4": "Absolutely. Export precedent maps as visual diagrams (PNG/PDF) or as structured lists with summaries of each case. Perfect for including in research memos or teaching materials."
+        }
       }
     }
   },
@@ -1807,6 +2336,18 @@
       "crossJurisdictional": {
         "title": "Cross-Jurisdictional Legal Search | Search 3 Countries Simultaneously",
         "description": "Search administrative court decisions across Montenegro, Serbia, and Croatia in one query. AI-powered cross-border legal research for judges, lawyers, and researchers."
+      },
+      "statisticalAnalytics": {
+        "title": "Statistical Legal Analytics | Data-Driven Case Strategy",
+        "description": "Analyze success rates, trends, and patterns across 1M+ court decisions. Make data-driven legal decisions with statistical insights no other platform offers."
+      },
+      "caseSummarization": {
+        "title": "AI Case Summarization | Multi-Level Legal Summaries",
+        "description": "Generate instant case summaries at any depth level. From quick overviews to detailed analysis in under 10 seconds with 95%+ accuracy."
+      },
+      "precedentMapping": {
+        "title": "AI Precedent Mapping | Automated Citation Network Analysis",
+        "description": "Trace precedent chains automatically with AI. Visual citation networks, influence scoring, and cross-jurisdictional precedent tracking in seconds."
       }
     },
     "terms": {

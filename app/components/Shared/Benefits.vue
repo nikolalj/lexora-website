@@ -16,7 +16,7 @@
         <div class="group p-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-elevated hover:border-primary-500 dark:hover:border-primary-600 transition-all duration-300 hover:shadow-lg h-full flex flex-col">
           <!-- Icon -->
           <div class="mb-4">
-            <div class="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 group-hover:bg-primary-600 group-hover:text-white transition-all duration-300">
+            <div class="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary-100 dark:bg-primary-400/50 text-primary-600 dark:text-white transition-all duration-300 dark:shadow-xl dark:ring-1 dark:ring-primary-300/20">
               <UIcon :name="benefit.icon" class="h-6 w-6" />
             </div>
           </div>

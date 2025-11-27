@@ -13,7 +13,7 @@
         >
           <!-- Icon -->
           <div class="mb-6">
-            <div class="inline-flex h-14 w-14 items-center justify-center rounded-lg bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 group-hover:bg-primary-600 group-hover:text-white transition-all duration-300">
+            <div class="inline-flex h-14 w-14 items-center justify-center rounded-lg bg-primary-100 dark:bg-primary-400/50 text-primary-600 dark:text-white transition-all duration-300 dark:shadow-xl dark:ring-1 dark:ring-primary-300/20 group-hover:bg-primary-600 group-hover:text-white">
               <UIcon :name="support.icon" class="h-7 w-7" />
             </div>
           </div>
@@ -65,17 +65,17 @@ const { t } = useI18n()
 const supportTypes = [
   {
     key: 'technical',
-    icon: 'i-lucide-wrench',
+    icon: 'i-lucide-cpu',
     featureCount: 4
   },
   {
-    key: 'commercial',
-    icon: 'i-lucide-briefcase',
+    key: 'institutional',
+    icon: 'i-lucide-building-2',
     featureCount: 4
   },
   {
-    key: 'marketing',
-    icon: 'i-lucide-megaphone',
+    key: 'training',
+    icon: 'i-lucide-book-open',
     featureCount: 4
   }
 ]

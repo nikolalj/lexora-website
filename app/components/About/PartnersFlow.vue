@@ -64,9 +64,9 @@ const props = defineProps({
 const { t } = useI18n()
 
 const steps = [
-  { icon: 'i-lucide-mail' },
-  { icon: 'i-lucide-handshake' },
-  { icon: 'i-lucide-graduation-cap' },
+  { icon: 'i-lucide-send' },
+  { icon: 'i-lucide-file-check' },
+  { icon: 'i-lucide-users' },
   { icon: 'i-lucide-rocket' }
 ]
 </script>

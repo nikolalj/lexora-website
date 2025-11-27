@@ -1,5 +1,5 @@
 <template>
-  <section class="relative isolate py-28 sm:py-34 bg-gradient-to-br from-primary-50 to-primary-100 dark:from-gray-900 dark:to-gray-800">
+  <section class="relative isolate pt-32 sm:pt-40 lg:pt-48 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-br from-primary-50 to-primary-100 dark:from-gray-900 dark:to-gray-800">
     <UContainer class="flex flex-col items-center text-center">
       <UIAppear direction="up" :distance="32">
         <div class="max-w-3xl">
@@ -11,7 +11,7 @@
             {{ t('pages.partners.hero.subtitle') }}
           </p>
 
-          <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+          <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <UButton
               size="lg"
               color="primary"

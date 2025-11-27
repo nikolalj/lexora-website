@@ -66,7 +66,7 @@
               </div>
               <!-- Shared description area -->
               <div v-if="hoveredSolutionLabel" class="text-xs text-[var(--ui-text-secondary)] text-center leading-relaxed px-2 min-h-12 mb-2 flex items-center justify-center overflow-hidden max-w-116">
-                <p class="break-words">{{ item.children.slice(0, 2).find(c => c.label === hoveredSolutionLabel)?.description }}</p>
+                <p class="break-words text-center">{{ item.children.slice(0, 2).find(c => c.label === hoveredSolutionLabel)?.description }}</p>
               </div>
 
               <div

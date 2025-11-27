@@ -22,9 +22,7 @@
       "b2b": "B2B prodaja i E fakture",
       "blog": "Blog",
       "demo": "Demo",
-      "judges": "Sudstvo",
-      "lawyers": "Advokatura",
-      "cross-jurisdictional": "Pretraga po jurisdikcijama"
+      "judges": "Sudstvo"
     },
     "learnMore": "Saznaj više",
     "readMore": "Pročitaj više",
@@ -63,7 +61,7 @@
       },
       "solutions": {
         "forJudges": "Za sudove",
-        "forJudgesDesc": "Brzo pronađite i uporedite slične predmete iz različitih zemalja za doношenje informisanijih odluka",
+        "forJudgesDesc": "Brzo pronađite i uporedite slične predmete iz različitih zemalja za donosenje informisanijih odluka",
         "forLawyers": "Za advokate",
         "forLawyersDesc": "Osnažite svoje argumente analizom sudske prakse i statističkim podacima o uspješnosti",
         "forResearchers": "Za istraživače",
@@ -913,68 +911,6 @@
           }
         }
       },
-      "lawyers": {
-        "hero": {
-          "title": "Lexora za advokate i advokatske kancelarije",
-          "subtitle": "Izgradite jače predmete uz sveobuhvatnu analizu precedenata i statistiku uspješnosti",
-          "cta": "Zakažite demo",
-          "features": "Analiza precedenata • Statistika uspješnosti • Istraživanje po državama"
-        },
-        "overview": {
-          "title": "Moćna pravna istraživanja za advokatsku praksu",
-          "description": "Pristup bazi od 1M+ upravnih sudskih odluka u Crnoj Gori, Srbiji i Hrvatskoj uz AI analizu",
-          "image": "/images/solutions/lawyers.png"
-        },
-        "benefits": {
-          "b1": {
-            "title": "Analizirajte stopu uspješnosti predmeta",
-            "description": "Statistički uvidi pokazuju stopu uspjeha sličnih predmeta i pomažu vam da savjetujete klijente sa pouzdanjem"
-          },
-          "b2": {
-            "title": "Pronađite argumente koji pobjeđuju",
-            "description": "Otkrijte koji pravni argumenti su uspjeli u sličnim predmetima u sve tri jurisdikcije"
-          },
-          "b3": {
-            "title": "Uštedite vrijeme na istraživanju",
-            "description": "Ono što je prije trajalo danima ručnog istraživanja sada traje minute uz AI pretragu"
-          }
-        },
-        "features": {
-          "title": "Sve što advokatima treba za pobjedu u predmetima",
-          "description": "Sveobuhvatni alati dizajnirani specifično za izgradnju jačih pravnih argumenata",
-          "cta": "Istražite mogućnosti za advokate",
-          "feat1": {
-            "title": "Analitika stope uspješnosti",
-            "description": "Analizirajte istorijske stope uspjeha sličnih predmeta za odluke zasnovane na podacima",
-            "icon": "i-lucide-trending-up"
-          },
-          "feat2": {
-            "title": "Istraživanje precedenata preko granica",
-            "description": "Pronađite i uporedite precedente iz Crne Gore, Srbije i Hrvatske za jače argumente",
-            "icon": "i-lucide-globe"
-          },
-          "feat3": {
-            "title": "Analiza obrazaca argumentacije",
-            "description": "Identifikujte koji pravni argumenti su bili najuspješniji u sličnim upravnim predmetima",
-            "icon": "i-lucide-lightbulb"
-          },
-          "feat4": {
-            "title": "Sažeci sudske prakse",
-            "description": "Dobijte AI sažetke sa ključnim nalazima, obrazloženjima i ishodima za brže istraživanje",
-            "icon": "i-lucide-file-text"
-          },
-          "feat5": {
-            "title": "Eksport citata",
-            "description": "Eksportujte pravilno formatirane citate i reference direktno u vaše pravne podneske",
-            "icon": "i-lucide-download"
-          },
-          "feat6": {
-            "title": "Povjerljivost klijenta",
-            "description": "Vaše pretrage su potpuno privatne i povjerljive. GDPR usklađeno uz zaštitu advokatske tajne",
-            "icon": "i-lucide-shield-check"
-          }
-        }
-      },
       "restaurants": {
         "hero": {
           "title": "Konty za restorane",
@@ -1650,111 +1586,146 @@
     },
     "partners": {
       "hero": {
-        "title": "Postanite Konty partner",
-        "subtitle": "Proširite svoju ponudu i nudite najsavremenija POS rješenja svojim klijentima. Pridružite se našoj rastućoj partnerskoj mreži."
+        "title": "Postanite Lexora partner",
+        "subtitle": "Pridružite se vodećoj AI mreži za pravna istraživanja na Zapadnom Balkanu. Pomozite pravnim institucijama, advokatskim kancelarijama i univerzitetima da transformišu svoja istraživanja sa AI alatima."
       },
       "cta": "Postanite partner",
-      "filterPlaceholder": "Pretraži partnere...",
-      "noResults": "Nema rezultata za vašu pretragu",
+      "types": {
+        "title": "Kategorije partnera",
+        "subtitle": "Lexora sarađuje sa različitim tipovima pravnih institucija u regionu",
+        "lawFirms": {
+          "title": "Advokatske kancelarije i pravne prakse",
+          "description": "Partnerstvo sa nama omogućava vam da klijentima nudite najsavremenije alate za pravna istraživanja. Pružite dodatnu vrijednost sa AI analizom predmeta.",
+          "benefits": {
+            "benefit1": "Ekskluzivne partnerske cijene za vašu kancelariju",
+            "benefit2": "Prioritetna tehnička podrška",
+            "benefit3": "Prezentacije za klijente sa brendom",
+            "benefit4": "Mogućnosti dijeljenja prihoda"
+          }
+        },
+        "courts": {
+          "title": "Sudovi i sudske institucije",
+          "description": "Institucionalna partnerstva za modernizaciju sudskih istraživanja. Pomozite sudijama da donose brže i informisanije odluke sa sveobuhvatnim pristupom precedentima.",
+          "benefits": {
+            "benefit1": "Podrška za poslovnu implementaciju",
+            "benefit2": "Prilagođeni programi obuke",
+            "benefit3": "Posvećeni institucionalni menadžer naloga",
+            "benefit4": "Popusti na grupno licenciranje"
+          }
+        },
+        "universities": {
+          "title": "Univerziteti i istraživačke institucije",
+          "description": "Akademska partnerstva za pravno obrazovanje i istraživanje. Omogućite studentima i istraživačima pristup sveobuhvatnim pravnim bazama podataka.",
+          "benefits": {
+            "benefit1": "Akademske cijene",
+            "benefit2": "Mogućnosti za istraživačku saradnju",
+            "benefit3": "Programi pristupa za studente",
+            "benefit4": "Edukativni materijali i studije slučaja"
+          }
+        }
+      },
+      "showcase": {
+        "title": "Povjerenje pravnih institucija",
+        "subtitle": "Vodeći sudovi, advokatske kancelarije i univerziteti širom Crne Gore, Srbije i Hrvatske",
+        "cta": "Pridružite se ovim institucijama i postanite partner"
+      },
       "benefits": {
-        "title": "Zašto postati Konty partner",
-        "description": "Pridružite se rastućoj mreži i proširite svoj biznis uz konkurentne prednosti i sveobuhvatnu podršku.",
+        "title": "Zašto postati Lexora partner",
+        "description": "Pridružite se vodećoj AI platformi za pravna istraživanja i pomozite u transformaciji pravnih istraživanja na Zapadnom Balkanu",
         "benefit1": {
-          "title": "Konkurentne cijene",
-          "description": "Atraktivna partnerska struktura cijena sa podsticajima zasnovanim na obimu kako biste maksimizovali profitabilnost i razvili svoj biznis."
+          "title": "Prednost prvog koraka",
+          "description": "Budite među prvima koji nude AI pravna istraživanja u vašem regionu. Lexora je jedina međujurisdikcijska pravna AI platforma na Zapadnom Balkanu."
         },
         "benefit2": {
-          "title": "Provjereni proizvod",
-          "description": "Prodajte pouzdan cloud-based POS sistem kojem vjeruje hiljade preduzeća u trgovini i ugostiteljstvu."
+          "title": "Sveobuhvatna baza podataka",
+          "description": "Ponudite pristup 1M+ odluka upravnih sudova u tri jurisdikcije sa 100% pokrivenošću korpusa i mogućnostima višejezične pretrage."
         },
         "benefit3": {
-          "title": "Sveobuhvatna obuka",
-          "description": "Kompletna obuka i kontinuirana edukacija o proizvodu kako biste mogli sa povjerenjem prodavati i podržavati Konty rješenja."
+          "title": "Kontinuirana obuka i podrška",
+          "description": "Kompletno uvođenje, redovna obuka o proizvodu i posvećena partnerska podrška za osiguranje uspješnih implementacija i zadovoljnih klijenata."
         },
         "benefit4": {
-          "title": "Tehnička podrška",
-          "description": "Dedicirani partnerni support line i tehnička pomoć za uspješnu implementaciju i održavanje klijentskih rješenja."
+          "title": "Tehnička integracija",
+          "description": "API pristup, tehnička dokumentacija i podrška za integraciju za besprijekornu integraciju Lexore u postojeće pravne tokove rada."
         },
         "benefit5": {
-          "title": "Marketing materijali",
-          "description": "Co-branded marketing materijali, alati za prodaju i podrška u generisanju potencijalnih klijenata za ubrzavanje prodajnog procesa."
+          "title": "Marketing i prodajna podrška",
+          "description": "Materijali sa brendom, studije slučaja i zajedničke marketing mogućnosti koje vam pomažu da pokažete vrijednost klijentima i dionicima."
         },
         "benefit6": {
-          "title": "Rastući market",
-          "description": "Iskoristite rastući POS market sa modernim, funkcionalnim rješenjem koje zadovoljava različite poslovne potrebe."
+          "title": "Rastući legal tech tržište",
+          "description": "Iskoristite brzo rastući tržište pravnih tehnologija sa dokazanom, pouzdanom AI platformom kojoj vjeruju pravni profesionalci."
         }
       },
       "flow": {
         "title": "Proces partnerstva",
-        "description": "Kako postati Konty partner u 4 jednostavna koraka",
+        "description": "Kako postati Lexora partner u 4 jednostavna koraka",
         "steps": {
           "step1": {
             "title": "Početni kontakt",
-            "description": "Popunite formular i naš tim za partnerstvo će vas kontaktirati u roku od 24 sata"
+            "description": "Popunite formular za upit o partnerstvu i naš tim će vas kontaktirati u roku od 48 sati da raspravimo mogućnosti"
           },
           "step2": {
             "title": "Ugovor o partnerstvu",
-            "description": "Pregledajte i potpišite uslove partnerstva i komercijalne uslove"
+            "description": "Pregledajte uslove partnerstva, strukturu cijena i obaveze podrške prilagođene tipu vaše institucije"
           },
           "step3": {
-            "title": "Obuka i uvođenje",
-            "description": "Završite sveobuhvatnu obuku o proizvodima, prodaji i tehničkoj implementaciji"
+            "title": "Obuka i postavljanje",
+            "description": "Završite sveobuhvatnu obuku o Lexora funkcijama, najboljim praksama i tehničkoj implementaciji za vaš tim"
           },
           "step4": {
-            "title": "Počnite sa prodajom",
-            "description": "Počnite nuditi Konty rješenja uz punu podršku našeg tima"
+            "title": "Pokretanje",
+            "description": "Pokrenite Lexoru uz punu podršku našeg tima, uključujući kontinuiranu tehničku pomoć i redovne provjere"
           }
         }
       },
       "support": {
         "title": "Podrška partnerima",
-        "description": "Sveobuhvatna podrška koja osigurava vaš uspjeh kao Konty partnera",
+        "description": "Sveobuhvatna podrška za osiguranje uspješnih implementacija i zadovoljnih klijenata",
         "types": {
           "technical": {
             "title": "Tehnička podrška",
-            "description": "Dobijte tehničku podršku koja vam je potrebna za sigurnu implementaciju i podršku Konty rješenja.",
+            "description": "Dobijte tehničku podršku koju trebate za uspješnu implementaciju i podršku Lexore u vašoj instituciji.",
             "features": {
-              "feature1": "Dedicirani tehnički support line",
-              "feature2": "Pomoć pri implementaciji",
-              "feature3": "Redovne obuke o proizvodu",
-              "feature4": "Pristup tehničkoj dokumentaciji"
+              "feature1": "Posvećeni partnerski kanal podrške",
+              "feature2": "API dokumentacija i vodiči za integraciju",
+              "feature3": "Redovni webinari za obuku o proizvodu",
+              "feature4": "Prioritetno ispravljanje grešaka i zahtjevi za funkcije"
             }
           },
-          "commercial": {
-            "title": "Komercijalna podrška",
-            "description": "Atraktivni komercijalni uslovi koji maksimiziraju vašu profitabilnost.",
+          "institutional": {
+            "title": "Institucionalna podrška",
+            "description": "Prilagođena podrška za sudove, advokatske kancelarije i univerzitete za maksimizaciju prihvatanja i vrijednosti.",
             "features": {
-              "feature1": "Konkurentne partnerske cijene",
-              "feature2": "Podsticaji zasnovani na obimu",
-              "feature3": "Program registracije poslova",
-              "feature4": "Kvartalni poslovni pregledi"
+              "feature1": "Prilagođeno planiranje implementacije",
+              "feature2": "Fleksibilnost licenciranja i naplate",
+              "feature3": "Posvećeno upravljanje nalozima",
+              "feature4": "Kvartalni poslovni pregledi i izvještavanje"
             }
           },
-          "marketing": {
-            "title": "Marketing podrška",
-            "description": "Marketing materijali i co-marketing prilike koje pomažu vašem uspjehu.",
+          "training": {
+            "title": "Obuka i edukacija",
+            "description": "Sveobuhvatni edukativni resursi koji pomažu vašem timu i klijentima da maksimalno iskoriste Lexoru.",
             "features": {
-              "feature1": "Co-branded marketing materijali",
-              "feature2": "Podrška u generisanju potencijalnih klijenata",
-              "feature3": "Pristup partnerskom portalu",
-              "feature4": "Zajedničke marketing kampanje"
+              "feature1": "Sesije obuke na licu mjesta i online",
+              "feature2": "Prilagođeni materijali za obuku",
+              "feature3": "Programi obuke instruktora",
+              "feature4": "Kontinuirani webinari i radionice"
             }
           }
         }
       },
       "faq": {
-        "title": "Partner FAQ",
-        "subtitle": "Najčešća pitanja o tome kako postati Konty partner",
-        "q1": "Kako da postanem Konty partner?",
-        "a1": "Jednostavno popunite kontakt formular na ovoj stranici i naš tim za partnerstvo će vas kontaktirati u roku od 24 sata kako bi razgovarali o mogućnostima i sljedećim koracima.",
-        "q2": "Koji su uslovi za partnerstvo?",
-        "a2": "Tražimo partnere sa iskustvom u tehnologiji za trgovinu ili ugostiteljstvo, dokazanim rezultatima u prodaji i sposobnošću pružanja lokalne podrške klijentima u vašem regionu.",
-        "q3": "Kakvu podršku dobijaju partneri?",
-        "a3": "Partneri dobijaju sveobuhvatnu tehničku, komercijalnu i marketing podršku uključujući obuku, dokumentaciju, co-branded materijale, dedicirane support linije i kontinuirana ažuriranja proizvoda.",
-        "q4": "Kako izgleda proces isporuke?",
-        "a4": "Nakon potpisivanja ugovora o partnerstvu i završetka obuke, imaćete pristup partnerskom portalu, demo sistemima i prodajnim materijalima. Naš tim vas podržava tokom cijelog procesa prodaje i implementacije.",
-        "q5": "Koji su komercijalni uslovi?",
-        "a5": "Nudimo konkurentne partnerske cijene sa podsticajima zasnovanim na obimu. Specifični uslovi se razmatraju tokom procesa evaluacije partnerstva i prilagođavaju se vašem tržištu i mogućnostima."
+        "q1": "Kako mogu postati Lexora partner?",
+        "a1": "Popunite formular za upit o partnerstvu na ovoj stranici. Naš tim za partnerstva će vas kontaktirati u roku od 48 sati da razgovaramo o mogućnostima partnerstva, zahtjevima i sljedećim koracima.",
+        "q2": "Koje vrste institucija mogu postati partneri?",
+        "a2": "Sarađujemo sa advokatskim kancelarijama, sudovima, sudskim institucijama, univerzitetima, centrima za pravna istraživanja i provajderima pravnih tehnologija širom Crne Gore, Srbije i Hrvatske.",
+        "q3": "Kakvu podršku partneri dobijaju?",
+        "a3": "Partneri dobijaju sveobuhvatnu tehničku podršku, posvećeno upravljanje nalozima, kontinuiranu obuku, marketing materijale sa brendom i prioritetni pristup novim funkcijama i ažuriranjima.",
+        "q4": "Kako funkcionišu cijene za institucionalne partnere?",
+        "a4": "Nudimo fleksibilno grupno licenciranje sa popustima na osnovu broja korisnika. Cijene variraju prema tipu institucije (advokatske kancelarije, sudovi, univerziteti) i razmatraju se tokom procjene partnerstva.",
+        "q5": "Možemo li integrisati Lexoru sa našim postojećim sistemima?",
+        "a5": "Da, Lexora pruža API pristup i tehničku dokumentaciju za integraciju sa postojećim sistemima za upravljanje pravnim predmetima, alatima za istraživanje i institucionalnim platformama."
       }
     },
     "blog": {
@@ -1771,101 +1742,203 @@
       "minRead": "min čitanja"
     },
     "features": {
-      "crossJurisdictional": {
+      "precedentMapping": {
         "hero": {
-          "title": "Pretražite pravne precedente u tri zemlje istovremeno",
-          "subtitle": "Pronađite i uporedite upravne predmete iz Crne Gore, Srbije i Hrvatske u jednoj pretrazi. Izgradite jače pravne argumente sa sveobuhvatnim regionalnim uvid ima.",
-          "badge": "Najpopularnija funkcija",
-          "cta": "Započni besplatnu probu",
-          "stats": {
-            "stat1": {
-              "value": "3",
-              "label": "Pokrivene zemlje"
+          "title": "Otkrijte lance precedenata automatski sa AI",
+          "subtitle": "Pratite kako se pravno rezonovanje razvijalo kroz povezane predmete. Naša AI mapira mreže citata i identifikuje uticajne precedente za sekunde - posao koji je prije trajao satima.",
+          "badge": "Napredna AI",
+          "cta": "Započni mapiranje precedenata",
+          "features": {
+            "feature1": "Automatska vizualizacija mreže citata",
+            "feature2": "Bodovanje uticaja za svaki precedent",
+            "feature3": "Međujurisdikcijsko praćenje precedenata",
+            "feature4": "Pregled vremenske linije evolucije pravnog rezonovanja"
+          },
+          "visual": {
+            "case1": {
+              "court": "Vrhovni sud CG",
+              "year": "2018",
+              "title": "Zahtjevi za procjenu uticaja na životnu sredinu"
             },
-            "stat2": {
-              "value": "1M+",
-              "label": "Sudskih odluka"
+            "case2": {
+              "court": "Upravni sud Srbije",
+              "year": "2020",
+              "title": "Standardi zaštite obalnog pojasa"
             },
-            "stat3": {
-              "value": "<6s",
-              "label": "Vrijeme pretrage"
-            }
+            "case3": {
+              "court": "Visoki upravni sud Hrvatske",
+              "year": "2023",
+              "title": "Trenutni predmet - Odbijanje dozvole",
+              "badge": "Vaš predmet"
+            },
+            "badge": "Pronađeno 8 precedenata"
+          }
+        },
+        "visualization": {
+          "title": "Vidite svoj predmet u kontekstu",
+          "subtitle": "Vizuelno mapiranje precedenata otkriva veze koje možete propustiti u tradicionalnom istraživanju",
+          "central": {
+            "title": "Vaš predmet",
+            "subtitle": "Građevinska dozvola 2023"
+          },
+          "nodes": {
+            "node1": "Utvrđen standard ekološke procjene",
+            "node2": "Pojašnjeni zahtjevi javnog učešća",
+            "node3": "Definisane granice diskrecije agencije",
+            "node4": "Raspravljena raspodjela tereta dokazivanja",
+            "node5": "Uspostavljen okvir pravnih sredstava",
+            "node6": "Sličan činjenični obrazac - odobrena dozvola",
+            "node7": "Suprotna odluka - različita jurisdikcija",
+            "node8": "Temeljna odluka o zaštiti životne sredine"
+          },
+          "legend": {
+            "high": "Visoka relevantnost (85%+)",
+            "medium": "Srednja relevantnost (70-84%)",
+            "low": "Niska relevantnost (<70%)"
           }
         },
         "howItWorks": {
-          "title": "Kako radi pretraga po jurisdikcijama",
-          "subtitle": "Moćna AI tehnologija koja razumije pravni kontekst preko granica",
-          "step1": {
-            "title": "Unesite svoj upit",
-            "description": "Napišite pravno pitanje na prirodnom jeziku - nije potrebna složena sintaksa. Pitajte na bilo kom jeziku."
-          },
-          "step2": {
-            "title": "AI pretražuje sve jurisdikcije",
-            "description": "Naš sistem istovremeno pretražuje 1M+ sudskih odluka u Crnoj Gori, Srbiji i Hrvatskoj."
-          },
-          "step3": {
-            "title": "Uporedite rezultate paralelno",
-            "description": "Vidite kako su različiti sudovi odlučivali o sličnim predmetima. Identifikujte obrasce i razlike trenutno."
-          },
-          "step4": {
-            "title": "Eksportujte u dokumenta",
-            "description": "Sačuvajte relevantne predmete sa pravilnim citatima direktno u vaše pravne podneske i dokumente."
+          "title": "Kako radi mapiranje precedenata",
+          "subtitle": "Naš AI sistem mapira pravnu precedentu u pet koraka - automatski i tačno",
+          "steps": {
+            "step1": {
+              "title": "Analizirajte svoj predmet",
+              "description": "Jednostavno otpremite dokument predmeta ili unesite ključne činjenice. Naš AI odmah počinje sa analizom pravnih pitanja i činjeničnih obrazaca."
+            },
+            "step2": {
+              "title": "AI pretraga kroz 1M+ odluka",
+              "description": "Napredni RAG sistem pretražuje kompletnu bazu odluka upravnih sudova u tri jurisdikcije, identifikujući relevantne precedente bazirane na pravnim pitanjima, činjenicama i obrazloženju.",
+              "tech1": "RAG tehnologija",
+              "tech2": "Semantička pretraga",
+              "tech3": "Analiza citata"
+            },
+            "step3": {
+              "title": "Mapiranje lanca precedenata",
+              "description": "AI prati kako su predmeti međusobno citirani, otkrivajući lance precedenata koji vode do vašeg pravnog pitanja i identifikujući najuticajnije odluke."
+            },
+            "step4": {
+              "title": "Bodovanje uticaja i relevantnosti",
+              "description": "Svaki precedent dobija bodove uticaja (koliko često je citiran) i relevantnosti (koliko dobro odgovara vašem predmetu), pomažući vam da se fokusirate na najvažnije odluke."
+            },
+            "step5": {
+              "title": "Dobijte sveobuhvatnu vizualizaciju",
+              "description": "Vidite kako se svi precedenti međusobno povezuju u interaktivnoj mreži. Kliknite na bilo koji predmet za detaljne informacije, uporedite obrazloženja i razumijte evoluciju pravnog rezonovanja.",
+              "badge": "Gotovo za <10 sekundi"
+            }
           }
         },
         "useCases": {
-          "title": "Ko ima koristi od pretrage po jurisdikcijama?",
-          "subtitle": "Stvarni primjeri upotrebe od pravnih stručnjaka širom Zapadnog Balkana",
-          "case1": {
-            "title": "Za sudije",
-            "persona": "Sudija Upravnog suda",
-            "challenge": "Potreba za osiguravanjem dosljednosti sa presudama u susjednim jurisdikcijama",
-            "solution": "Uporedite kako su slični predmeti odlučeni u sve tri zemlje za donošenje informisanih, dosljednih presuda",
-            "result": "Smanjeno vrijeme istraživanja sa dana na minute uz povećano povjerenje u odluke"
-          },
-          "case2": {
-            "title": "Za advokate",
-            "persona": "Advokat koji zastupa klijenta",
-            "challenge": "Poslovanje klijenta u više balkanskih zemalja",
-            "solution": "Istražite sve relevantne precedente kroz jurisdikcije za izgradnju sveobuhvatne pravne strategije",
-            "result": "Dobijen predmet citirajući uspješan precedent iz susjedne jurisdikcije"
-          },
-          "case3": {
-            "title": "Za istraživače",
-            "persona": "Pravni akademik",
-            "challenge": "Komparativna studija trendova u upravnom pravu",
-            "solution": "Analizirajte hiljade predmeta kroz tri jurisdikcije za identifikaciju regionalnih obrazaca",
-            "result": "Objavljeno revolucionarno istraživanje u pola očekivanog vremena"
+          "title": "Ko koristi mapiranje precedenata?",
+          "subtitle": "Od pripreme predmeta do pravnih istraživanja - otkrijte kako precedentna mreža pomaže različitim pravnim profesionalcima",
+          "cases": {
+            "case1": {
+              "title": "Advokati - Izgradite jače argumente",
+              "description": "Pronađite sve relevantne precedente za svoje slučajeve, analizirajte kako su sudovi ranije presudili i identifikujte najubjedljivije argumente iz uspješnih predmeta.",
+              "example": {
+                "label": "Primjer scenarija",
+                "text": "Advokat brani klijenta u sporu o građevinskoj dozvoli. Mapiranje precedenata odmah otkriva 12 sličnih predmeta u tri jurisdikcije, sa 8 predmeta gdje je agencija bila dužna da ponovi procjenu uticaja."
+              },
+              "benefits": {
+                "benefit1": "Pronađite predmete koje biste inače propustili",
+                "benefit2": "Vidite koje argumente sudovi preferiraju",
+                "benefit3": "Identifikujte slabe tačke u argumentaciji druge strane"
+              }
+            },
+            "case2": {
+              "title": "Sudije - Brže istraživanje",
+              "description": "Pristupite kompletnim lancima precedenata za pravno pitanje i uporedite kako su slični predmeti riješeni u različitim jurisdikcijama.",
+              "cta": "Istražite rješenja za sudije"
+            },
+            "case3": {
+              "title": "Pravni istraživači - Analizirajte evoluciju prava",
+              "description": "Pratite kako se pravno rezonovanje razvijalo tokom vremena, identifikujte prekretničke predmete i analizirajte razlike između jurisdikcija.",
+              "cta": "Istražite rješenja za istraživače"
+            },
+            "case4": {
+              "title": "Pravni fakulteti - Nastava bazirana na precedentima",
+              "description": "Pokažite studentima kako se pravno rezonovanje razvija kroz lance precedenata. Kreirajte studije slučajeva koje prikazuju kompleksne pravne koncepte kroz stvarne primjere.",
+              "cta": "Zakažite edukativni demo",
+              "stats": {
+                "stat1": {
+                  "value": "1M+",
+                  "label": "Presuda dostupno za analizu"
+                },
+                "stat2": {
+                  "value": "3",
+                  "label": "Jurisdikcije pokrivene"
+                },
+                "stat3": {
+                  "value": "100%",
+                  "label": "Kompletna mreža citata"
+                }
+              }
+            }
           }
         },
         "comparison": {
-          "title": "Prije Lexore vs. Sa Lexorom",
-          "subtitle": "Vidite drastičnu razliku u efikasnosti pravnih istraživanja",
+          "title": "Tradicionalno istraživanje vs. AI mapiranje",
+          "subtitle": "Vidite razliku koju pravi automatizovana precedentna analiza",
           "before": {
-            "title": "Tradicionalna metoda istraživanja",
-            "pain1": "Pretražite bazu svake zemlje posebno (3+ sata)",
-            "pain2": "Ručno prevodite rezultate između jezika",
-            "pain3": "Nedosledan kvalitet pretrage kroz jurisdikcije",
-            "pain4": "Propuštate relevantne predmete u drugim zemljama",
-            "pain5": "Teško uporediti slične predmete paralelno"
+            "title": "Prije - Ručno istraživanje",
+            "timeline": {
+              "step1": {
+                "title": "Pretraga baza podataka ručno",
+                "time": "2-3 sata"
+              },
+              "step2": {
+                "title": "Čitanje svakog predmeta pojedinačno",
+                "time": "3-5 sati"
+              },
+              "step3": {
+                "title": "Praćenje citata ručno",
+                "time": "1-2 sata"
+              },
+              "step4": {
+                "title": "Organizovanje i dokumentovanje",
+                "time": "1-3 sata"
+              }
+            },
+            "total": {
+              "label": "Ukupno vrijeme",
+              "time": "7-13 sati"
+            }
           },
           "after": {
-            "title": "Sa Lexora pretragom po jurisdikcijama",
-            "benefit1": "Jedna pretraga pronalazi predmete u sve 3 zemlje (<6 sekundi)",
-            "benefit2": "Automatski prevod i normalizacija jezika",
-            "benefit3": "AI osigurava dosledan kvalitet kroz sve jurisdikcije",
-            "benefit4": "Nikada ne propustite relevantne regionalne precedente",
-            "benefit5": "Ugrađeni alati za poređenje ističu sličnosti i razlike"
+            "badge": "Novi pristup",
+            "title": "Sa AI mapiranjem",
+            "process": {
+              "step1": {
+                "title": "AI pretraga kompletne baze",
+                "time": "6 sek",
+                "description": "Trenutna pretraga preko 1M+ odluka u tri jurisdikcije"
+              },
+              "step2": {
+                "title": "Automatsko mapiranje citata",
+                "time": "4 sek",
+                "description": "AI prati sve citacije i gradi kompletnu mrežu precedenata"
+              },
+              "step3": {
+                "title": "Generisanje vizualizacije",
+                "time": "6 sek",
+                "description": "Interaktivna mreža sa bodovanjem relevantnosti i uticaja"
+              }
+            },
+            "total": {
+              "label": "Ukupno vrijeme",
+              "time": "~16 sek",
+              "savings": "96% ušteda vremena"
+            }
           }
         },
         "faq": {
-          "q1": "Koje zemlje pokriva pretraga po jurisdikcijama?",
-          "a1": "Trenutno pokriva Crnu Goru, Srbiju i Hrvatsku. Aktivno dodajemo Bosnu i Hercegovinu, sa drugim balkanskim zemljama planiranim za 2025.",
-          "q2": "Mogu li da pretražujem na svom jeziku?",
-          "a2": "Da! Pretražujte na srpskom, crnogorskom, hrvatskom, bosanskom ili engleskom. Naša AI automatski pretražuje sve jurisdikcije bez obzira na jezik upita.",
-          "q3": "Kako Lexora uparuje slične predmete kroz različite pravne sisteme?",
-          "a3": "Naša AI je obučena na upravnom pravu iz sve tri jurisdikcije. Razumije pravne koncepte, razlike u terminologiji i proceduralne varijacije kako bi pronašla istinski relevantne precedente.",
-          "q4": "Mogu li filtrirati rezultate po određenoj zemlji?",
-          "a4": "Apsolutno. Možete pretražiti sve zemlje istovremeno ili filtrirati da pokažete rezultate iz određenih jurisdikcija. Prikaz poređenja omogućava da vidite razlike paralelno."
+          "q1": "Kako AI prepoznaje relevantne precedente?",
+          "a1": "Naša RAG tehnologija kombinuje semantičku pretragu sa analizom citata. AI prvo razumije pravna pitanja i činjenične obrasce vašeg predmeta, zatim pretražuje kompletnu bazu odluka tražeći slične obrasce. Zatim prati kako su predmeti međusobno citirani kako bi izgradio kompletnu mrežu precedenata.",
+          "q2": "Da li precedentna mreža pokriva sve tri jurisdikcije?",
+          "a2": "Da, mapiranje precedenata radi na celoj našoj bazi od 1M+ odluka upravnih sudova u Crnoj Gori, Srbiji i Hrvatskoj. Možete videti kako su slični predmeti riješeni u različitim zemljama i identifikovati međujurisdikcijske obrasce.",
+          "q3": "Šta je bodovanje uticaja?",
+          "a3": "Bodovanje uticaja mjeri koliko je određeni precedent značajan na osnovu koliko puta je citiran u kasnijim odlukama, pravnog nivoa suda koji je donio odluku i vremenske relevantnosti. Viši skor uticaja znači da je precedent češće korišćen u sudskom rezonovanju.",
+          "q4": "Mogu li izvesti precedentnu mrežu?",
+          "a4": "Da, možete izvesti vizualizaciju precedentne mreže kao PDF ili interaktivni HTML fajl koji možete podijeliti sa kolegama. Takođe možete izvesti listu svih precedenata sa njihovim bodovima relevantnosti i uticaja kao Excel fajl."
         }
       }
     }
@@ -1903,8 +1976,20 @@
       "description": "Istražite moćne funkcije Lexore: višejezična pretraga, međujurisdikcijska analiza, statističke upite i AI sažimanje predmeta.",
       "title": "Funkcije - Lexora AI pravni asistent",
       "crossJurisdictional": {
-        "title": "Međujurisdikcijska pravna pretraga | Pretražite 3 zemlje istovremeno",
-        "description": "Pretražite upravne sudske odluke u Crnoj Gori, Srbiji i Hrvatskoj u jednom upitu. AI pravna istraživanja preko granica za sudije, advokate i istraživače."
+        "title": "Međujurisdikcijska pravna pretraga | Pretraž ivanje u 3 države istovremeno",
+        "description": "Pretražujte odluke upravnih sudova u Crnoj Gori, Srbiji i Hrvatskoj u jednom upitu. AI pravna istraživanja preko granica za sudije, advokate i istraživače."
+      },
+      "statisticalAnalytics": {
+        "title": "Statistička pravna analitika | Strategija slučaja zasnovana na podacima",
+        "description": "Analizirajte stope uspjeha, trendove i obrasce u preko 1M sudskih odluka. Donosite odluke zasnovane na podacima sa statističkim uvid ima koje druga platforma ne nudi."
+      },
+      "caseSummarization": {
+        "title": "AI sažimanje predmeta | Višenivojski pravni sažeci",
+        "description": "Generirajte trenutne sažetke predmeta na bilo kom nivou dubine. Od brzih pregleda do detaljne analize za manje od 10 sekundi sa 95%+ tačnošću."
+      },
+      "precedentMapping": {
+        "title": "AI mapiranje precedenata | Automatizovana analiza mreže citata",
+        "description": "Pratite lance precedenata automatski sa AI. Vizuelne mreže citata, bodovanje uticaja i međujurisdikcijsko praćenje precedenata za sekunde."
       }
     },
     "terms": {
@@ -1932,8 +2017,8 @@
       "description": "Dobijte jasna objašnjenja relevantnih zakona i presedana jednostavnim jezikom. Donosite informisane pravne odluke."
     },
     "blog": {
-      "title": "Blog - Lexora pravna AI uvidi i resursi",
-      "description": "Stručni uvidi o pravnoj AI, trendovima u administrativnom pravu i najboljim praksama za pravna istraživanja na Zapadnom Balkanu."
+      "title": "Blog - Konty POS uvidi i resursi",
+      "description": "Stručni uvidi, savjeti i najbolje prakse za upravljanje modernim POS sistemima. Naučite kako optimizovati vaše poslovanje."
     },
     "solutions": {
       "judges": {
@@ -1982,10 +2067,6 @@
         "title": "Konty B2B i E-fakture | POS za veleprodaju",
         "description": "Profesionalno B2B rješenje sa e-fakturisanjem. Različite cijene po partneru i napredni izvještaji."
       }
-    },
-    "blog": {
-      "title": "Blog - Konty POS uvidi i resursi",
-      "description": "Stručni uvidi, savjeti i najbolje prakse za upravljanje modernim POS sistemima. Naučite kako optimizovati vaše poslovanje."
     }
   },
   "data": {
@@ -2024,8 +2105,18 @@
         "phone": "+38267607670",
         "email": "contact"
       },
-      "areaServed": ["US", "EU", "ME", "RS", "BA", "HR"],
-      "availableLanguage": ["en", "sr"],
+      "areaServed": [
+        "US",
+        "EU",
+        "ME",
+        "RS",
+        "BA",
+        "HR"
+      ],
+      "availableLanguage": [
+        "en",
+        "sr"
+      ],
       "knowsAbout": [
         "Pravna AI",
         "RAG tehnologija",

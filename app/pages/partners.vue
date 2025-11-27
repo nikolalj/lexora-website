@@ -3,17 +3,11 @@
     <!-- Critical above-fold - hydrate immediately -->
     <AboutPartnersHero />
 
-    <!-- Existing partner logos -->
-    <LazySharedClientList class="dark" hydrate-on-visible />
+    <!-- Partner types - Law Firms, Courts, Universities -->
+    <LazyAboutPartnersTypes hydrate-on-visible />
 
-    <!-- Social proof - partner metrics -->
-    <LazySharedStatistics class="dark !pt-0" hydrate-on-visible />
-
-    <!-- Partner testimonials -->
-    <LazySharedTestimonials hydrate-on-visible />
-
-    <!-- Segmented solutions - Retail/Hospitality -->
-    <LazySharedProductFeatures hydrate-on-visible />
+    <!-- Existing partners showcase -->
+    <LazyAboutPartnersShowcase hydrate-on-visible />
 
     <!-- Why become a partner - benefits -->
     <LazySharedBenefits category="partners" variant="alt" hydrate-on-visible />
@@ -24,11 +18,14 @@
     <!-- Partner support details -->
     <LazyAboutPartnersSupport variant="alt" hydrate-on-visible />
 
+    <!-- Partner testimonials -->
+    <LazySharedTestimonials hydrate-on-visible />
+
     <!-- Partner FAQ -->
     <LazySharedFAQ category="partners" hydrate-on-visible />
 
     <!-- Contact form -->
-    <LazySharedContactForm variant="alt" hydrate-on-visible />
+    <LazySharedContactForm hydrate-on-visible />
   </div>
 </template>
 
