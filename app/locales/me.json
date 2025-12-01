@@ -22,7 +22,8 @@
       "b2b": "B2B prodaja i E fakture",
       "blog": "Blog",
       "demo": "Demo",
-      "judges": "Sudstvo"
+      "judges": "Sudstvo",
+      "about": "O nama"
     },
     "learnMore": "Saznaj više",
     "readMore": "Pročitaj više",
@@ -1552,7 +1553,8 @@
     "contact": {
       "hero": {
         "title": "Stupite u kontakt",
-        "subtitle": "Tu smo da vam pomognemo da izaberete savršeno POS rješenje za vaš biznis."
+        "subtitle": "Tu smo da vam pomognemo da izaberete savršeno POS rješenje za vaš biznis.",
+        "badge": "Kontaktirajte nas"
       },
       "address": {
         "title": "Adresa",
@@ -1941,6 +1943,158 @@
           "a4": "Da, možete izvesti vizualizaciju precedentne mreže kao PDF ili interaktivni HTML fajl koji možete podijeliti sa kolegama. Takođe možete izvesti listu svih precedenata sa njihovim bodovima relevantnosti i uticaja kao Excel fajl."
         }
       }
+    },
+    "about": {
+      "hero": {
+        "badge": "O Lexori",
+        "title": "Transformišemo pravna istraživanja sa AI tehnologijom",
+        "subtitle": "Razvijen od strane Codeusa, Lexora je prvi višejezični, prekogranični pravni AI asistent na Zapadnom Balkanu koji omogućava pravnim profesionalcima brža i preciznija istraživanja."
+      },
+      "story": {
+        "badge": "Naša priča",
+        "title": "Prvi pravni AI za Zapadni Balkan",
+        "paragraph1": "Tokom 2024. godine, Codeus je prepoznao kritičan nedostatak u pravnoj tehnologiji širom Crne Gore, Srbije i Hrvatske. Pravni profesionalci su provodili dane ručno pretražujući sudske odluke, bez mogućnosti da efikasno uporede presude između jurisdikcija ili identifikuju obrasce u sudskim ishodima.",
+        "paragraph2": "Izgradili smo Lexoru kako bismo riješili ovaj problem. Koristeći najsavremeniju RAG (Retrieval-Augmented Generation) tehnologiju, kreirali smo prvi AI asistent za pravna istraživanja u regionu specijalizovan za upravno pravo. Lexora pruža sveobuhvatnu pokrivenost 1M+ sudskih odluka kroz tri jurisdikcije na četiri jezika.",
+        "paragraph3": "Danas, Lexora omogućava sudijama, advokatima, istraživačima i građanima trenutni pristup pravnim informacijama koje su ranije bile rasute kroz više sistema i gotovo nemoguće za analizu u većem obimu.",
+        "visual": {
+          "title": "1M+ odluka",
+          "subtitle": "Kroz 3 jurisdikcije"
+        },
+        "stats": {
+          "years": {
+            "value": "2016",
+            "label": "Osnovano"
+          },
+          "jurisdictions": {
+            "value": "3",
+            "label": "Zemlje"
+          },
+          "documents": {
+            "value": "1M+",
+            "label": "Odluka"
+          }
+        }
+      },
+      "mission": {
+        "title": "Naša misija",
+        "subtitle": "Naša misija je demokratizacija pristupa pravnim informacijama i činjenje pravde transparentnijom i pristupačnijom širom Zapadnog Balkana",
+        "pillars": {
+          "accessibility": {
+            "title": "Demokratizacija pravnog pristupa",
+            "description": "Učiniti sveobuhvatna pravna istraživanja dostupnim svima—od sudija i advokata do građana koji žele da razumiju svoja prava."
+          },
+          "accuracy": {
+            "title": "Osigurati AI preciznost",
+            "description": "Pružiti najprecizniji pravni AI na tržištu, sa ciljem >85% tačnosti i <10% halucina­cionom stopom, nadmašujući globalne konkurente."
+          },
+          "innovation": {
+            "title": "Pokretanje regionalne inovacije",
+            "description": "Pozicionirati Zapadni Balkan kao lidera u inovacijama pravne tehnologije i doprinijeti evropskim inicijativama digitalne pravde."
+          }
+        }
+      },
+      "technology": {
+        "badge": "Tehnologija",
+        "title": "Pokrenuto naprednom RAG tehnologijom",
+        "subtitle": "Lexora koristi najsavremeniju Retrieval-Augmented Generation (RAG) tehnologiju za pružanje preciznih, kontekstualnih pravnih uvida",
+        "rag": {
+          "title": "Šta je RAG?",
+          "description": "RAG kombinuje moć semantičke pretrage sa AI generacijom. Umjesto da se oslanja isključivo na unaprijed obučeno znanje, Lexora prvo pronalazi relevantne pravne dokumente, a zatim generiše odgovore utemeljene u stvarnoj sudskoj praksi—dramatično smanjujući halucinacije i poboljšavajući preciznost.",
+          "steps": {
+            "step1": {
+              "title": "Semantička pretraga",
+              "description": "Pronalaženje relevantnih slučajeva po značenju, ne samo ključnim riječima"
+            },
+            "step2": {
+              "title": "Kontekstualna analiza",
+              "description": "Razumijevanje pravnih koncepata kroz jurisdikcije"
+            },
+            "step3": {
+              "title": "Utemeljena generacija",
+              "description": "Generisanje odgovora iz stvarnih sudskih odluka"
+            }
+          }
+        },
+        "metrics": {
+          "accuracy": {
+            "value": ">85%",
+            "label": "Ciljna tačnost",
+            "comparison": "vs. ~65% kod konkurenata"
+          },
+          "speed": {
+            "value": "<6s",
+            "label": "Vrijeme odgovora",
+            "comparison": "vs. 6-15s kod konkurenata"
+          },
+          "hallucination": {
+            "value": "<10%",
+            "label": "Stopa halucinacija",
+            "comparison": "vs. 17-33% kod konkurenata"
+          }
+        }
+      },
+      "team": {
+        "title": "Izgrađeno od strane stručnjaka za pravnu tehnologiju",
+        "subtitle": "Lexoru razvija Codeus, vodeća agencija za razvoj softvera sa preko 8 godina iskustva u izgradnji inovativnih rješenja",
+        "codeus": {
+          "title": "Codeus d.o.o.",
+          "description": "Crnogorska agencija za razvoj softvera specijalizovana za AI, pravnu tehnologiju i enterprise rješenja. Naš tim od 30+ inženjera, dizajnera i stručnjaka za pravnu tehnologiju objedinjuje ekspertizu u umjetnoj inteligenciji, obradi prirodnog jezika i upravnom pravu.",
+          "stats": {
+            "founded": {
+              "value": "2016",
+              "label": "Osnovano"
+            },
+            "team": {
+              "value": "30+",
+              "label": "Članova tima"
+            },
+            "experience": {
+              "value": "8+",
+              "label": "Godina iskustva"
+            }
+          }
+        },
+        "expertise": {
+          "ai": {
+            "title": "AI i mašinsko učenje",
+            "description": "RAG, NLP i embeddings optimizovani za pravni domen"
+          },
+          "legal": {
+            "title": "Znanje pravnog domena",
+            "description": "Duboko razumijevanje upravnog prava kroz jurisdikcije"
+          },
+          "infrastructure": {
+            "title": "Skalabilna infrastruktura",
+            "description": "Cloud-native arhitektura koja obrađuje milione dokumenata"
+          },
+          "security": {
+            "title": "Sigurnost i usklađenost",
+            "description": "GDPR-usklađeno, šifrovano i povjerljivo"
+          }
+        }
+      },
+      "values": {
+        "title": "Naše vrijednosti",
+        "subtitle": "Principi koji vode kako gradimo Lexoru i služimo našim korisnicima",
+        "items": {
+          "trust": {
+            "title": "Povjerenje kroz preciznost",
+            "description": "Dajemo prioritet tačnosti i transparentnosti umjesto brzine. Svaki rezultat je sljediv do izvornih dokumenata, i jasno komuniciramo ograničenja našeg AI-ja."
+          },
+          "excellence": {
+            "title": "Tehnička izvrsnost",
+            "description": "Koristimo najnapredniju dostupnu AI tehnologiju, kontinuirano optimizujemo naše modele da nadmaše globalne konkurente u tačnosti i brzini."
+          },
+          "collaboration": {
+            "title": "Partnerstvo i saradnja",
+            "description": "Blisko sarađujemo sa sudovima, pravnim fakultetima i pravnim profesionalcima kako bismo osigurali da Lexora ispunjava stvarne potrebe i poboljšava tokove pravnih istraživanja."
+          },
+          "transparency": {
+            "title": "Otvorenost i transparentnost",
+            "description": "Transparentni smo o tome kako naš AI radi, koje podatke koristimo i o našim metrikama performansi. Objavljujemo istraživanja i doprinosimo otvorenoj nauci."
+          }
+        }
+      }
     }
   },
   "seo": {
@@ -1997,8 +2151,8 @@
       "title": "Uslovi korišćenja - Lexora"
     },
     "about": {
-      "title": "O Lexori - AI platforma za pravna istraživanja",
-      "description": "Saznajte o misiji Lexore da demokratizuje pravna istraživanja širom Zapadnog Balkana uz AI tehnologiju."
+      "title": "O Lexori - AI pravna istraživanja za Zapadni Balkan | Lexora",
+      "description": "Saznajte o Lexori, prvom višejezičnom pravnom AI asistentu na Zapadnom Balkanu. Izgrađeno od strane Codeusa sa naprednom RAG tehnologijom za sudije, advokate i istraživače."
     },
     "forJudges": {
       "title": "Lexora za sudije | Alat za istraživanje upravnih sudova",

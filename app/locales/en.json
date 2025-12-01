@@ -26,14 +26,16 @@
       "lawyers": "Lawyers",
       "cross-jurisdictional": "Cross-Jurisdictional Search",
       "statistical-analytics": "Statistical Analytics",
-      "case-summarization": "Case Summarization"
+      "case-summarization": "Case Summarization",
+      "about": "About"
     },
     "learnMore": "Learn more",
     "readMore": "Read more",
     "cta": {
       "primary": "Get a demo",
       "secondary": "Contact us",
-      "tertiary": "More details"
+      "tertiary": "More details",
+      "contact": "Contact us"
     },
     "common": {
       "buttons": {
@@ -1525,7 +1527,8 @@
     "contact": {
       "hero": {
         "title": "Get In Touch",
-        "subtitle": "We're here to help you choose the perfect POS solution for your business."
+        "subtitle": "We're here to help you choose the perfect POS solution for your business.",
+        "badge": "Get In Touch"
       },
       "address": {
         "title": "Address",
@@ -2299,6 +2302,158 @@
           "a4": "Absolutely. Export precedent maps as visual diagrams (PNG/PDF) or as structured lists with summaries of each case. Perfect for including in research memos or teaching materials."
         }
       }
+    },
+    "about": {
+      "hero": {
+        "badge": "About Lexora",
+        "title": "Transforming Legal Research with AI",
+        "subtitle": "Built by Codeus, Lexora is the first multilingual, cross-jurisdictional legal AI assistant in the Western Balkans, empowering legal professionals with faster, more accurate research."
+      },
+      "story": {
+        "badge": "Our Story",
+        "title": "First Legal AI for the Western Balkans",
+        "paragraph1": "In 2024, Codeus recognized a critical gap in legal technology across Montenegro, Serbia, and Croatia. Legal professionals were spending days manually searching through court decisions, unable to efficiently compare rulings across jurisdictions or identify patterns in judicial outcomes.",
+        "paragraph2": "We built Lexora to solve this problem. Using state-of-the-art RAG (Retrieval-Augmented Generation) technology, we created the region's first AI-powered legal research assistant specialized in administrative law. Lexora provides comprehensive coverage of 1M+ court decisions across three jurisdictions in four languages.",
+        "paragraph3": "Today, Lexora empowers judges, lawyers, researchers, and citizens with instant access to legal information that was previously scattered across multiple systems and nearly impossible to analyze at scale.",
+        "visual": {
+          "title": "1M+ Decisions",
+          "subtitle": "Across 3 jurisdictions"
+        },
+        "stats": {
+          "years": {
+            "value": "2016",
+            "label": "Founded"
+          },
+          "jurisdictions": {
+            "value": "3",
+            "label": "Countries"
+          },
+          "documents": {
+            "value": "1M+",
+            "label": "Decisions"
+          }
+        }
+      },
+      "mission": {
+        "title": "Our Mission",
+        "subtitle": "We're on a mission to democratize access to legal information and make justice more transparent and accessible across the Western Balkans",
+        "pillars": {
+          "accessibility": {
+            "title": "Democratize Legal Access",
+            "description": "Make comprehensive legal research available to everyone—from judges and lawyers to citizens seeking to understand their rights."
+          },
+          "accuracy": {
+            "title": "Ensure AI Accuracy",
+            "description": "Deliver the highest accuracy legal AI in the market, with target >85% accuracy and <10% hallucination rate, outperforming global competitors."
+          },
+          "innovation": {
+            "title": "Drive Regional Innovation",
+            "description": "Position the Western Balkans as a leader in legal technology innovation and contribute to European digital justice initiatives."
+          }
+        }
+      },
+      "technology": {
+        "badge": "Technology",
+        "title": "Powered by Advanced RAG Technology",
+        "subtitle": "Lexora uses state-of-the-art Retrieval-Augmented Generation (RAG) to deliver accurate, contextual legal insights",
+        "rag": {
+          "title": "What is RAG?",
+          "description": "RAG combines the power of semantic search with AI generation. Instead of relying solely on pre-trained knowledge, Lexora retrieves relevant legal documents first, then generates answers grounded in actual case law—dramatically reducing hallucinations and improving accuracy.",
+          "steps": {
+            "step1": {
+              "title": "Semantic Retrieval",
+              "description": "Find relevant cases by meaning, not just keywords"
+            },
+            "step2": {
+              "title": "Context Analysis",
+              "description": "Understand legal concepts across jurisdictions"
+            },
+            "step3": {
+              "title": "Grounded Generation",
+              "description": "Generate answers from actual court decisions"
+            }
+          }
+        },
+        "metrics": {
+          "accuracy": {
+            "value": ">85%",
+            "label": "Target Accuracy",
+            "comparison": "vs. ~65% for competitors"
+          },
+          "speed": {
+            "value": "<6s",
+            "label": "Response Time",
+            "comparison": "vs. 6-15s for competitors"
+          },
+          "hallucination": {
+            "value": "<10%",
+            "label": "Hallucination Rate",
+            "comparison": "vs. 17-33% for competitors"
+          }
+        }
+      },
+      "team": {
+        "title": "Built by Legal Tech Experts",
+        "subtitle": "Lexora is developed by Codeus, a leading software development agency with 8+ years of experience building innovative solutions",
+        "codeus": {
+          "title": "Codeus d.o.o.",
+          "description": "A Montenegro-based software development agency specializing in AI, legal technology, and enterprise solutions. Our team of 30+ engineers, designers, and legal tech specialists brings together expertise in artificial intelligence, natural language processing, and administrative law.",
+          "stats": {
+            "founded": {
+              "value": "2016",
+              "label": "Founded"
+            },
+            "team": {
+              "value": "30+",
+              "label": "Team Members"
+            },
+            "experience": {
+              "value": "8+",
+              "label": "Years Experience"
+            }
+          }
+        },
+        "expertise": {
+          "ai": {
+            "title": "AI & Machine Learning",
+            "description": "RAG, NLP, and embeddings optimized for legal domain"
+          },
+          "legal": {
+            "title": "Legal Domain Knowledge",
+            "description": "Deep understanding of administrative law across jurisdictions"
+          },
+          "infrastructure": {
+            "title": "Scalable Infrastructure",
+            "description": "Cloud-native architecture handling millions of documents"
+          },
+          "security": {
+            "title": "Security & Compliance",
+            "description": "GDPR-compliant, encrypted, and confidential"
+          }
+        }
+      },
+      "values": {
+        "title": "Our Values",
+        "subtitle": "The principles that guide how we build Lexora and serve our users",
+        "items": {
+          "trust": {
+            "title": "Trust Through Accuracy",
+            "description": "We prioritize accuracy and transparency over speed. Every result is traceable to source documents, and we clearly communicate our AI's limitations."
+          },
+          "excellence": {
+            "title": "Technical Excellence",
+            "description": "We use the most advanced AI technology available, continuously optimizing our models to outperform global competitors on accuracy and speed."
+          },
+          "collaboration": {
+            "title": "Partnership & Collaboration",
+            "description": "We work closely with courts, law faculties, and legal professionals to ensure Lexora meets real-world needs and improves legal research workflows."
+          },
+          "transparency": {
+            "title": "Openness & Transparency",
+            "description": "We're transparent about how our AI works, what data we use, and our performance metrics. We publish research and contribute to open science."
+          }
+        }
+      }
     }
   },
   "seo": {
@@ -2355,8 +2510,8 @@
       "title": "Terms of Service - Lexora"
     },
     "about": {
-      "title": "About Lexora - AI Legal Research Platform",
-      "description": "Learn about Lexora's mission to democratize legal research across the Western Balkans with AI-powered technology."
+      "title": "About Lexora - AI Legal Research for the Western Balkans | Lexora",
+      "description": "Learn about Lexora, the first multilingual legal AI assistant in the Western Balkans. Built by Codeus with advanced RAG technology for judges, lawyers, and researchers."
     },
     "forJudges": {
       "title": "Lexora for Judges | Administrative Court Research Tool",
@@ -2433,8 +2588,18 @@
         "phone": "+38267607670",
         "email": "contact"
       },
-      "areaServed": ["US", "EU", "ME", "RS", "BA", "HR"],
-      "availableLanguage": ["en", "sr"],
+      "areaServed": [
+        "US",
+        "EU",
+        "ME",
+        "RS",
+        "BA",
+        "HR"
+      ],
+      "availableLanguage": [
+        "en",
+        "sr"
+      ],
       "knowsAbout": [
         "Legal AI",
         "RAG Technology",

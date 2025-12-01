@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-[var(--ui-bg-alt)] py-4 lg:py-10">
-    <section class="sm:py-9 w-full">
+  <footer class="bg-[var(--ui-bg-alt)] py-4 lg:py-6">
+    <section class="sm:py-4 w-full">
       <UContainer>
         <!-- Desktop: Grid Layout -->
         <div class="hidden md:grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -90,7 +90,7 @@
     </section>
 
     <section>
-      <UContainer class="py-4 lg:py-10">
+      <UContainer class="py-4 lg:py-6">
         <div
           class="space-y-4 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-6 lg:items-center"
         >
