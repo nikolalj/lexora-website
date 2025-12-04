@@ -27,7 +27,8 @@
       "cross-jurisdictional": "Cross-Jurisdictional Search",
       "statistical-analytics": "Statistical Analytics",
       "case-summarization": "Case Summarization",
-      "about": "About"
+      "about": "About",
+      "case-studies": "Case Studies"
     },
     "learnMore": "Learn more",
     "readMore": "Read more",
@@ -1706,18 +1707,156 @@
     },
     "blog": {
       "hero": {
-        "title": "Blog & Resources",
-        "subtitle": "Expert insights and practical tips for modern POS management"
+        "title": {
+          "line1": "Insights & Analysis",
+          "line2": "Legal AI Revolution"
+        },
+        "subtitle": "Expert perspectives on AI, administrative law, and legal technology across the Western Balkans",
+        "searchPlaceholder": "Search articles..."
       },
-      "featured": "Featured",
-      "related": {
-        "title": "Related Articles"
+      "tags": {
+        "ai": "AI",
+        "legal": "Legal Tech",
+        "research": "Research",
+        "technology": "Technology",
+        "insights": "Insights",
+        "tutorials": "Tutorials"
       },
-      "readMore": "Read more",
-      "byAuthor": "By",
-      "minRead": "min read"
+      "loadMore": "Load More Articles",
+      "featured": {
+        "category": "Featured",
+        "title": "The Future of Legal Research: How AI is Transforming Administrative Law",
+        "excerpt": "Explore how artificial intelligence and RAG technology are revolutionizing legal research across Montenegro, Serbia, and Croatia, making precedent analysis faster and more accurate than ever before.",
+        "author": "Dr. Ana Petrović",
+        "date": "March 15, 2024",
+        "readTime": "8 min read"
+      },
+      "posts": {
+        "post1": {
+          "category": "AI & Technology",
+          "title": "Understanding RAG: The Technology Behind Lexora",
+          "excerpt": "A deep dive into Retrieval-Augmented Generation and how it powers our legal AI assistant to deliver accurate, context-aware answers.",
+          "author": "Stefan Jovanović",
+          "date": "March 10, 2024",
+          "readTime": "6 min read"
+        },
+        "post2": {
+          "category": "Legal Insights",
+          "title": "Cross-Jurisdictional Legal Research: A Practical Guide",
+          "excerpt": "Learn best practices for conducting legal research across multiple jurisdictions in the Western Balkans.",
+          "author": "Marija Nikolić",
+          "date": "March 5, 2024",
+          "readTime": "5 min read"
+        },
+        "post3": {
+          "category": "Product Updates",
+          "title": "Introducing Statistical Analytics: Data-Driven Legal Strategy",
+          "excerpt": "Discover how our new statistical analytics feature helps lawyers predict case outcomes and build stronger arguments based on historical data.",
+          "author": "Petar Marković",
+          "date": "February 28, 2024",
+          "readTime": "7 min read"
+        },
+        "post4": {
+          "category": "Case Studies",
+          "title": "How Judges Save 10 Hours Weekly with Lexora",
+          "excerpt": "Real stories from administrative court judges who transformed their research workflow with AI assistance.",
+          "author": "Judge Ana Kovačević",
+          "date": "February 20, 2024",
+          "readTime": "4 min read"
+        },
+        "post5": {
+          "category": "Legal Tech",
+          "title": "GDPR Compliance in Legal AI: What You Need to Know",
+          "excerpt": "Understanding data protection and privacy considerations when using AI for legal research in the EU.",
+          "author": "Dr. Milan Stojanović",
+          "date": "February 15, 2024",
+          "readTime": "6 min read"
+        },
+        "post6": {
+          "category": "Tutorials",
+          "title": "5 Advanced Search Techniques for Better Results",
+          "excerpt": "Master these powerful search strategies to find exactly what you need in our 1M+ document database.",
+          "author": "Elena Popović",
+          "date": "February 10, 2024",
+          "readTime": "5 min read"
+        }
+      }
     },
     "features": {
+      "hero": {
+        "badge": "Platform Features",
+        "title": "Everything You Need for Legal Research",
+        "subtitle": "Powerful AI-driven tools designed for judges, lawyers, and legal researchers across the Western Balkans",
+        "stats": {
+          "stat1": {
+            "value": "4",
+            "label": "Core Features",
+            "icon": "i-lucide-sparkles"
+          },
+          "stat2": {
+            "value": "1M+",
+            "label": "Documents Analyzed",
+            "icon": "i-lucide-file-text"
+          },
+          "stat3": {
+            "value": "<6s",
+            "label": "Average Response",
+            "icon": "i-lucide-zap"
+          },
+          "stat4": {
+            "value": "3",
+            "label": "Jurisdictions",
+            "icon": "i-lucide-globe"
+          }
+        }
+      },
+      "showcase": {
+        "title": "Features That Transform Legal Research",
+        "subtitle": "Discover how Lexora combines AI innovation with deep legal expertise",
+        "learnMore": "Learn More"
+      },
+      "items": {
+        "search": {
+          "badge": "Core Feature",
+          "title": "Multilingual Legal Search",
+          "description": "Search across 1M+ court decisions in natural language. Our AI understands legal context in Serbian, Montenegrin, Croatian, Bosnian, and English—delivering precise results in seconds.",
+          "benefits": {
+            "benefit1": "Natural language queries—no complex syntax needed",
+            "benefit2": "Automatic language detection and translation",
+            "benefit3": "Context-aware results ranked by relevance"
+          }
+        },
+        "crossJurisdictional": {
+          "badge": "Most Popular",
+          "title": "Cross-Jurisdictional Analysis",
+          "description": "Compare legal precedents across Montenegro, Serbia, and Croatia simultaneously. Identify regional patterns, find similar rulings, and build stronger arguments with comprehensive insights.",
+          "benefits": {
+            "benefit1": "Search all 3 countries in a single query",
+            "benefit2": "Side-by-side case comparison tools",
+            "benefit3": "Regional trend analysis and statistics"
+          }
+        },
+        "analytics": {
+          "badge": "Exclusive",
+          "title": "Statistical Legal Analytics",
+          "description": "Unique data-driven insights unavailable anywhere else. Analyze success rates, identify judicial patterns, and make evidence-based legal decisions backed by historical case data.",
+          "benefits": {
+            "benefit1": "Success rate analysis for similar cases",
+            "benefit2": "Judicial decision pattern recognition",
+            "benefit3": "Outcome prediction based on historical data"
+          }
+        },
+        "summarization": {
+          "badge": "AI-Powered",
+          "title": "Multi-Level Case Summarization",
+          "description": "From quick executive summaries to comprehensive legal analysis—get exactly the depth you need. AI-powered summarization with full citation traceability ensures accuracy.",
+          "benefits": {
+            "benefit1": "Adjustable summary depth (quick to comprehensive)",
+            "benefit2": "Key facts and legal reasoning extraction",
+            "benefit3": "Full citation tracking and verification"
+          }
+        }
+      },
       "crossJurisdictional": {
         "hero": {
           "title": "Search Legal Precedents Across Three Countries Simultaneously",
@@ -2454,6 +2593,178 @@
           }
         }
       }
+    },
+    "caseStudies": {
+      "hero": {
+        "badge": "Success Stories",
+        "title": "Real Results from Legal Professionals",
+        "subtitle": "Discover how judges, lawyers, and researchers across the Western Balkans use Lexora to transform their legal research workflow.",
+        "featured": {
+          "name": "Judge Ana Kovačević",
+          "role": "Administrative Court, Montenegro",
+          "quote": "Lexora reduced my research time by 70% while improving the accuracy of my rulings."
+        },
+        "metric": "Time Saved",
+        "stats": {
+          "cases": "Case Studies",
+          "countries": "Countries",
+          "satisfaction": "Satisfaction"
+        }
+      },
+      "list": {
+        "title": "Featured Case Studies",
+        "subtitle": "Learn how legal professionals achieve better outcomes with Lexora",
+        "readMore": "Read Full Case Study"
+      },
+      "cases": {
+        "judge": {
+          "category": "Judicial Efficiency",
+          "tag": "Administrative Court",
+          "date": "March 2024",
+          "title": "How Judge Marković Cut Research Time by 65%",
+          "description": "Judge Petar Marković from Belgrade Administrative Court was handling 40+ cases monthly, spending hours on precedent research. With Lexora, he transformed his workflow and improved decision quality.",
+          "results": {
+            "time": {
+              "value": "-65%",
+              "label": "Research Time"
+            },
+            "cases": {
+              "value": "+40%",
+              "label": "Cases Handled"
+            },
+            "accuracy": {
+              "value": "95%",
+              "label": "Decision Accuracy"
+            }
+          }
+        },
+        "lawyer": {
+          "category": "Law Firm Success",
+          "tag": "Private Practice",
+          "date": "February 2024",
+          "title": "Law Firm Increases Win Rate with Statistical Analysis",
+          "description": "Nikolić & Partners law firm in Zagreb used Lexora statistical analytics to evaluate case viability before taking clients, resulting in higher success rates and better client outcomes.",
+          "results": {
+            "rate": {
+              "value": "+28%",
+              "label": "Win Rate"
+            },
+            "research": {
+              "value": "-50%",
+              "label": "Research Hours"
+            },
+            "precedents": {
+              "value": "3x",
+              "label": "More Precedents"
+            }
+          }
+        },
+        "researcher": {
+          "category": "Academic Research",
+          "tag": "University",
+          "date": "January 2024",
+          "title": "Prof. Jovanović Publishes Comparative Study in Record Time",
+          "description": "University of Montenegro Professor Stefan Jovanović used Lexora to complete a comprehensive comparative analysis of administrative law across all three jurisdictions in just 2 months.",
+          "results": {
+            "documents": {
+              "value": "5000+",
+              "label": "Documents Analyzed"
+            },
+            "time": {
+              "value": "-75%",
+              "label": "Research Time"
+            },
+            "insights": {
+              "value": "150+",
+              "label": "Key Insights"
+            }
+          }
+        }
+      }
+    },
+    "docs": {
+      "hero": {
+        "badge": "Documentation",
+        "title": "Everything You Need to Master Lexora",
+        "subtitle": "Comprehensive guides, tutorials, and API documentation to help you get the most out of our AI legal assistant",
+        "searchPlaceholder": "Search documentation...",
+        "stats": {
+          "guides": {
+            "value": "50+",
+            "label": "Guides"
+          },
+          "tutorials": {
+            "value": "25+",
+            "label": "Tutorials"
+          },
+          "api": {
+            "value": "100%",
+            "label": "API Coverage"
+          }
+        }
+      },
+      "categories": {
+        "title": "Explore Documentation",
+        "subtitle": "Find everything from quick start guides to advanced API integration",
+        "articles": "articles",
+        "items": {
+          "gettingStarted": {
+            "title": "Getting Started",
+            "description": "Learn the basics of using Lexora, from creating your account to your first search",
+            "articles": "12"
+          },
+          "searchGuides": {
+            "title": "Search & Query Guides",
+            "description": "Master advanced search techniques and query optimization for better results",
+            "articles": "18"
+          },
+          "analytics": {
+            "title": "Statistical Analytics",
+            "description": "Understand how to leverage data insights and statistical analysis features",
+            "articles": "10"
+          },
+          "api": {
+            "title": "API Reference",
+            "description": "Complete API documentation for developers integrating Lexora",
+            "articles": "24"
+          },
+          "security": {
+            "title": "Security & Compliance",
+            "description": "Learn about data protection, GDPR compliance, and security best practices",
+            "articles": "8"
+          },
+          "faq": {
+            "title": "FAQ & Troubleshooting",
+            "description": "Common questions and solutions to help you resolve issues quickly",
+            "articles": "15"
+          }
+        }
+      },
+      "popular": {
+        "title": "Popular Guides",
+        "guides": {
+          "guide1": {
+            "title": "Getting Started with Lexora in 5 Minutes",
+            "description": "Quick start guide to get you up and running",
+            "readTime": "5 min"
+          },
+          "guide2": {
+            "title": "Advanced Search Techniques for Legal Research",
+            "description": "Learn pro tips for finding exactly what you need",
+            "readTime": "10 min"
+          },
+          "guide3": {
+            "title": "Using Statistical Analytics for Case Strategy",
+            "description": "Data-driven approach to building stronger cases",
+            "readTime": "12 min"
+          },
+          "guide4": {
+            "title": "API Integration Best Practices",
+            "description": "How to integrate Lexora into your existing systems",
+            "readTime": "15 min"
+          }
+        }
+      }
     }
   },
   "seo": {
@@ -2530,8 +2841,8 @@
       "description": "Get clear explanations of relevant laws and precedents in plain language. Make informed legal decisions."
     },
     "blog": {
-      "title": "Blog - Lexora Legal AI Insights & Resources",
-      "description": "Expert insights on legal AI, administrative law trends, and best practices for legal research in the Western Balkans."
+      "title": "Blog - Lexora Legal AI Insights & Analysis",
+      "description": "Expert insights on AI-powered legal research, administrative law trends, and legal technology innovations across Montenegro, Serbia, and Croatia."
     },
     "solutions": {
       "judges": {
@@ -2550,6 +2861,14 @@
         "title": "Lexora for Citizens | Understand Your Legal Rights",
         "description": "Get clear explanations of relevant laws and precedents in plain language. Make informed legal decisions."
       }
+    },
+    "caseStudies": {
+      "title": "Case Studies - Lexora AI Legal Assistant Success Stories",
+      "description": "Real results from judges, lawyers, and researchers using Lexora. See how legal professionals across Montenegro, Serbia, and Croatia achieve better outcomes."
+    },
+    "docs": {
+      "title": "Documentation - Lexora AI Legal Assistant",
+      "description": "Complete documentation, guides, and API reference for Lexora. Learn how to master AI-powered legal research across Montenegro, Serbia, and Croatia."
     }
   },
   "data": {

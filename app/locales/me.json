@@ -23,7 +23,8 @@
       "blog": "Blog",
       "demo": "Demo",
       "judges": "Sudstvo",
-      "about": "O nama"
+      "about": "O nama",
+      "case-studies": "Studije slučaja"
     },
     "learnMore": "Saznaj više",
     "readMore": "Pročitaj više",
@@ -1732,18 +1733,156 @@
     },
     "blog": {
       "hero": {
-        "title": "Blog i resursi",
-        "subtitle": "Stručni uvidi i praktični savjeti za moderne POS sisteme"
+        "title": {
+          "line1": "Uvidi i analiza",
+          "line2": "Pravna AI revolucija"
+        },
+        "subtitle": "Stručne perspektive o AI, upravnom pravu i pravnoj tehnologiji širom Zapadnog Balkana",
+        "searchPlaceholder": "Pretraži članke..."
       },
-      "featured": "Istaknuto",
-      "related": {
-        "title": "Povezani članci"
+      "tags": {
+        "ai": "AI",
+        "legal": "Legal Tech",
+        "research": "Istraživanje",
+        "technology": "Tehnologija",
+        "insights": "Uvidi",
+        "tutorials": "Tutorijali"
       },
-      "readMore": "Pročitaj više",
-      "byAuthor": "Autor",
-      "minRead": "min čitanja"
+      "loadMore": "Učitaj više članaka",
+      "featured": {
+        "category": "Izdvojeno",
+        "title": "Budućnost pravnog istraživanja: Kako AI transformiše upravno pravo",
+        "excerpt": "Istražite kako vještačka inteligencija i RAG tehnologija revolucionišu pravno istraživanje širom Crne Gore, Srbije i Hrvatske, čineći analizu presedana bržom i tačnijom nego ikad prije.",
+        "author": "Dr. Ana Petrović",
+        "date": "15. mart 2024",
+        "readTime": "8 min čitanja"
+      },
+      "posts": {
+        "post1": {
+          "category": "AI i tehnologija",
+          "title": "Razumijevanje RAG: Tehnologija iza Lexore",
+          "excerpt": "Detaljan uvid u Retrieval-Augmented Generation i kako pokreće našeg pravnog AI asistenta da pruži tačne, kontekstualno svjesne odgovore.",
+          "author": "Stefan Jovanović",
+          "date": "10. mart 2024",
+          "readTime": "6 min čitanja"
+        },
+        "post2": {
+          "category": "Pravni uvidi",
+          "title": "Jurisdikcionalno pravno istraživanje: Praktični vodič",
+          "excerpt": "Naučite najbolje prakse za provođenje pravnog istraživanja u više jurisdikcija na Zapadnom Balkanu.",
+          "author": "Marija Nikolić",
+          "date": "5. mart 2024",
+          "readTime": "5 min čitanja"
+        },
+        "post3": {
+          "category": "Novosti",
+          "title": "Predstavljamo statističku analitiku: Strategija zasnovana na podacima",
+          "excerpt": "Otkrijte kako naša nova funkcija statističke analitike pomaže advokatima da predvide ishode predmeta i izgrade jače argumente na osnovu istorijskih podataka.",
+          "author": "Petar Marković",
+          "date": "28. februar 2024",
+          "readTime": "7 min čitanja"
+        },
+        "post4": {
+          "category": "Studije slučaja",
+          "title": "Kako sudije štede 10 sati nedeljno sa Lexorom",
+          "excerpt": "Stvarne priče sudija upravnih sudova koji su transformisali svoj rad sa AI asistencijom.",
+          "author": "Sudija Ana Kovačević",
+          "date": "20. februar 2024",
+          "readTime": "4 min čitanja"
+        },
+        "post5": {
+          "category": "Legal Tech",
+          "title": "GDPR usklađenost u pravnom AI: Šta trebate znati",
+          "excerpt": "Razumijevanje zaštite podataka i privatnosti pri korišćenju AI za pravno istraživanje u EU.",
+          "author": "Dr. Milan Stojanović",
+          "date": "15. februar 2024",
+          "readTime": "6 min čitanja"
+        },
+        "post6": {
+          "category": "Tutorijali",
+          "title": "5 naprednih tehnika pretrage za bolje rezultate",
+          "excerpt": "Savladajte ove moćne strategije pretrage da pronađete tačno ono što vam treba u našoj bazi od 1M+ dokumenata.",
+          "author": "Elena Popović",
+          "date": "10. februar 2024",
+          "readTime": "5 min čitanja"
+        }
+      }
     },
     "features": {
+      "hero": {
+        "badge": "Mogućnosti platforme",
+        "title": "Sve što vam je potrebno za pravno istraživanje",
+        "subtitle": "Moćni AI alati dizajnirani za sudije, advokate i pravne istraživače širom Zapadnog Balkana",
+        "stats": {
+          "stat1": {
+            "value": "4",
+            "label": "Osnovne mogućnosti",
+            "icon": "i-lucide-sparkles"
+          },
+          "stat2": {
+            "value": "1M+",
+            "label": "Analiziranih dokumenata",
+            "icon": "i-lucide-file-text"
+          },
+          "stat3": {
+            "value": "<6s",
+            "label": "Prosječan odgovor",
+            "icon": "i-lucide-zap"
+          },
+          "stat4": {
+            "value": "3",
+            "label": "Jurisdikcije",
+            "icon": "i-lucide-globe"
+          }
+        }
+      },
+      "showcase": {
+        "title": "Mogućnosti koje transformišu pravno istraživanje",
+        "subtitle": "Otkrijte kako Lexora kombinuje AI inovacije sa dubokim pravnim ekspertizom",
+        "learnMore": "Saznaj više"
+      },
+      "items": {
+        "search": {
+          "badge": "Osnovna mogućnost",
+          "title": "Višejezična pravna pretraga",
+          "description": "Pretražujte preko 1M+ sudskih odluka na prirodnom jeziku. Naša AI razumije pravni kontekst na srpskom, crnogorskom, hrvatskom, bosanskom i engleskom—pružajući precizne rezultate u sekundama.",
+          "benefits": {
+            "benefit1": "Upiti na prirodnom jeziku—nije potrebna složena sintaksa",
+            "benefit2": "Automatska detekcija jezika i prevod",
+            "benefit3": "Kontekstualno prilagođeni rezultati rangirani po relevantnosti"
+          }
+        },
+        "crossJurisdictional": {
+          "badge": "Najpopularnije",
+          "title": "Prekogranična analiza",
+          "description": "Uporedite pravne presedane kroz Crnu Goru, Srbiju i Hrvatsku istovremeno. Identifikujte regionalne obrasce, pronađite slične presude i izgradite jače argumente sa sveobuhvatnim uvjidima.",
+          "benefits": {
+            "benefit1": "Pretražite sve 3 zemlje u jednom upitu",
+            "benefit2": "Alati za uporedno poređenje predmeta",
+            "benefit3": "Analiza regionalnih trendova i statistike"
+          }
+        },
+        "analytics": {
+          "badge": "Ekskluzivno",
+          "title": "Statistička pravna analitika",
+          "description": "Jedinstveni uvidi zasnovani na podacima koji nisu dostupni nigdje drugdje. Analizirajte stope uspjeha, identifikujte sudske obrasce i donosite odluke zasnovane na istorijskim podacima o predmetima.",
+          "benefits": {
+            "benefit1": "Analiza stope uspjeha za slične predmete",
+            "benefit2": "Prepoznavanje obrazaca sudskih odluka",
+            "benefit3": "Predviđanje ishoda na osnovu istorijskih podataka"
+          }
+        },
+        "summarization": {
+          "badge": "AI-pokretano",
+          "title": "Višenivosko sumiranje predmeta",
+          "description": "Od brzih izvršnih rezimea do sveobuhvatne pravne analize—dobijte tačno onu dubinu koja vam je potrebna. AI sumiranje sa punim praćenjem citata garantuje tačnost.",
+          "benefits": {
+            "benefit1": "Podesiva dubina rezimea (brzo do sveobuhvatno)",
+            "benefit2": "Ekstrakcija ključnih činjenica i pravnog rezonovanja",
+            "benefit3": "Potpuno praćenje i verifikacija citata"
+          }
+        }
+      },
       "precedentMapping": {
         "hero": {
           "title": "Otkrijte lance precedenata automatski sa AI",
@@ -2095,6 +2234,178 @@
           }
         }
       }
+    },
+    "caseStudies": {
+      "hero": {
+        "badge": "Priče o uspjehu",
+        "title": "Stvarni rezultati pravnih profesionalaca",
+        "subtitle": "Otkrijte kako sudije, advokati i istraživači širom Zapadnog Balkana koriste Lexoru za transformaciju svog pravnog istraživanja.",
+        "featured": {
+          "name": "Sudija Ana Kovačević",
+          "role": "Upravni sud, Crna Gora",
+          "quote": "Lexora je smanjila moje vrijeme istraživanja za 70% dok je poboljšala tačnost mojih presuda."
+        },
+        "metric": "Ušteda vremena",
+        "stats": {
+          "cases": "Studija slučaja",
+          "countries": "Države",
+          "satisfaction": "Zadovoljstvo"
+        }
+      },
+      "list": {
+        "title": "Istaknute studije slučaja",
+        "subtitle": "Saznajte kako pravni profesionalci postižu bolje rezultate sa Lexorom",
+        "readMore": "Pročitajte cijelu studiju"
+      },
+      "cases": {
+        "judge": {
+          "category": "Sudska efikasnost",
+          "tag": "Upravni sud",
+          "date": "Mart 2024",
+          "title": "Kako je sudija Marković smanjio vrijeme istraživanja za 65%",
+          "description": "Sudija Petar Marković iz Upravnog suda u Beogradu je vodio preko 40 predmeta mjesečno, provodivši sate na istraživanju presedana. Sa Lexorom je transformisao svoj radni tok i poboljšao kvalitet odluka.",
+          "results": {
+            "time": {
+              "value": "-65%",
+              "label": "Vrijeme istraživanja"
+            },
+            "cases": {
+              "value": "+40%",
+              "label": "Riješenih predmeta"
+            },
+            "accuracy": {
+              "value": "95%",
+              "label": "Tačnost odluka"
+            }
+          }
+        },
+        "lawyer": {
+          "category": "Uspjeh advokatske kancelarije",
+          "tag": "Privatna praksa",
+          "date": "Februar 2024",
+          "title": "Kancelarija povećala stopu uspjeha statističkom analizom",
+          "description": "Advokatska kancelarija Nikolić i partneri iz Zagreba koristila je Lexora statističke analitike za procjenu izgleda predmeta prije prihvatanja klijenata, što je rezultiralo višom stopom uspjeha.",
+          "results": {
+            "rate": {
+              "value": "+28%",
+              "label": "Stopa uspjeha"
+            },
+            "research": {
+              "value": "-50%",
+              "label": "Sati istraživanja"
+            },
+            "precedents": {
+              "value": "3x",
+              "label": "Više presedana"
+            }
+          }
+        },
+        "researcher": {
+          "category": "Akademsko istraživanje",
+          "tag": "Univerzitet",
+          "date": "Januar 2024",
+          "title": "Prof. Jovanović objavio uporednu studiju u rekordnom roku",
+          "description": "Profesor Univerziteta Crne Gore Stefan Jovanović koristio je Lexoru za završetak sveobuhvatne uporedne analize upravnog prava u sve tri jurisdikcije za samo 2 mjeseca.",
+          "results": {
+            "documents": {
+              "value": "5000+",
+              "label": "Analiziranih dokumenata"
+            },
+            "time": {
+              "value": "-75%",
+              "label": "Vrijeme istraživanja"
+            },
+            "insights": {
+              "value": "150+",
+              "label": "Ključnih uvida"
+            }
+          }
+        }
+      }
+    },
+    "docs": {
+      "hero": {
+        "badge": "Dokumentacija",
+        "title": "Sve što vam treba za savladavanje Lexore",
+        "subtitle": "Sveobuhvatni vodiči, tutorijali i API dokumentacija da biste izvukli maksimum iz našeg AI pravnog asistenta",
+        "searchPlaceholder": "Pretraži dokumentaciju...",
+        "stats": {
+          "guides": {
+            "value": "50+",
+            "label": "Vodiča"
+          },
+          "tutorials": {
+            "value": "25+",
+            "label": "Tutorijala"
+          },
+          "api": {
+            "value": "100%",
+            "label": "API pokrivenost"
+          }
+        }
+      },
+      "categories": {
+        "title": "Istražite dokumentaciju",
+        "subtitle": "Pronađite sve od brzih vodiča do napredne API integracije",
+        "articles": "članaka",
+        "items": {
+          "gettingStarted": {
+            "title": "Početak rada",
+            "description": "Naučite osnove korišćenja Lexore, od kreiranja naloga do prve pretrage",
+            "articles": "12"
+          },
+          "searchGuides": {
+            "title": "Vodiči za pretragu",
+            "description": "Savladajte napredne tehnike pretrage i optimizaciju upita za bolje rezultate",
+            "articles": "18"
+          },
+          "analytics": {
+            "title": "Statistička analitika",
+            "description": "Razumijte kako iskoristiti uvide u podatke i funkcije statističke analize",
+            "articles": "10"
+          },
+          "api": {
+            "title": "API referenca",
+            "description": "Kompletan API dokumentacija za programere koji integrišu Lexoru",
+            "articles": "24"
+          },
+          "security": {
+            "title": "Sigurnost i usklađenost",
+            "description": "Saznajte o zaštiti podataka, GDPR usklađenosti i najboljim praksama sigurnosti",
+            "articles": "8"
+          },
+          "faq": {
+            "title": "FAQ i rješavanje problema",
+            "description": "Česta pitanja i rješenja koja vam pomažu da brzo riješite probleme",
+            "articles": "15"
+          }
+        }
+      },
+      "popular": {
+        "title": "Popularni vodiči",
+        "guides": {
+          "guide1": {
+            "title": "Početak rada sa Lexorom za 5 minuta",
+            "description": "Brzi vodič za pokretanje",
+            "readTime": "5 min"
+          },
+          "guide2": {
+            "title": "Napredne tehnike pretrage za pravno istraživanje",
+            "description": "Naučite profesionalne savjete za pronalaženje onoga što vam treba",
+            "readTime": "10 min"
+          },
+          "guide3": {
+            "title": "Korišćenje statističke analitike za strategiju predmeta",
+            "description": "Pristup zasnovan na podacima za izgradnju jačih predmeta",
+            "readTime": "12 min"
+          },
+          "guide4": {
+            "title": "Najbolje prakse API integracije",
+            "description": "Kako integrisati Lexoru u postojeće sisteme",
+            "readTime": "15 min"
+          }
+        }
+      }
     }
   },
   "seo": {
@@ -2171,8 +2482,8 @@
       "description": "Dobijte jasna objašnjenja relevantnih zakona i presedana jednostavnim jezikom. Donosite informisane pravne odluke."
     },
     "blog": {
-      "title": "Blog - Konty POS uvidi i resursi",
-      "description": "Stručni uvidi, savjeti i najbolje prakse za upravljanje modernim POS sistemima. Naučite kako optimizovati vaše poslovanje."
+      "title": "Blog - Lexora pravni AI uvidi i analiza",
+      "description": "Stručni uvidi o AI pravnom istraživanju, trendovima upravnog prava i pravnoj tehnologiji širom Crne Gore, Srbije i Hrvatske."
     },
     "solutions": {
       "judges": {
@@ -2221,6 +2532,14 @@
         "title": "Konty B2B i E-fakture | POS za veleprodaju",
         "description": "Profesionalno B2B rješenje sa e-fakturisanjem. Različite cijene po partneru i napredni izvještaji."
       }
+    },
+    "caseStudies": {
+      "title": "Studije slučaja - Lexora AI pravni asistent priče o uspjehu",
+      "description": "Stvarni rezultati sudija, advokata i istraživača koji koriste Lexoru. Pogledajte kako pravni profesionalci širom Crne Gore, Srbije i Hrvatske postižu bolje rezultate."
+    },
+    "docs": {
+      "title": "Dokumentacija - Lexora AI pravni asistent",
+      "description": "Kompletan dokumentacija, vodiči i API referenca za Lexoru. Naučite kako savladati AI pravno istraživanje širom Crne Gore, Srbije i Hrvatske."
     }
   },
   "data": {

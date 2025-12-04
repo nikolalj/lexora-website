@@ -147,11 +147,14 @@ function isRouteWithTransparentHeader(path: string) {
     '/solutions/lawyers',
     '/solutions/researchers',
     '/demo',
+    '/features',
     '/features/cross-jurisdictional',
     '/features/statistical-analytics',
     '/features/case-summarization',
     '/features/precedent-mapping',
     '/contact',
+    '/case-studies',
+    '/docs',
   ]
 
   return routesWithTransparentHeader.some(p => removeTrailingSlash(localePath(p)) === removeTrailingSlash(path))
