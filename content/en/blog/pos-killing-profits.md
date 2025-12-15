@@ -6,7 +6,7 @@ author: Konty Team
 image: /images/features/hospitality.avif
 category: business
 featured: false
-readTime: 7
+draft: truereadTime: 7
 ---
 
 Your POS system should be making you money, not costing you. Yet many business owners don't realize their outdated system is silently draining profits. Here are five warning signs that your POS is hurting your bottom line.

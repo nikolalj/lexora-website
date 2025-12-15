@@ -65,17 +65,27 @@ const { data: posts } = await useAsyncData(
     let items = await queryCollection(collectionName)
       .where('path', 'LIKE', '/blog/%')
       .order('date', 'DESC')
-      .limit(3)
       .all()
+
+    // Filter out draft posts
+    items = items.filter(post => !(post as any).draft)
+
+    // Take only first 3
+    items = items.slice(0, 3)
 
     // Fallback to default locale if no posts found
     if ((!items || items.length === 0) && locale.value !== DEFAULT_LOCALE.code) {
       const defaultCollection = `content_${DEFAULT_LOCALE.code}` as 'content_en'
-      items = await queryCollection(defaultCollection)
+      let fallbackItems = await queryCollection(defaultCollection)
         .where('path', 'LIKE', '/blog/%')
         .order('date', 'DESC')
-        .limit(3)
         .all()
+
+      // Filter out draft posts
+      fallbackItems = fallbackItems.filter(post => !(post as any).draft)
+
+      // Take only first 3
+      items = fallbackItems.slice(0, 3)
     }
 
     return items as BlogPost[]

@@ -273,7 +273,41 @@
       },
       "clients": {
         "title": "Pouzdano od vodećih institucija",
-        "description": "Sudovi, advokatske kancelarije i univerziteti širom Zapadnog Balkana"
+        "description": "Sudovi, advokatske kancelarije i univerziteti širom Zapadnog Balkana",
+        "items": {
+          "client1": {
+            "name": "Upravni sud Podgorica",
+            "type": "Crna Gora"
+          },
+          "client2": {
+            "name": "Vrhovni sud Beograd",
+            "type": "Srbija"
+          },
+          "client3": {
+            "name": "Marković & Partneri",
+            "type": "Advokatska kancelarija, Zagreb"
+          },
+          "client4": {
+            "name": "Ministarstvo pravde",
+            "type": "Crna Gora"
+          },
+          "client5": {
+            "name": "Univerzitet Crne Gore",
+            "type": "Pravni fakultet"
+          },
+          "client6": {
+            "name": "Regionalni pravni institut",
+            "type": "Zapadni Balkan"
+          },
+          "client7": {
+            "name": "Advokatska komora Srbije",
+            "type": "Profesionalno tijelo"
+          },
+          "client8": {
+            "name": "Centar za pravna istraživanja",
+            "type": "Akademska institucija"
+          }
+        }
       },
       "getStarted": {
         "title": "Počnite za nekoliko minuta",
@@ -297,6 +331,45 @@
           "tagline": "Korak 4",
           "title": "Izaberite svoj plan",
           "description": "Nadogradite na Profesionalni ili Korporativni za neograničene pretrage, napredne funkcije i API pristup."
+        }
+      },
+      "featuresCta": {
+        "title": "Spremni da transformišete svoje pravno istraživanje?",
+        "description": "Pridružite se sudijama, advokatima i istraživačima širom Crne Gore, Srbije i Hrvatske koji sa Lexorom štede sate svake sedmice."
+      },
+      "useCases": {
+        "badge": "Napravljeno za pravne profesionalce",
+        "title": "Od povjerenja vodećih pravnih stručnjaka",
+        "subtitle": "Od sudnica do advokatskih kancelarija do istraživačkih institucija—Lexora osnažuje svakog pravnog profesionalca",
+        "learnMore": "Istražite rješenja",
+        "items": {
+          "judges": {
+            "title": "Za sudije",
+            "description": "Donosite dosljedne, dobro informisane presude brzim pronalaženjem sličnih predmeta širom sve tri jurisdikcije.",
+            "stats": {
+              "stat1": "Smanjite vrijeme istraživanja sa dana na minute",
+              "stat2": "Uporedite presedane kroz Crnu Goru, Srbiju, Hrvatsku",
+              "stat3": "Osigurajte dosljednost u sudskim odlukama"
+            }
+          },
+          "lawyers": {
+            "title": "Za advokate",
+            "description": "Gradite jače predmete sa sveobuhvatnom analizom presedana i statistikom stope uspjeha.",
+            "stats": {
+              "stat1": "Analizirajte stope uspjeha za slične predmete",
+              "stat2": "Pronađite pobjedničke argumente iz prošlih odluka",
+              "stat3": "Pristupite 1M+ sudskih odluka trenutno"
+            }
+          },
+          "researchers": {
+            "title": "Za istraživače i akademike",
+            "description": "Provodite komparativne pravne studije sa najkompletnijom bazom upravnog prava u regionu.",
+            "stats": {
+              "stat1": "100% pokrivenost korpusa kroz 3 zemlje",
+              "stat2": "Statistička analiza pravnih trendova",
+              "stat3": "Eksport podataka za akademske publikacije"
+            }
+          }
         }
       }
     },

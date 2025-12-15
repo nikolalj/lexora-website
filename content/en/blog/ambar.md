@@ -6,7 +6,7 @@ author: Ana Jovanović
 image: /images/features/hospitality.avif
 category: clientStories
 featured: false
-readTime: 7
+draft: truereadTime: 7
 ---
 
 When Nikola and Stefan Radojčić opened their first Ambar craft brewery and restaurant in Belgrade's Savamala district, they had ambitious plans. Their vision: bring craft beer culture to Serbia while serving modern interpretations of traditional Balkan cuisine. Five years later, they operate four bustling locations across Belgrade. The secret to their successful scaling? A POS system that grew with them.

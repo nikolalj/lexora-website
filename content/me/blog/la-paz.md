@@ -5,8 +5,8 @@ date: 2024-12-27
 author: Konty Tim
 image: /images/blog/lapaz.avif
 category: success-story
-featured: true
-readTime: 6
+featured: false
+draft: truereadTime: 6
 ---
 
 Kada smo se prvi put čuli sa vlasnikom restorana / bara La Paz u Podgorici, odmah je bilo jasno da iza ovog mjesta stoji ozbiljna pozadina iskustva i odlučnosti. Iako je lokal "La Paz" otvorio 2021. godine, Marko Tripković se već preko 15 godina bavio ugostiteljstvom — od malih kafića, usluga cateringa, do vođenja većih objekata. To znanje i iskustvo prenio je u novi projekat, s jasnom vizijom: otvoriti u centru Podgorice mjesto koje će ujediniti dobar ambijent, kvalitetnu hranu i vrhunski provod.

@@ -271,7 +271,41 @@
       },
       "clients": {
         "title": "Trusted by Leading Institutions",
-        "description": "Courts, law firms, and universities across the Western Balkans"
+        "description": "Courts, law firms, and universities across the Western Balkans",
+        "items": {
+          "client1": {
+            "name": "Administrative Court Podgorica",
+            "type": "Montenegro"
+          },
+          "client2": {
+            "name": "Supreme Court Belgrade",
+            "type": "Serbia"
+          },
+          "client3": {
+            "name": "Marković & Partners",
+            "type": "Law Firm, Zagreb"
+          },
+          "client4": {
+            "name": "Ministry of Justice",
+            "type": "Montenegro"
+          },
+          "client5": {
+            "name": "University of Montenegro",
+            "type": "Law Faculty"
+          },
+          "client6": {
+            "name": "Regional Legal Institute",
+            "type": "Western Balkans"
+          },
+          "client7": {
+            "name": "Bar Association Serbia",
+            "type": "Professional Body"
+          },
+          "client8": {
+            "name": "Legal Research Center",
+            "type": "Academic Institution"
+          }
+        }
       },
       "getStarted": {
         "title": "Get started in minutes",
@@ -295,6 +329,45 @@
           "tagline": "Step 4",
           "title": "Choose Your Plan",
           "description": "Upgrade to Professional or Enterprise for unlimited searches, advanced features, and API access."
+        }
+      },
+      "featuresCta": {
+        "title": "Ready to Transform Your Legal Research?",
+        "description": "Join judges, lawyers, and researchers across Montenegro, Serbia, and Croatia who save hours every week with Lexora's AI-powered legal research."
+      },
+      "useCases": {
+        "badge": "Built for Legal Professionals",
+        "title": "Trusted by Leading Legal Minds",
+        "subtitle": "From courtrooms to law firms to research institutions—Lexora empowers every legal professional",
+        "learnMore": "Explore Solutions",
+        "items": {
+          "judges": {
+            "title": "For Judges",
+            "description": "Make consistent, well-informed rulings by quickly finding similar cases across all three jurisdictions.",
+            "stats": {
+              "stat1": "Reduce research time from days to minutes",
+              "stat2": "Compare precedents across Montenegro, Serbia, Croatia",
+              "stat3": "Ensure consistency in judicial decisions"
+            }
+          },
+          "lawyers": {
+            "title": "For Lawyers & Attorneys",
+            "description": "Build stronger cases with comprehensive precedent analysis and success rate statistics.",
+            "stats": {
+              "stat1": "Analyze success rates for similar cases",
+              "stat2": "Find winning arguments from past decisions",
+              "stat3": "Access 1M+ court decisions instantly"
+            }
+          },
+          "researchers": {
+            "title": "For Researchers & Academics",
+            "description": "Conduct comparative legal studies with the most complete administrative law database in the region.",
+            "stats": {
+              "stat1": "100% corpus coverage across 3 countries",
+              "stat2": "Statistical analysis of legal trends",
+              "stat3": "Export data for academic publications"
+            }
+          }
         }
       }
     },

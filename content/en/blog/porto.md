@@ -5,7 +5,8 @@ date: 2025-01-17
 author: Marko Petrović
 image: /images/features/hospitality.avif
 category: clientStories
-featured: true
+featured: false
+draft: true
 readTime: 6
 ---
 

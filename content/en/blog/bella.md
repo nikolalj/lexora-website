@@ -6,7 +6,7 @@ author: Milica Stojanović
 image: /images/features/retail.avif
 category: clientStories
 featured: false
-readTime: 6
+draft: truereadTime: 6
 ---
 
 In the heart of Belgrade's fashionable Knez Mihailova district, Bella Boutique has been dressing style-conscious locals and tourists for over a decade. But behind the carefully curated window displays and Instagram-worthy interior, owner Jelena Mihajlović was drowning in spreadsheets and struggling with a problem that plagues many modern retailers: inventory chaos.

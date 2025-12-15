@@ -5,8 +5,8 @@ date: 2024-12-26
 author: Konty Tim
 image: /images/blog/coccogroup.avif
 category: success-story
-featured: true
-readTime: 5
+featured: false
+draft: truereadTime: 5
 ---
 
 U poslovnom svijetu, pravi partneri su oni koji vam olakšavaju svakodnevnicu i čine da složeni procesi izgledaju jednostavno. Upravo takvu saradnju imamo sa Naidom Bibezić i njenom firmom Cocco Group, knjigovodstvenim biroom koji danas uspješno vodi preko 40 klijenata sa našim softverskim rješenjima — Konty retail i Konty hospitality.

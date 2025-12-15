@@ -5,29 +5,24 @@
     :description="config.description"
   >
     <UIAppear>
-      <div class="flex flex-wrap gap-8 items-center justify-center">
-        <UPageCard
-          v-for="(client, index) in clients.filter(client => !props.product || client.product === props.product)"
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
+        <div
+          v-for="(client, index) in clients"
           :key="index"
-          variant="outline"
-          spotlight
-          spotlight-color="primary"
-          :ui="{
-            root: 'group hover:shadow-lg transition-all duration-300 hover:-translate-y-1',
-          }"
+          class="group relative bg-white dark:bg-gray-900 rounded-2xl p-6 border border-gray-200 dark:border-gray-700 hover:border-primary-500 dark:hover:border-primary-400 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
         >
-          <NuxtImg
-            :src="client.logo"
-            format="avif"
-            loading="lazy"
-            :alt="client.name"
-            role="presentation"
-            width="120"
-            height="120"
-            quality="80"
-            fit="cover"
-          />
-        </UPageCard>
+          <div class="flex flex-col items-center text-center gap-3">
+            <div class="w-16 h-16 rounded-xl bg-gradient-to-br from-primary-100 to-[#FFF8E7] dark:from-primary-900/30 dark:to-[#A98B1F]/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <UIcon :name="client.icon" class="w-8 h-8 text-primary-600 dark:text-primary-400" />
+            </div>
+            <h3 class="font-semibold text-gray-900 dark:text-white text-sm">
+              {{ client.name }}
+            </h3>
+            <p class="text-xs text-gray-500 dark:text-gray-400">
+              {{ client.type }}
+            </p>
+          </div>
+        </div>
       </div>
     </UIAppear>
   </SharedSection>
@@ -40,10 +35,6 @@ const props = defineProps({
   variant: {
     type: String as PropType<SectionVariantType>,
     default: undefined,
-  },
-  product: {
-    type: String as PropType<'retail' | 'hospitality' | undefined>,
-    default: undefined
   }
 })
 
@@ -56,64 +47,44 @@ const config = ref({
 
 const clients = ref([
   {
-    name: 'Adiya Hotel',
-    logo: '/images/clients/adiya.avif',
-    product: 'hospitality',
+    name: t('pages.home.clients.items.client1.name'),
+    type: t('pages.home.clients.items.client1.type'),
+    icon: 'i-lucide-gavel',
   },
   {
-    name: 'Baracuda Fish Restaurant',
-    logo: '/images/clients/baracuda.avif',
-    product: 'hospitality',
+    name: t('pages.home.clients.items.client2.name'),
+    type: t('pages.home.clients.items.client2.type'),
+    icon: 'i-lucide-landmark',
   },
   {
-    name: 'Fishermans Pub',
-    logo: '/images/clients/fishermanspub.avif',
-    product: 'hospitality',
+    name: t('pages.home.clients.items.client3.name'),
+    type: t('pages.home.clients.items.client3.type'),
+    icon: 'i-lucide-briefcase',
   },
   {
-    name: 'Hotel Enigma',
-    logo: '/images/clients/hotelenigma.avif',
-    product: 'hospitality',
+    name: t('pages.home.clients.items.client4.name'),
+    type: t('pages.home.clients.items.client4.type'),
+    icon: 'i-lucide-building-2',
   },
   {
-    name: 'Pulena Bar',
-    logo: '/images/clients/pulenabar.avif',
-    product: 'hospitality',
+    name: t('pages.home.clients.items.client5.name'),
+    type: t('pages.home.clients.items.client5.type'),
+    icon: 'i-lucide-graduation-cap',
   },
   {
-    name: 'Hotel Pelikan',
-    logo: '/images/clients/hotelpelikan.avif',
-    product: 'hospitality',
+    name: t('pages.home.clients.items.client6.name'),
+    type: t('pages.home.clients.items.client6.type'),
+    icon: 'i-lucide-scale',
   },
   {
-    name: 'Sapore di Mare',
-    logo: '/images/clients/saporedimare.avif',
-    product: 'hospitality',
+    name: t('pages.home.clients.items.client7.name'),
+    type: t('pages.home.clients.items.client7.type'),
+    icon: 'i-lucide-book-open',
   },
   {
-    name: 'Tasa Restoran',
-    logo: '/images/clients/tasa.avif',
-    product: 'hospitality',
-  },
-  {
-    name: 'La Paz',
-    logo: '/images/clients/lapaz.avif',
-    product: 'hospitality',
-  },
-  {
-    name: 'COCO Beach & Restaurant',
-    logo: '/images/clients/coco.avif',
-    product: 'hospitality',
-  },
-  {
-    name: 'Tri Ribara',
-    logo: '/images/clients/triribara.avif',
-    product: 'hospitality',
-  },
-  {
-    name: 'Konoba Amanet',
-    logo: '/images/clients/konobaamanet.avif',
-    product: 'hospitality',
+    name: t('pages.home.clients.items.client8.name'),
+    type: t('pages.home.clients.items.client8.type'),
+    icon: 'i-lucide-users',
   },
 ])
 </script>

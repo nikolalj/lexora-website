@@ -5,8 +5,8 @@ date: 2024-12-28
 author: Konty Tim
 image: /images/blog/hotelgrand.avif
 category: success-story
-featured: true
-readTime: 5
+featured: false
+draft: truereadTime: 5
 ---
 
 Smješten u srcu Cetinja, svega nekoliko minuta hoda od Njegoševog mauzoleja i istorijskih znamenitosti, Grand Hotel Cetinje je oduvijek bio prepoznat kao mjesto koje spaja bogatu tradiciju i moderan duh. Sa preko 250 soba i prepoznatljivom gostoljubivošću, hotel je izbor kako turista, tako i domaćih gostiju.

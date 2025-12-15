@@ -5,8 +5,8 @@ date: 2025-01-10
 author: Konty Team
 image: /images/features/hospitality.avif
 category: technical
-featured: true
-readTime: 5
+featured: false
+draft: truereadTime: 5
 ---
 
 Every restaurant owner knows the feeling: it's 7 PM on Saturday, orders are flying in, and suddenly - your POS freezes. The kitchen backs up, customers get angry, and you're losing hundreds of dollars per minute. But why does this happen, and more importantly, how can you prevent it?
